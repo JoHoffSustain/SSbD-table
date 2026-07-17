@@ -1,0 +1,60 @@
+name: Deploy SSbD Project Tracker
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate data/projects.json
+        run: |
+          python3 -c "
+          import json
+          with open('data/projects.json') as f:
+              data = json.load(f)
+          assert 'projects' in data, 'Missing projects key'
+          assert 'columns' in data, 'Missing columns key'
+          acronyms = [p['acronym'] for p in data['projects']]
+          assert len(acronyms) == len(set(acronyms)), 'Duplicate acronyms found'
+          print(f\"OK: {len(data['projects'])} projects, {len(data['columns'])} columns\")
+          "
+
+      - name: Sync data file into docs/
+        run: |
+          mkdir -p docs/data
+          cp data/projects.json docs/data/projects.json
+
+      - name: Commit synced data (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/projects.json
+          git diff --staged --quiet || git commit -m "chore: sync docs/data/projects.json [skip ci]"
+          git push || echo "Nothing to push"
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

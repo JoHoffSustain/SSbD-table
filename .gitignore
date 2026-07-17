@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+data/projects_unmatched.txt
+.venv/
+*.egg-info/

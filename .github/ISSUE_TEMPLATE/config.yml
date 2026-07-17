@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question about the dataset
+    url: https://github.com/JonciH/ssbd-table/discussions
+    about: For general questions that aren't a specific data correction.

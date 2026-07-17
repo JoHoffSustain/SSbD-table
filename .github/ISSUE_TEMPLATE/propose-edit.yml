@@ -1,0 +1,80 @@
+name: Propose an edit to the SSbD project database
+description: Suggest a correction or addition to a project's data (dates, partners, focus category, etc.)
+title: "[Edit] "
+labels: ["data-edit"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep this dataset accurate. Fill in only the fields you want to change — leave the rest blank.
+        Once reviewed, the maintainer will apply this directly to `data/projects.json`.
+
+  - type: input
+    id: acronym
+    attributes:
+      label: Project acronym
+      description: Which project is this about? (must match an existing row, e.g. NANORIGO)
+      placeholder: "e.g. HARMLESS"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: field
+    attributes:
+      label: Which field needs an update?
+      options:
+        - Full title
+        - Funding call / topic ID
+        - Start date
+        - End date
+        - Project website
+        - Focus category
+        - SSbD assessment scope
+        - Use Cases (SoC)
+        - Solution(s)
+        - Coordinator
+        - Coordinator country
+        - Partner(s) for technology development
+        - Scoping partner
+        - Partner(s) for risk assessment
+        - Partner(s) for environmental LCA
+        - Partner(s) for social LCA
+        - AI partner
+        - MCDA/SSbD scoring partner
+        - Industrial partner(s) for use cases
+        - Dissemination partner
+        - Exploitation partner
+        - Total cost (EUR)
+        - EU contribution (EUR)
+        - Other / new project entirely
+    validations:
+      required: true
+
+  - type: input
+    id: current_value
+    attributes:
+      label: Current value (if known)
+      placeholder: "What does the table currently show for this field?"
+
+  - type: input
+    id: proposed_value
+    attributes:
+      label: Proposed new value
+      placeholder: "What should it say instead?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Source / evidence
+      description: A link or reference that supports this change (project website, CORDIS, deliverable report, personal knowledge as a consortium partner, etc.)
+      placeholder: "e.g. https://harmless-project.eu/partners or 'I am the LCA lead on this project'"
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes (optional)
+      placeholder: "Anything else the maintainer should know"

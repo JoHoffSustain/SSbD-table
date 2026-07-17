@@ -1,0 +1,4 @@
+# Only used by scripts/fill_cordis_data.py
+# (the script itself only needs stdlib csv/json, but pandas is handy
+# if you want to explore the CORDIS export interactively first)
+pandas>=2.0

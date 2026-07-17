@@ -1,0 +1,46 @@
+name: Add a new SSbD project
+description: Suggest a project that's missing from this database entirely
+title: "[New project] "
+labels: ["new-project"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Know of an EU-funded SSbD project that isn't listed here yet? Add what you know below — partial information is fine, missing fields will be marked for follow-up.
+
+  - type: input
+    id: acronym
+    attributes:
+      label: Acronym
+    validations:
+      required: true
+
+  - type: input
+    id: full_title
+    attributes:
+      label: Full title
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: Project website
+      placeholder: "https://..."
+
+  - type: input
+    id: coordinator
+    attributes:
+      label: Coordinator (institution name)
+
+  - type: input
+    id: cordis_link
+    attributes:
+      label: CORDIS link (if known)
+      placeholder: "https://cordis.europa.eu/project/id/..."
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else you know about this project
+      placeholder: "Focus area, partners, why it belongs in this SSbD list..."

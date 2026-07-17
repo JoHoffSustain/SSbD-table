@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SSbD Project Tracker — EU-funded Safe and Sustainable by Design projects</title>
+<meta name="description" content="A community-maintained, sortable database of EU Horizon-funded Safe and Sustainable by Design (SSbD) research projects.">
+<style>
+:root {
+  --paper: #faf8f4;
+  --ink: #1f2421;
+  --ink-soft: #565f5a;
+  --line: #d8d3c6;
+  --accent: #2c5c4a;
+  --accent-soft: #e3ece7;
+  --amber: #b5742a;
+  --mono: 'IBM Plex Mono', 'SF Mono', Consolas, monospace;
+  --serif: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
+  --sans: 'Inter', -apple-system, 'Segoe UI', sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* ---------- Header ---------- */
+header {
+  border-bottom: 2px solid var(--ink);
+  padding: 2.5rem 2rem 1.75rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.eyebrow {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.6rem;
+}
+
+h1 {
+  font-family: var(--serif);
+  font-size: clamp(1.8rem, 4vw, 2.7rem);
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+}
+
+.subhead {
+  font-size: 1rem;
+  color: var(--ink-soft);
+  max-width: 62ch;
+  line-height: 1.5;
+  margin: 0 0 1.25rem;
+}
+
+.meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.75rem;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  align-items: baseline;
+}
+
+.meta-row strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.meta-row a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.meta-row a:hover { border-bottom-color: var(--accent); }
+
+/* ---------- Controls ---------- */
+.controls {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1.25rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+}
+
+.search-box {
+  flex: 1 1 280px;
+  position: relative;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 0.6rem 0.9rem 0.6rem 2.1rem;
+  border: 1.5px solid var(--line);
+  border-radius: 3px;
+  background: white;
+  font-size: 0.9rem;
+  font-family: var(--sans);
+  color: var(--ink);
+}
+.search-box input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.search-box::before {
+  content: '⌕';
+  position: absolute;
+  left: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--ink-soft);
+  font-size: 1rem;
+}
+
+select, .col-toggle-btn {
+  padding: 0.6rem 0.9rem;
+  border: 1.5px solid var(--line);
+  border-radius: 3px;
+  background: white;
+  font-size: 0.85rem;
+  font-family: var(--sans);
+  color: var(--ink);
+  cursor: pointer;
+}
+select:focus, .col-toggle-btn:focus { outline: none; border-color: var(--accent); }
+
+.col-toggle-btn {
+  position: relative;
+  font-weight: 500;
+}
+
+.count-pill {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  margin-left: auto;
+  white-space: nowrap;
+}
+.count-pill strong { color: var(--accent); }
+
+/* column picker dropdown */
+.col-picker {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  background: white;
+  border: 1.5px solid var(--line);
+  border-radius: 4px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  padding: 0.6rem;
+  z-index: 30;
+  max-height: 320px;
+  overflow-y: auto;
+  width: 260px;
+  display: none;
+}
+.col-picker.open { display: block; }
+.col-picker label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem 0.4rem;
+  font-size: 0.82rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.col-picker label:hover { background: var(--accent-soft); }
+.col-picker-wrap { position: relative; }
+
+/* ---------- Table ---------- */
+.table-wrap {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem 3rem;
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.84rem;
+  background: white;
+}
+
+thead th {
+  position: sticky;
+  top: 0;
+  background: var(--ink);
+  color: var(--paper);
+  text-align: left;
+  padding: 0.65rem 0.8rem;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  border-right: 1px solid rgba(250,248,244,0.15);
+}
+thead th:hover { background: #2a322d; }
+thead th .arrow {
+  display: inline-block;
+  margin-left: 0.35rem;
+  opacity: 0.4;
+  font-size: 0.7rem;
+}
+thead th.sorted .arrow { opacity: 1; color: var(--amber); }
+
+tbody td {
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+  max-width: 260px;
+}
+
+tbody tr:hover { background: var(--accent-soft); }
+
+tbody td.acronym-cell {
+  font-family: var(--mono);
+  font-weight: 600;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+tbody td a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent-soft);
+}
+tbody td a:hover { border-bottom-color: var(--accent); }
+
+td.empty-cell {
+  color: #b8b2a3;
+  font-style: italic;
+  font-size: 0.8rem;
+}
+td.empty-cell::before { content: '— '; }
+
+.cost-cell { font-family: var(--mono); white-space: nowrap; }
+
+/* ---------- Footer ---------- */
+footer {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 2rem 3rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  line-height: 1.6;
+}
+footer a { color: var(--accent); }
+footer .edit-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 0.6rem 1.1rem;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  margin-top: 0.75rem;
+}
+footer .edit-cta:hover { background: var(--accent); }
+
+@media (max-width: 700px) {
+  header, .controls, .table-wrap, footer { padding-left: 1.1rem; padding-right: 1.1rem; }
+  .count-pill { margin-left: 0; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <p class="eyebrow">Safe &amp; Sustainable by Design — EU Horizon portfolio</p>
+  <h1>SSbD Project Tracker</h1>
+  <p class="subhead">A sortable, filterable reference table of EU Horizon-funded projects working within the Safe and Sustainable by Design (SSbD) framework. Built for LCA practitioners, consortium partners, and EC project officers who need a single map of who is doing what, where.</p>
+  <div class="meta-row">
+    <span><strong id="meta-count">—</strong> projects tracked</span>
+    <span>Data: CORDIS (auto) + community review (manual)</span>
+    <span><a href="https://github.com/JonciH/ssbd-table/issues/new?template=propose-edit.yml" id="propose-link">Propose an edit →</a></span>
+  </div>
+</header>
+
+<div class="controls">
+  <div class="search-box">
+    <input type="text" id="search" placeholder="Search acronym, title, coordinator, country…" autocomplete="off">
+  </div>
+  <select id="filter-focus">
+    <option value="">All focus categories</option>
+  </select>
+  <select id="filter-country">
+    <option value="">All coordinator countries</option>
+  </select>
+  <div class="col-picker-wrap">
+    <button class="col-toggle-btn" id="col-picker-btn">Columns ▾</button>
+    <div class="col-picker" id="col-picker"></div>
+  </div>
+  <span class="count-pill"><strong id="visible-count">0</strong> shown</span>
+</div>
+
+<div class="table-wrap">
+  <table id="data-table">
+    <thead><tr id="table-head"></tr></thead>
+    <tbody id="table-body"></tbody>
+  </table>
+</div>
+
+<footer>
+  <p><strong>About this table.</strong> Acronyms, titles, websites, and coordinators were compiled manually from public SSbD project communications. Funding call/topic ID, start/end dates, coordinator country, and budget figures are pulled from <a href="https://cordis.europa.eu" target="_blank" rel="noopener">CORDIS</a>, the European Commission's research results database. Partner-role columns (technology development, risk assessment, environmental/social LCA, AI, MCDA scoring, industrial use cases, dissemination, exploitation) are not tagged in CORDIS by role and are filled in through manual review — these are the fields most likely to need a community correction.</p>
+  <p>Spot something missing or wrong? Open an issue using the template below and it will be reviewed before merging into the dataset.</p>
+  <a class="edit-cta" href="https://github.com/JonciH/ssbd-table/issues/new?template=propose-edit.yml" id="propose-link-2">+ Propose an edit on GitHub</a>
+</footer>
+
+<script>
+const DATA_URL = 'data/projects.json';
+let DATA = null;
+let visibleColumns = new Set();
+let sortState = { key: 'acronym', dir: 'asc' };
+
+const DEFAULT_VISIBLE = [
+  'acronym', 'full_title', 'topic_id', 'start_date', 'end_date',
+  'coordinator', 'coordinator_country', 'focus_category', 'project_website'
+];
+
+function fmtDate(d) {
+  if (!d) return '';
+  return d;
+}
+
+function fmtCost(n) {
+  if (n === null || n === undefined || n === '') return '';
+  const num = typeof n === 'number' ? n : parseFloat(n);
+  if (isNaN(num)) return String(n);
+  return '€' + num.toLocaleString('en-US', { maximumFractionDigits: 0 });
+}
+
+function cellContent(col, value) {
+  if (value === null || value === undefined || value === '') {
+    return { html: '', empty: true };
+  }
+  if (col.type === 'url') {
+    if (value === 'not yet available') return { html: '', empty: true };
+    const label = value.replace(/^https?:\/\//, '').replace(/\/$/, '');
+    return { html: `<a href="${value}" target="_blank" rel="noopener">${label}</a>`, empty: false };
+  }
+  if (col.key === 'total_cost_eur' || col.key === 'eu_contribution_eur') {
+    return { html: fmtCost(value), empty: false, costCell: true };
+  }
+  return { html: String(value), empty: false };
+}
+
+function buildColumnPicker() {
+  const picker = document.getElementById('col-picker');
+  picker.innerHTML = '';
+  DATA.columns.forEach(col => {
+    const label = document.createElement('label');
+    const checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.checked = visibleColumns.has(col.key);
+    checkbox.addEventListener('change', () => {
+      if (checkbox.checked) visibleColumns.add(col.key);
+      else visibleColumns.delete(col.key);
+      renderTable();
+    });
+    label.appendChild(checkbox);
+    label.appendChild(document.createTextNode(col.label));
+    picker.appendChild(label);
+  });
+}
+
+function buildFilters() {
+  const focusSel = document.getElementById('filter-focus');
+  const countrySel = document.getElementById('filter-country');
+  const focuses = new Set();
+  const countries = new Set();
+  DATA.projects.forEach(p => {
+    if (p.focus_category) focuses.add(p.focus_category);
+    if (p.coordinator_country) countries.add(p.coordinator_country);
+  });
+  [...focuses].sort().forEach(f => {
+    const opt = document.createElement('option');
+    opt.value = f; opt.textContent = f;
+    focusSel.appendChild(opt);
+  });
+  [...countries].sort().forEach(c => {
+    const opt = document.createElement('option');
+    opt.value = c; opt.textContent = c;
+    countrySel.appendChild(opt);
+  });
+}
+
+function getFilteredSorted() {
+  const q = document.getElementById('search').value.trim().toLowerCase();
+  const focus = document.getElementById('filter-focus').value;
+  const country = document.getElementById('filter-country').value;
+
+  let rows = DATA.projects.filter(p => {
+    if (focus && p.focus_category !== focus) return false;
+    if (country && p.coordinator_country !== country) return false;
+    if (q) {
+      const haystack = [
+        p.acronym, p.full_title, p.coordinator, p.coordinator_country,
+        p.focus_category, p.topic_id
+      ].join(' ').toLowerCase();
+      if (!haystack.includes(q)) return false;
+    }
+    return true;
+  });
+
+  rows.sort((a, b) => {
+    let av = a[sortState.key], bv = b[sortState.key];
+    if (av === null || av === undefined) av = '';
+    if (bv === null || bv === undefined) bv = '';
+    if (typeof av === 'number' || typeof bv === 'number') {
+      av = parseFloat(av) || 0; bv = parseFloat(bv) || 0;
+    } else {
+      av = String(av).toLowerCase(); bv = String(bv).toLowerCase();
+    }
+    if (av < bv) return sortState.dir === 'asc' ? -1 : 1;
+    if (av > bv) return sortState.dir === 'asc' ? 1 : -1;
+    return 0;
+  });
+
+  return rows;
+}
+
+function renderTable() {
+  const cols = DATA.columns.filter(c => visibleColumns.has(c.key));
+  const head = document.getElementById('table-head');
+  head.innerHTML = '';
+  cols.forEach(col => {
+    const th = document.createElement('th');
+    th.textContent = col.label;
+    if (col.key === sortState.key) {
+      th.classList.add('sorted');
+      const arrow = document.createElement('span');
+      arrow.className = 'arrow';
+      arrow.textContent = sortState.dir === 'asc' ? '▲' : '▼';
+      th.appendChild(arrow);
+    } else {
+      const arrow = document.createElement('span');
+      arrow.className = 'arrow';
+      arrow.textContent = '⇅';
+      th.appendChild(arrow);
+    }
+    th.addEventListener('click', () => {
+      if (sortState.key === col.key) {
+        sortState.dir = sortState.dir === 'asc' ? 'desc' : 'asc';
+      } else {
+        sortState.key = col.key;
+        sortState.dir = 'asc';
+      }
+      renderTable();
+    });
+    head.appendChild(th);
+  });
+
+  const rows = getFilteredSorted();
+  const body = document.getElementById('table-body');
+  body.innerHTML = '';
+  rows.forEach(p => {
+    const tr = document.createElement('tr');
+    cols.forEach(col => {
+      const td = document.createElement('td');
+      const { html, empty, costCell } = cellContent(col, p[col.key]);
+      if (col.key === 'acronym') td.classList.add('acronym-cell');
+      if (costCell) td.classList.add('cost-cell');
+      if (empty) {
+        td.classList.add('empty-cell');
+        td.textContent = '';
+      } else {
+        td.innerHTML = html;
+      }
+      tr.appendChild(td);
+    });
+    body.appendChild(tr);
+  });
+
+  document.getElementById('visible-count').textContent = rows.length;
+}
+
+function init(data) {
+  DATA = data;
+  document.getElementById('meta-count').textContent = data.projects.length;
+  visibleColumns = new Set(DEFAULT_VISIBLE);
+  buildColumnPicker();
+  buildFilters();
+  renderTable();
+
+  document.getElementById('search').addEventListener('input', renderTable);
+  document.getElementById('filter-focus').addEventListener('change', renderTable);
+  document.getElementById('filter-country').addEventListener('change', renderTable);
+
+  const btn = document.getElementById('col-picker-btn');
+  const picker = document.getElementById('col-picker');
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    picker.classList.toggle('open');
+  });
+  document.addEventListener('click', (e) => {
+    if (!picker.contains(e.target) && e.target !== btn) {
+      picker.classList.remove('open');
+    }
+  });
+}
+
+fetch(DATA_URL)
+  .then(r => r.json())
+  .then(init)
+  .catch(err => {
+    document.getElementById('table-body').innerHTML =
+      `<tr><td style="padding:2rem;color:#b5742a;">Could not load data/projects.json — ${err}</td></tr>`;
+  });
+</script>
+
+</body>
+</html>
