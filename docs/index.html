@@ -521,6 +521,7 @@ function renderTable() {
 function init(data) {
   DATA = data;
   document.getElementById('meta-count').textContent = data.projects.length;
+  visibleColumns = new Set(DEFAULT_VISIBLE);
   HIDDEN_COLUMNS.forEach(k => visibleColumns.delete(k));
   buildColumnPicker();
   buildFilters();
