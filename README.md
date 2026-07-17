@@ -84,6 +84,3 @@ If you'd rather let trusted contributors edit the file directly via Pull Request
 
 The table's columns are defined in the `columns` array at the top of `data/projects.json`, not hardcoded in `docs/index.html` — so adding, renaming, or reordering a column only requires editing the JSON, not the page code.
 
-## License
-
-Add a `LICENSE` file appropriate to your use (e.g. CC-BY-4.0 is common for open reference datasets like this). Project data itself is drawn from public sources (CORDIS, project websites); please retain that attribution if you redistribute.
