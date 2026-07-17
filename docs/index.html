@@ -340,9 +340,13 @@ let visibleColumns = new Set();
 let sortState = { key: 'acronym', dir: 'asc' };
 
 const DEFAULT_VISIBLE = [
-  'acronym', 'full_title', 'topic_id', 'start_date', 'end_date',
-  'coordinator', 'coordinator_country', 'focus_category', 'project_website'
+  'acronym', 'full_title', 'topic_id',
+  'coordinator', 'focus_category', 'project_website'
 ];
+
+const HIDDEN_COLUMNS = new Set([
+  'coordinator_country', 'total_cost_eur', 'eu_contribution_eur', 'source', 'cordis_id'
+]);
 
 function fmtDate(d) {
   if (!d) return '';
@@ -374,7 +378,7 @@ function cellContent(col, value) {
 function buildColumnPicker() {
   const picker = document.getElementById('col-picker');
   picker.innerHTML = '';
-  DATA.columns.forEach(col => {
+  DATA.columns.filter(c => !HIDDEN_COLUMNS.has(c.key)).forEach(col => {
     const label = document.createElement('label');
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
@@ -504,7 +508,7 @@ function renderTable() {
 function init(data) {
   DATA = data;
   document.getElementById('meta-count').textContent = data.projects.length;
-  visibleColumns = new Set(DEFAULT_VISIBLE);
+  HIDDEN_COLUMNS.forEach(k => visibleColumns.delete(k));
   buildColumnPicker();
   buildFilters();
   renderTable();
