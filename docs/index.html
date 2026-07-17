@@ -310,8 +310,8 @@ footer .edit-cta:hover { background: var(--accent); }
   <select id="filter-focus">
     <option value="">All focus categories</option>
   </select>
-  <select id="filter-country">
-    <option value="">All coordinator countries</option>
+  <select id="filter-usecases">
+    <option value="">All use cases</option>
   </select>
   <div class="col-picker-wrap">
     <button class="col-toggle-btn" id="col-picker-btn">Columns ▾</button>
@@ -404,33 +404,38 @@ function buildColumnPicker() {
 
 function buildFilters() {
   const focusSel = document.getElementById('filter-focus');
-  const countrySel = document.getElementById('filter-country');
+  const usecasesSel = document.getElementById('filter-usecases');
   const focuses = new Set();
-  const countries = new Set();
+  const usecases = new Set();
   DATA.projects.forEach(p => {
     if (p.focus_category) focuses.add(p.focus_category);
-    if (p.coordinator_country) countries.add(p.coordinator_country);
+    if (p.use_cases) {
+      p.use_cases.split(/[;,]/).map(s => s.trim()).filter(Boolean).forEach(u => usecases.add(u));
+    }
   });
   [...focuses].sort().forEach(f => {
     const opt = document.createElement('option');
     opt.value = f; opt.textContent = f;
     focusSel.appendChild(opt);
   });
-  [...countries].sort().forEach(c => {
+  [...usecases].sort().forEach(u => {
     const opt = document.createElement('option');
-    opt.value = c; opt.textContent = c;
-    countrySel.appendChild(opt);
+    opt.value = u; opt.textContent = u;
+    usecasesSel.appendChild(opt);
   });
 }
 
 function getFilteredSorted() {
   const q = document.getElementById('search').value.trim().toLowerCase();
   const focus = document.getElementById('filter-focus').value;
-  const country = document.getElementById('filter-country').value;
+  const usecase = document.getElementById('filter-usecases').value;
 
   let rows = DATA.projects.filter(p => {
     if (focus && p.focus_category !== focus) return false;
-    if (country && p.coordinator_country !== country) return false;
+    if (usecase) {
+      const uc = (p.use_cases || '').split(/[;,]/).map(s => s.trim());
+      if (!uc.includes(usecase)) return false;
+    }
     if (q) {
       const haystack = [
         p.acronym, p.full_title, p.coordinator, p.coordinator_country,
@@ -516,7 +521,6 @@ function renderTable() {
 function init(data) {
   DATA = data;
   document.getElementById('meta-count').textContent = data.projects.length;
-  visibleColumns = new Set(DEFAULT_VISIBLE);
   HIDDEN_COLUMNS.forEach(k => visibleColumns.delete(k));
   buildColumnPicker();
   buildFilters();
@@ -524,7 +528,7 @@ function init(data) {
 
   document.getElementById('search').addEventListener('input', renderTable);
   document.getElementById('filter-focus').addEventListener('change', renderTable);
-  document.getElementById('filter-country').addEventListener('change', renderTable);
+  document.getElementById('filter-usecases').addEventListener('change', renderTable);
 
   const btn = document.getElementById('col-picker-btn');
   const picker = document.getElementById('col-picker');
