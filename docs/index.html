@@ -359,7 +359,7 @@ let sortState = { key: 'acronym', dir: 'asc' };
 
 const DEFAULT_VISIBLE = [
   'acronym', 'full_title', 'start_date', 'end_date',
-  'coordinator', 'focus_category', 'use_cases', 'soc', 'project_website'
+  'coordinator', 'focus_category', 'use_cases', 'soc', 'project_website', 'cordis_url'
 ];
 
 const HIDDEN_COLUMNS = new Set([
@@ -384,6 +384,9 @@ function cellContent(col, value) {
   }
   if (col.type === 'url') {
     if (value === 'not yet available') return { html: '', empty: true };
+    if (col.key === 'cordis_url') {
+      return { html: `<a href="${value}" target="_blank" rel="noopener">CORDIS →</a>`, empty: false };
+    }
     const label = value.replace(/^https?:\/\//, '').replace(/\/$/, '');
     return { html: `<a href="${value}" target="_blank" rel="noopener">${label}</a>`, empty: false };
   }
