@@ -440,18 +440,6 @@ function buildColumnPicker() {
 }
 
 function buildFilters() {}
-  });
-  [...focuses].sort().forEach(f => {
-    const opt = document.createElement('option');
-    opt.value = f; opt.textContent = f;
-    focusSel.appendChild(opt);
-  });
-  [...usecases].sort().forEach(u => {
-    const opt = document.createElement('option');
-    opt.value = u; opt.textContent = u;
-    usecasesSel.appendChild(opt);
-  });
-}
 
 function getFilteredSorted() {
   const q = document.getElementById('search').value.trim().toLowerCase();
