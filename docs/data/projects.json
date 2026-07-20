@@ -88,61 +88,61 @@
     },
     {
       "key": "partners_tech_dev",
-      "label": "Partner(s) for technology development",
+      "label": "Partners for Technology Development",
       "type": "string",
       "source": "manual_review"
     },
     {
       "key": "partner_scoping",
-      "label": "Scoping partner",
+      "label": "Scoping and Platform Partner",
       "type": "string",
       "source": "manual_review"
     },
     {
       "key": "partners_risk_assessment",
-      "label": "Partner(s) for risk assessment",
+      "label": "Partners for Risk Assessment",
       "type": "string",
       "source": "manual_review"
     },
     {
       "key": "partners_env_lca",
-      "label": "Partner(s) for environmental LCA",
+      "label": "Partners for Environmental LCA",
       "type": "string",
       "source": "manual_review"
     },
     {
       "key": "partners_social_lca",
-      "label": "Partner(s) for social LCA",
+      "label": "Partners for Social LCA",
       "type": "string",
       "source": "manual_review"
     },
     {
       "key": "partner_ai",
-      "label": "AI partner",
+      "label": "AI Partner",
       "type": "string",
       "source": "manual_review"
     },
     {
       "key": "partner_mcda",
-      "label": "MCDA/SSbD scoring partner",
+      "label": "MCDA/SSbD Scoring Partner",
       "type": "string",
       "source": "manual_review"
     },
     {
       "key": "partners_industrial",
-      "label": "Industrial partner(s) for use cases",
+      "label": "Industrial Partners for Use Cases",
       "type": "string",
       "source": "manual_review"
     },
     {
       "key": "partner_dissemination",
-      "label": "Dissemination partner",
+      "label": "Dissemination Partner",
       "type": "string",
       "source": "manual_review"
     },
     {
       "key": "partner_exploitation",
-      "label": "Exploitation partner",
+      "label": "Exploitation Partner",
       "type": "string",
       "source": "manual_review"
     },
@@ -160,7 +160,7 @@
     },
     {
       "key": "cordis_id",
-      "label": "CORDIS project ID",
+      "label": "Grant ID",
       "type": "string",
       "source": "cordis"
     },
@@ -169,12 +169,6 @@
       "label": "CORDIS link",
       "type": "url",
       "source": "cordis"
-    },
-    {
-      "key": "source",
-      "label": "Source",
-      "type": "string",
-      "source": "manual"
     }
   ],
   "projects": [
@@ -205,7 +199,6 @@
       "eu_contribution_eur": 4748740,
       "cordis_id": "814530",
       "cordis_url": "https://cordis.europa.eu/project/id/814530",
-      "source": "",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -236,7 +229,6 @@
       "eu_contribution_eur": 7999084.75,
       "cordis_id": "953183",
       "cordis_url": "https://cordis.europa.eu/project/id/953183",
-      "source": "",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -267,7 +259,6 @@
       "eu_contribution_eur": 6265103.75,
       "cordis_id": "953152",
       "cordis_url": "https://cordis.europa.eu/project/id/953152",
-      "source": "",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -298,7 +289,6 @@
       "eu_contribution_eur": 4431115,
       "cordis_id": "101058076",
       "cordis_url": "https://cordis.europa.eu/project/id/101058076",
-      "source": "",
       "soc": "Platinum (Pt)",
       "ssbd_in_call": true
     },
@@ -329,7 +319,6 @@
       "eu_contribution_eur": 3579850.5,
       "cordis_id": "101058245",
       "cordis_url": "https://cordis.europa.eu/project/id/101058245",
-      "source": "",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -360,7 +349,6 @@
       "eu_contribution_eur": 4699068,
       "cordis_id": "101058554",
       "cordis_url": "https://cordis.europa.eu/project/id/101058554",
-      "source": "",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -391,7 +379,6 @@
       "eu_contribution_eur": 3880638.75,
       "cordis_id": "101058784",
       "cordis_url": "https://cordis.europa.eu/project/id/101058784",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -422,7 +409,6 @@
       "eu_contribution_eur": 2633238.0,
       "cordis_id": "101072881",
       "cordis_url": "https://cordis.europa.eu/project/id/101072881",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -453,7 +439,6 @@
       "eu_contribution_eur": 7825297.0,
       "cordis_id": "101081776",
       "cordis_url": "https://cordis.europa.eu/project/id/101081776",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": false
     },
@@ -484,7 +469,6 @@
       "eu_contribution_eur": 4998888.5,
       "cordis_id": "101092164",
       "cordis_url": "https://cordis.europa.eu/project/id/101092164",
-      "source": "CORDIS",
       "soc": "PFAS",
       "ssbd_in_call": true
     },
@@ -515,7 +499,6 @@
       "eu_contribution_eur": 4998570.75,
       "cordis_id": "101091842",
       "cordis_url": "https://cordis.europa.eu/project/id/101091842",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -546,7 +529,6 @@
       "eu_contribution_eur": 4815296.25,
       "cordis_id": "101091464",
       "cordis_url": "https://cordis.europa.eu/project/id/101091464",
-      "source": "CORDIS",
       "soc": "PFAS",
       "ssbd_in_call": true
     },
@@ -577,7 +559,6 @@
       "eu_contribution_eur": 4527891.25,
       "cordis_id": "101091944",
       "cordis_url": "https://cordis.europa.eu/project/id/101091944",
-      "source": "CORDIS",
       "soc": "PFAS",
       "ssbd_in_call": true
     },
@@ -608,7 +589,6 @@
       "eu_contribution_eur": 1669149.75,
       "cordis_id": "101092796",
       "cordis_url": "https://cordis.europa.eu/project/id/101092796",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": false
     },
@@ -639,7 +619,6 @@
       "eu_contribution_eur": 172750.08,
       "cordis_id": "101103082",
       "cordis_url": "https://cordis.europa.eu/project/id/101103082",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -670,7 +649,6 @@
       "eu_contribution_eur": 3717547.35,
       "cordis_id": "101135965",
       "cordis_url": "https://cordis.europa.eu/project/id/101135965",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -701,7 +679,6 @@
       "eu_contribution_eur": 7498762.5,
       "cordis_id": "101138475",
       "cordis_url": "https://cordis.europa.eu/project/id/101138475",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -732,7 +709,6 @@
       "eu_contribution_eur": 7150330.0,
       "cordis_id": "101138387",
       "cordis_url": "https://cordis.europa.eu/project/id/101138387",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -763,7 +739,6 @@
       "eu_contribution_eur": 6955522.23,
       "cordis_id": "101138191",
       "cordis_url": "https://cordis.europa.eu/project/id/101138191",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -794,7 +769,6 @@
       "eu_contribution_eur": 6845417.25,
       "cordis_id": "101137613",
       "cordis_url": "https://cordis.europa.eu/project/id/101137613",
-      "source": "CORDIS",
       "soc": "PFAS; Nano-pesticides",
       "ssbd_in_call": true
     },
@@ -825,7 +799,6 @@
       "eu_contribution_eur": null,
       "cordis_id": "101137809",
       "cordis_url": "https://cordis.europa.eu/project/id/101137809",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -856,7 +829,6 @@
       "eu_contribution_eur": 4924128.5,
       "cordis_id": "101137990",
       "cordis_url": "https://cordis.europa.eu/project/id/101137990",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -887,7 +859,6 @@
       "eu_contribution_eur": 4130318.75,
       "cordis_id": "101137742",
       "cordis_url": "https://cordis.europa.eu/project/id/101137742",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -918,7 +889,6 @@
       "eu_contribution_eur": 3995722.5,
       "cordis_id": "101138548",
       "cordis_url": "https://cordis.europa.eu/project/id/101138548",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -949,7 +919,6 @@
       "eu_contribution_eur": 3985648.75,
       "cordis_id": "101138414",
       "cordis_url": "https://cordis.europa.eu/project/id/101138414",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -980,7 +949,6 @@
       "eu_contribution_eur": 3749417.5,
       "cordis_id": "101137324",
       "cordis_url": "https://cordis.europa.eu/project/id/101137324",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -1011,7 +979,6 @@
       "eu_contribution_eur": 7396501.35,
       "cordis_id": "101157586",
       "cordis_url": "https://cordis.europa.eu/project/id/101157586",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": false
     },
@@ -1042,7 +1009,6 @@
       "eu_contribution_eur": 6475389.0,
       "cordis_id": "101130000",
       "cordis_url": "https://cordis.europa.eu/project/id/101130000",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": false
     },
@@ -1073,7 +1039,6 @@
       "eu_contribution_eur": 7499999.85,
       "cordis_id": "101157779",
       "cordis_url": "https://cordis.europa.eu/project/id/101157779",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": false
     },
@@ -1104,7 +1069,6 @@
       "eu_contribution_eur": 5840012.75,
       "cordis_id": "101157239",
       "cordis_url": "https://cordis.europa.eu/project/id/101157239",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": false
     },
@@ -1135,7 +1099,6 @@
       "eu_contribution_eur": 5264779.0,
       "cordis_id": "101157840",
       "cordis_url": "https://cordis.europa.eu/project/id/101157840",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": false
     },
@@ -1166,7 +1129,6 @@
       "eu_contribution_eur": 3999853.25,
       "cordis_id": "101135372",
       "cordis_url": "https://cordis.europa.eu/project/id/101135372",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": false
     },
@@ -1197,7 +1159,6 @@
       "eu_contribution_eur": 3677680.25,
       "cordis_id": "101135107",
       "cordis_url": "https://cordis.europa.eu/project/id/101135107",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": false
     },
@@ -1228,7 +1189,6 @@
       "eu_contribution_eur": 2999195.0,
       "cordis_id": "101156363",
       "cordis_url": "https://cordis.europa.eu/project/id/101156363",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": false
     },
@@ -1259,7 +1219,6 @@
       "eu_contribution_eur": 6617386.75,
       "cordis_id": "101129911",
       "cordis_url": "https://cordis.europa.eu/project/id/101129911",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": false
     },
@@ -1290,7 +1249,6 @@
       "eu_contribution_eur": 16000000.0,
       "cordis_id": "101177493",
       "cordis_url": "https://cordis.europa.eu/project/id/101177493",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": false
     },
@@ -1321,7 +1279,6 @@
       "eu_contribution_eur": 16035533.0,
       "cordis_id": "101165889",
       "cordis_url": "https://cordis.europa.eu/project/id/101165889",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": false
     },
@@ -1352,7 +1309,6 @@
       "eu_contribution_eur": 14458039.77,
       "cordis_id": "101177608",
       "cordis_url": "https://cordis.europa.eu/project/id/101177608",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -1383,7 +1339,6 @@
       "eu_contribution_eur": 11939105.26,
       "cordis_id": "101178074",
       "cordis_url": "https://cordis.europa.eu/project/id/101178074",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -1414,7 +1369,6 @@
       "eu_contribution_eur": 13924216.39,
       "cordis_id": "101178148",
       "cordis_url": "https://cordis.europa.eu/project/id/101178148",
-      "source": "CORDIS",
       "soc": "Bisphenol A; Nonylphenol",
       "ssbd_in_call": true
     },
@@ -1445,7 +1399,6 @@
       "eu_contribution_eur": 9925163.25,
       "cordis_id": "101178218",
       "cordis_url": "https://cordis.europa.eu/project/id/101178218",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -1476,7 +1429,6 @@
       "eu_contribution_eur": 10678045.0,
       "cordis_id": "101178011",
       "cordis_url": "https://cordis.europa.eu/project/id/101178011",
-      "source": "CORDIS",
       "soc": "Medium Chain Chlorinated Paraffin",
       "ssbd_in_call": true
     },
@@ -1507,7 +1459,6 @@
       "eu_contribution_eur": 7999189.5,
       "cordis_id": "101192272",
       "cordis_url": "https://cordis.europa.eu/project/id/101192272",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": false
     },
@@ -1538,7 +1489,6 @@
       "eu_contribution_eur": 7742500.0,
       "cordis_id": "101166707",
       "cordis_url": "https://cordis.europa.eu/project/id/101166707",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -1569,7 +1519,6 @@
       "eu_contribution_eur": 1499976.56,
       "cordis_id": "101192392",
       "cordis_url": "https://cordis.europa.eu/project/id/101192392",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": false
     },
@@ -1600,7 +1549,6 @@
       "eu_contribution_eur": 200000000.0,
       "cordis_id": "101057014",
       "cordis_url": "https://cordis.europa.eu/project/id/101057014",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -1631,7 +1579,6 @@
       "eu_contribution_eur": 5142175.0,
       "cordis_id": "101138397",
       "cordis_url": "https://cordis.europa.eu/project/id/101138397",
-      "source": "CORDIS",
       "soc": "",
       "ssbd_in_call": true
     },
@@ -1662,7 +1609,6 @@
       "eu_contribution_eur": 5195467.19,
       "cordis_id": "101138807",
       "cordis_url": "https://cordis.europa.eu/project/id/101138807",
-      "source": "CORDIS",
       "soc": "PFAS (PTFE, PFPE); Benzotriazole; Medium Chain Chlorinated Paraffin",
       "ssbd_in_call": true
     }
