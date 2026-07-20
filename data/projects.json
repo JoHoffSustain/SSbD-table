@@ -15,6 +15,12 @@
       "source": "manual"
     },
     {
+      "key": "field_of_science",
+      "label": "Field of Science (EuroSciVoc)",
+      "type": "string",
+      "source": "cordis"
+    },
+    {
       "key": "topic_id",
       "label": "Funding call / topic ID",
       "type": "string",
@@ -100,7 +106,13 @@
     },
     {
       "key": "partners_risk_assessment",
-      "label": "Partners for Risk Assessment",
+      "label": "Partners for Risk and Exposure Assessment",
+      "type": "string",
+      "source": "manual_review"
+    },
+    {
+      "key": "partner_hazard_safety",
+      "label": "Partners for Hazard Assessment",
       "type": "string",
       "source": "manual_review"
     },
@@ -112,13 +124,19 @@
     },
     {
       "key": "partners_social_lca",
-      "label": "Partners for Social LCA",
+      "label": "Partners for Socioeconomics (sLCA, LCC, TEA)",
+      "type": "string",
+      "source": "manual_review"
+    },
+    {
+      "key": "partner_social_policy",
+      "label": "Partner for Social Acceptance and Policy",
       "type": "string",
       "source": "manual_review"
     },
     {
       "key": "partner_ai",
-      "label": "AI Partner",
+      "label": "Partner for AI, Digitalisation",
       "type": "string",
       "source": "manual_review"
     },
@@ -136,13 +154,25 @@
     },
     {
       "key": "partner_dissemination",
-      "label": "Dissemination Partner",
+      "label": "Partner for Dissemination, Stakeholder",
       "type": "string",
       "source": "manual_review"
     },
     {
       "key": "partner_exploitation",
       "label": "Exploitation Partner",
+      "type": "string",
+      "source": "manual_review"
+    },
+    {
+      "key": "partners_full_list",
+      "label": "Full List of Partners (CORDIS)",
+      "type": "string",
+      "source": "cordis"
+    },
+    {
+      "key": "ssbd_publications",
+      "label": "SSbD Relevant Publications",
       "type": "string",
       "source": "manual_review"
     },
@@ -200,7 +230,12 @@
       "cordis_id": "814530",
       "cordis_url": "https://cordis.europa.eu/project/id/814530",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "HARMLESS",
@@ -230,7 +265,12 @@
       "cordis_id": "953183",
       "cordis_url": "https://cordis.europa.eu/project/id/953183",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "DIAGONAL",
@@ -260,7 +300,12 @@
       "cordis_id": "953152",
       "cordis_url": "https://cordis.europa.eu/project/id/953152",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "NICKEFFECT",
@@ -290,7 +335,12 @@
       "cordis_id": "101058076",
       "cordis_url": "https://cordis.europa.eu/project/id/101058076",
       "soc": "Platinum (Pt)",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "IRISS",
@@ -320,7 +370,12 @@
       "cordis_id": "101058245",
       "cordis_url": "https://cordis.europa.eu/project/id/101058245",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "NOVA",
@@ -350,7 +405,12 @@
       "cordis_id": "101058554",
       "cordis_url": "https://cordis.europa.eu/project/id/101058554",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "NOUVEAU",
@@ -380,7 +440,12 @@
       "cordis_id": "101058784",
       "cordis_url": "https://cordis.europa.eu/project/id/101058784",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "PARASOL",
@@ -410,7 +475,12 @@
       "cordis_id": "101072881",
       "cordis_url": "https://cordis.europa.eu/project/id/101072881",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "AgriLoop",
@@ -440,7 +510,12 @@
       "cordis_id": "101081776",
       "cordis_url": "https://cordis.europa.eu/project/id/101081776",
       "soc": "",
-      "ssbd_in_call": false
+      "ssbd_in_call": false,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "ZeroF",
@@ -470,7 +545,12 @@
       "cordis_id": "101092164",
       "cordis_url": "https://cordis.europa.eu/project/id/101092164",
       "soc": "PFAS",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "PROPLANET",
@@ -500,7 +580,12 @@
       "cordis_id": "101091842",
       "cordis_url": "https://cordis.europa.eu/project/id/101091842",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "BIO-SUSHY",
@@ -530,7 +615,12 @@
       "cordis_id": "101091464",
       "cordis_url": "https://cordis.europa.eu/project/id/101091464",
       "soc": "PFAS",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "TORNADO",
@@ -560,7 +650,12 @@
       "cordis_id": "101091944",
       "cordis_url": "https://cordis.europa.eu/project/id/101091944",
       "soc": "PFAS",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "ACCORDs",
@@ -590,7 +685,12 @@
       "cordis_id": "101092796",
       "cordis_url": "https://cordis.europa.eu/project/id/101092796",
       "soc": "",
-      "ssbd_in_call": false
+      "ssbd_in_call": false,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "SAFETYFANS",
@@ -620,7 +720,12 @@
       "cordis_id": "101103082",
       "cordis_url": "https://cordis.europa.eu/project/id/101103082",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "SAFARI",
@@ -650,7 +755,12 @@
       "cordis_id": "101135965",
       "cordis_url": "https://cordis.europa.eu/project/id/101135965",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "SSbD4CheM",
@@ -680,7 +790,12 @@
       "cordis_id": "101138475",
       "cordis_url": "https://cordis.europa.eu/project/id/101138475",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "TOXBOX",
@@ -710,7 +825,12 @@
       "cordis_id": "101138387",
       "cordis_url": "https://cordis.europa.eu/project/id/101138387",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "AI-TranspWood",
@@ -740,7 +860,12 @@
       "cordis_id": "101138191",
       "cordis_url": "https://cordis.europa.eu/project/id/101138191",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "CHIASMA",
@@ -770,7 +895,12 @@
       "cordis_id": "101137613",
       "cordis_url": "https://cordis.europa.eu/project/id/101137613",
       "soc": "PFAS; Nano-pesticides",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "PINK",
@@ -800,7 +930,12 @@
       "cordis_id": "101137809",
       "cordis_url": "https://cordis.europa.eu/project/id/101137809",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "CheMatSustain",
@@ -830,7 +965,12 @@
       "cordis_id": "101137990",
       "cordis_url": "https://cordis.europa.eu/project/id/101137990",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "INSIGHT",
@@ -860,7 +1000,12 @@
       "cordis_id": "101137742",
       "cordis_url": "https://cordis.europa.eu/project/id/101137742",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "ANALYST",
@@ -890,7 +1035,12 @@
       "cordis_id": "101138548",
       "cordis_url": "https://cordis.europa.eu/project/id/101138548",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "INTEGRANO",
@@ -920,7 +1070,12 @@
       "cordis_id": "101138414",
       "cordis_url": "https://cordis.europa.eu/project/id/101138414",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "SUNRISE",
@@ -950,9 +1105,14 @@
       "cordis_id": "101137324",
       "cordis_url": "https://cordis.europa.eu/project/id/101137324",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "Devecchi et al. (2026), \"Implementing Social Life Cycle Assessment for Safe and Sustainable by Design Advanced Materials: A Case Study of Multicomponent Anti-Stick Coatings\", Journal of Sustainability Research, https://doi.org/10.20900/jsr20260023",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
-	    {
+    {
       "acronym": "SUNSHINE",
       "full_title": "Safe and sUstainable by desigN Strategies for HIgh performance multi-component NanomatErials",
       "topic_id": "H2020-NMBP-TO-IND-2018-2020",
@@ -980,7 +1140,12 @@
       "cordis_id": "9529244",
       "cordis_url": "https://cordis.europa.eu/project/id/952924",
       "soc": "PTFE",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "SURFs UP",
@@ -1010,7 +1175,12 @@
       "cordis_id": "101157586",
       "cordis_url": "https://cordis.europa.eu/project/id/101157586",
       "soc": "",
-      "ssbd_in_call": false
+      "ssbd_in_call": false,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "PENGUIN",
@@ -1040,7 +1210,12 @@
       "cordis_id": "101130000",
       "cordis_url": "https://cordis.europa.eu/project/id/101130000",
       "soc": "",
-      "ssbd_in_call": false
+      "ssbd_in_call": false,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "BIONEER",
@@ -1070,7 +1245,12 @@
       "cordis_id": "101157779",
       "cordis_url": "https://cordis.europa.eu/project/id/101157779",
       "soc": "",
-      "ssbd_in_call": false
+      "ssbd_in_call": false,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "PROMOFER",
@@ -1100,7 +1280,12 @@
       "cordis_id": "101157239",
       "cordis_url": "https://cordis.europa.eu/project/id/101157239",
       "soc": "",
-      "ssbd_in_call": false
+      "ssbd_in_call": false,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "Polymers-5B",
@@ -1130,7 +1315,12 @@
       "cordis_id": "101157840",
       "cordis_url": "https://cordis.europa.eu/project/id/101157840",
       "soc": "",
-      "ssbd_in_call": false
+      "ssbd_in_call": false,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "BioSusTex",
@@ -1160,7 +1350,12 @@
       "cordis_id": "101135372",
       "cordis_url": "https://cordis.europa.eu/project/id/101135372",
       "soc": "",
-      "ssbd_in_call": false
+      "ssbd_in_call": false,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "BioPhenom",
@@ -1190,7 +1385,12 @@
       "cordis_id": "101135107",
       "cordis_url": "https://cordis.europa.eu/project/id/101135107",
       "soc": "",
-      "ssbd_in_call": false
+      "ssbd_in_call": false,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "BioINSouth",
@@ -1220,7 +1420,12 @@
       "cordis_id": "101156363",
       "cordis_url": "https://cordis.europa.eu/project/id/101156363",
       "soc": "",
-      "ssbd_in_call": false
+      "ssbd_in_call": false,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "SUBBIMATT",
@@ -1250,7 +1455,12 @@
       "cordis_id": "101129911",
       "cordis_url": "https://cordis.europa.eu/project/id/101129911",
       "soc": "",
-      "ssbd_in_call": false
+      "ssbd_in_call": false,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "REMHub",
@@ -1280,7 +1490,12 @@
       "cordis_id": "101177493",
       "cordis_url": "https://cordis.europa.eu/project/id/101177493",
       "soc": "",
-      "ssbd_in_call": false
+      "ssbd_in_call": false,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "PharmEco",
@@ -1310,7 +1525,12 @@
       "cordis_id": "101165889",
       "cordis_url": "https://cordis.europa.eu/project/id/101165889",
       "soc": "",
-      "ssbd_in_call": false
+      "ssbd_in_call": false,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "PLANETS",
@@ -1340,7 +1560,12 @@
       "cordis_id": "101177608",
       "cordis_url": "https://cordis.europa.eu/project/id/101177608",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "Alchemissts",
@@ -1370,7 +1595,12 @@
       "cordis_id": "101178074",
       "cordis_url": "https://cordis.europa.eu/project/id/101178074",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "RADAR",
@@ -1400,7 +1630,12 @@
       "cordis_id": "101178148",
       "cordis_url": "https://cordis.europa.eu/project/id/101178148",
       "soc": "Bisphenol A; Nonylphenol",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "BIOSAFIRE",
@@ -1430,7 +1665,12 @@
       "cordis_id": "101178218",
       "cordis_url": "https://cordis.europa.eu/project/id/101178218",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "DESIDERATA",
@@ -1460,7 +1700,12 @@
       "cordis_id": "101178011",
       "cordis_url": "https://cordis.europa.eu/project/id/101178011",
       "soc": "Medium Chain Chlorinated Paraffin",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "RESTORE",
@@ -1490,7 +1735,12 @@
       "cordis_id": "101192272",
       "cordis_url": "https://cordis.europa.eu/project/id/101192272",
       "soc": "",
-      "ssbd_in_call": false
+      "ssbd_in_call": false,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "ENKORE",
@@ -1520,7 +1770,12 @@
       "cordis_id": "101166707",
       "cordis_url": "https://cordis.europa.eu/project/id/101166707",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "GUESS-WHy",
@@ -1550,7 +1805,12 @@
       "cordis_id": "101192392",
       "cordis_url": "https://cordis.europa.eu/project/id/101192392",
       "soc": "",
-      "ssbd_in_call": false
+      "ssbd_in_call": false,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "PARC",
@@ -1580,7 +1840,12 @@
       "cordis_id": "101057014",
       "cordis_url": "https://cordis.europa.eu/project/id/101057014",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "M2DESCO",
@@ -1610,7 +1875,12 @@
       "cordis_id": "101138397",
       "cordis_url": "https://cordis.europa.eu/project/id/101138397",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
     },
     {
       "acronym": "SiToLub",
@@ -1640,7 +1910,117 @@
       "cordis_id": "101138807",
       "cordis_url": "https://cordis.europa.eu/project/id/101138807",
       "soc": "PFAS (PTFE, PFPE); Benzotriazole; Medium Chain Chlorinated Paraffin",
-      "ssbd_in_call": true
+      "ssbd_in_call": true,
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "field_of_science": "",
+      "partner_social_policy": ""
+    },
+    {
+      "acronym": "SUNSHINE",
+      "full_title": "Safe and sUstainable by desigN Strategies for HIgh performance multi-component NanomatErials",
+      "field_of_science": "engineering and technology (nanotechnology; nano-materials)",
+      "topic_id": "NMBP-16-2020",
+      "start_date": "2021-01-01",
+      "end_date": "2024-12-31",
+      "project_website": "",
+      "focus_category": "Nanomaterials, 2D Materials",
+      "ssbd_in_call": true,
+      "ssbd_assessment_scope": "",
+      "use_cases": "Coatings",
+      "soc": "PTFE (Teflon / PFAS)",
+      "solutions": "Nano-based anti-stick coating (SiC@TiO2)",
+      "coordinator": "Universita Ca' Foscari Venezia",
+      "coordinator_country": "Italy",
+      "partners_tech_dev": "",
+      "partner_scoping": "",
+      "partners_risk_assessment": "",
+      "partner_hazard_safety": "",
+      "partners_env_lca": "",
+      "partners_social_lca": "GreenDecision SRL",
+      "partner_ai": "",
+      "partner_mcda": "",
+      "partners_industrial": "",
+      "partner_dissemination": "",
+      "partner_exploitation": "",
+      "partners_full_list": "European Research Services GmbH (ERS) | Rijksinstituut voor Volksgezondheid en Milieu (RIVM) | JRC - Joint Research Centre - European Commission | Swansea University | GreenDecision SRL (GreenDecision) | Heriot-Watt University | Ethnicon Metsovion Polytechnion (NTUA) | Royal College of Surgeons in Ireland | Agencia Estatal Consejo Superior de Investigaciones Cientificas (CSIC) | Centre National de la Recherche Scientifique CNRS | Universita degli Studi di Genova | Purposeful Anonymi Etaireia | Institute of Occupational Medicine | Eidgenossische Materialprufungs- und Forschungsanstalt (Empa) | Instituto Tecnologico del Embalaje, Transporte y Logistica (ITENE) | Rhodia Operations / Solvay SA | Fundacion Tecnalia Research & Innovation (TEKNALIA) | Avanzare Innovacion Tecnologica SL | Fundacion CIAC | Encapsulae SL | Laurentia Technologies SLL | OCSiAl Europe SARL | Consiglio Nazionale delle Ricerche (CNR) | TEMAS Solutions GmbH (TEMAS) | East European Research and Innovation Enterprise Ltd (EERIE) | Yordas GmbH (Yordas) | Tinexta Innovation Hub S.p.A. | MINTEK | Solvay Chimika Monoprosopi Anonymi Etaireia",
+      "ssbd_publications": "Devecchi et al. (2026), \"Implementing Social Life Cycle Assessment for Safe and Sustainable by Design Advanced Materials: A Case Study of Multicomponent Anti-Stick Coatings\", Journal of Sustainability Research, https://doi.org/10.20900/jsr20260023",
+      "total_cost_eur": 8360681.25,
+      "eu_contribution_eur": 6521348.75,
+      "cordis_id": "952924",
+      "cordis_url": "https://cordis.europa.eu/project/id/952924",
+      "partner_social_policy": ""
+    },
+    {
+      "acronym": "MACRAME",
+      "full_title": "Advanced Characterisation Methodologies to assess and predict the Health and Environmental Risks of Advanced Materials",
+      "field_of_science": "engineering and technology (nanotechnology; nano-materials); social sciences (sustainable economy)",
+      "topic_id": "HORIZON-CL4-2022-DIGITAL-EMERGING-01-35",
+      "start_date": "2022-12-01",
+      "end_date": "2026-05-31",
+      "project_website": "",
+      "focus_category": "Assessment Methods, Digital Tools",
+      "ssbd_in_call": false,
+      "ssbd_assessment_scope": "",
+      "use_cases": "Advanced nanomaterials",
+      "soc": "",
+      "solutions": "",
+      "coordinator": "Acumenist",
+      "coordinator_country": "Belgium",
+      "partners_tech_dev": "",
+      "partner_scoping": "",
+      "partners_risk_assessment": "",
+      "partner_hazard_safety": "",
+      "partners_env_lca": "",
+      "partners_social_lca": "",
+      "partner_ai": "",
+      "partner_mcda": "",
+      "partners_industrial": "",
+      "partner_dissemination": "",
+      "partner_exploitation": "",
+      "partners_full_list": "Gesellschaft fur Bioanalytik Munster EV | Laboratoire National de Metrologie et d'Essais (LNE) | Luxembourg Institute of Science and Technology (LIST) | Seven Past Nine D.O.O. (SPN) | Seven Past Nine GmbH (SPN) | Bundesanstalt fuer Arbeitsschutz und Arbeitsmedizin (BAuA) | Rijksinstituut voor Volksgezondheid en Milieu (RIVM) | IBE R&D Institute for Lung Health gGmbH | Tascon GmbH | Fundacion Gaiker (GAIKER) | MyBiotech GmbH | BASF SE | MEDICA S.p.A. | Carbon Waters SAS | FILK Freiberg Institute gGmbH | TEMAS Solutions GmbH (TEMAS) [partner] | Eidgenossische Materialprufungs- und Forschungsanstalt (Empa) [partner] | The University of Birmingham [partner] | Epithelix SARL [partner]",
+      "ssbd_publications": "",
+      "total_cost_eur": 4201652.5,
+      "eu_contribution_eur": 4201652.5,
+      "cordis_id": "101092686",
+      "cordis_url": "https://cordis.europa.eu/project/id/101092686",
+      "partner_social_policy": ""
+    },
+    {
+      "acronym": "SURPASS",
+      "full_title": "Safe-, sUstainable- and Recyclable-by design Polymeric systems - A guidance towardS next generation of plasticS",
+      "field_of_science": "social sciences (economics and business; innovation management); engineering and technology (materials engineering; composites)",
+      "topic_id": "HORIZON-CL4-2021-RESILIENCE-01-11",
+      "start_date": "2022-06-01",
+      "end_date": "2025-11-30",
+      "project_website": "",
+      "focus_category": "Bio-based Materials, Chemicals",
+      "ssbd_in_call": true,
+      "ssbd_assessment_scope": "",
+      "use_cases": "Building; Transport; Packaging",
+      "soc": "",
+      "solutions": "Safe, sustainable and recyclable polymeric materials (SSRbD)",
+      "coordinator": "Commissariat a l'Energie Atomique et aux Energies Alternatives",
+      "coordinator_country": "France",
+      "partners_tech_dev": "",
+      "partner_scoping": "",
+      "partners_risk_assessment": "",
+      "partner_hazard_safety": "RIVM",
+      "partners_env_lca": "",
+      "partners_social_lca": "",
+      "partner_ai": "",
+      "partner_mcda": "",
+      "partners_industrial": "",
+      "partner_dissemination": "",
+      "partner_exploitation": "",
+      "partners_full_list": "Centre Technique Industriel de la Plasturgie et des Composites (CENTEXBEL-VKC) | Fundacion Cidetec (CIDETEC) | Acondicionamiento Tarrasense Associacion (LEITAT) | INDRESMAT SL | Universite Grenoble Alpes (UGA) | Geonardo Kornyezetvedelmi Kft. | BASF SE | BASF Polyurethanes GmbH | Rijksinstituut voor Volksgezondheid en Milieu (RIVM) | Asociacion Espanola de Normalizacion (UNE) | Fraunhofer Gesellschaft (Fraunhofer) | Wipak Gryspeert SAS | Waste Free Oceans Europe",
+      "ssbd_publications": "",
+      "total_cost_eur": 4992239.76,
+      "eu_contribution_eur": 4980559.29,
+      "cordis_id": "101057901",
+      "cordis_url": "https://cordis.europa.eu/project/id/101057901",
+      "partner_social_policy": ""
     }
   ]
 }

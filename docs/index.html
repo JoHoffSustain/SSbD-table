@@ -130,28 +130,6 @@ h1 {
   font-size: 1rem;
 }
 
-.ssbd-check {
-  display: flex;
-  align-items: center;
-  gap: 0.45rem;
-  font-size: 0.85rem;
-  font-family: var(--sans);
-  color: var(--ink);
-  cursor: pointer;
-  padding: 0.5rem 0.75rem;
-  border: 1.5px solid var(--line);
-  border-radius: 3px;
-  background: white;
-  white-space: nowrap;
-}
-.ssbd-check:has(input:checked) {
-  border-color: var(--accent);
-  background: var(--accent-soft);
-  color: var(--accent);
-  font-weight: 600;
-}
-.ssbd-check input { accent-color: var(--accent); cursor: pointer; }
-
 select, .col-toggle-btn {
   padding: 0.6rem 0.9rem;
   border: 1.5px solid var(--line);
@@ -248,15 +226,12 @@ thead th .arrow {
 }
 thead th.sorted .arrow { opacity: 1; color: var(--amber); }
 
+tbody td.date-cell { white-space: nowrap; min-width: 100px; }
 tbody td {
   padding: 0.6rem 0.8rem;
   border-bottom: 1px solid var(--line);
   vertical-align: top;
   max-width: 260px;
-}
-tbody td.date-cell {
-  white-space: nowrap;
-  min-width: 100px;
 }
 
 tbody tr:hover { background: var(--accent-soft); }
@@ -344,7 +319,7 @@ footer .edit-cta:hover { background: var(--accent); }
     <input type="text" id="search" placeholder="Search acronym, title, coordinator, focus category…" autocomplete="off">
   </div>
   <label class="ssbd-check">
-    <input type="checkbox" id="filter-ssbd">
+    <input type="checkbox" id="filter-ssbd" checked>
     SSbD core projects only
   </label>
   <div class="col-picker-wrap">
@@ -362,7 +337,7 @@ footer .edit-cta:hover { background: var(--accent); }
 </div>
 
 <footer>
-  <p><strong>About this table.</strong> All project data — acronyms, full titles, coordinators, project websites, funding call/topic IDs, start/end dates, coordinator countries, and budget figures — is sourced from <a href="https://cordis.europa.eu" target="_blank" rel="noopener">CORDIS</a>, the European Commission's R&I results database. Partner-role columns (technology development, risk assessment, environmental/social LCA, AI, MCDA scoring, industrial use cases, dissemination, exploitation) are not tagged in CORDIS by role and are filled in through manual expert review — these are the fields most likely to need a community correction. The <strong>SSbD core project</strong> flag marks projects where the SSbD framework was central to the project's rationale — either because "Safe and Sustainable by Design" (or its H2020 predecessor "Safe by Design") appeared explicitly in the funding call title, or because the project was part of the EU's established SSbD ecosystem (e.g. PARC, NANORIGO, PARASOL, SAFETYFANS) even if the call predates or does not use the exact SSbD terminology. Projects marked <em>No</em> apply SSbD as a design methodology but were funded under broader calls (e.g. bio-based innovation, circular bioeconomy, battery recycling, hydrogen) where SSbD was not the primary funding rationale.</p>
+  <p><strong>About this table.</strong> Acronyms, titles, websites, and coordinators were compiled manually from public SSbD project communications. Funding call/topic ID, start/end dates, coordinator country, and budget figures are pulled from <a href="https://cordis.europa.eu" target="_blank" rel="noopener">CORDIS</a>, the European Commission's research results database. Partner-role columns (technology development, risk assessment, environmental/social LCA, AI, MCDA scoring, industrial use cases, dissemination, exploitation) are not tagged in CORDIS by role and are filled in through manual review — these are the fields most likely to need a community correction.</p>
   <p>Spot something missing or wrong? Open an issue using the template below and it will be reviewed before merging into the dataset.</p>
   <a class="edit-cta" href="https://github.com/JonciH/ssbd-table/issues/new?template=propose-edit.yml" id="propose-link-2">+ Propose an edit on GitHub</a>
 <p style="margin-top:1.25rem; font-size:0.8rem;">
@@ -379,19 +354,22 @@ footer .edit-cta:hover { background: var(--accent); }
 const DATA_URL = 'data/projects.json';
 let DATA = null;
 let visibleColumns = new Set();
-let sortState = { key: 'start_date', dir: 'asc' };
+let sortState = { key: 'acronym', dir: 'asc' };
 
 const DEFAULT_VISIBLE = [
-  'acronym', 'full_title', 'topic_id', 'start_date', 'end_date',
-  'coordinator', 'project_website', 'focus_category',
+  'acronym', 'full_title', 'field_of_science', 'topic_id', 'start_date', 'end_date',
+  'coordinator', 'project_website', 'focus_category', 'ssbd_in_call',
   'total_cost_eur', 'use_cases', 'soc', 'solutions', 'cordis_url',
   'partners_tech_dev', 'partner_scoping', 'partners_risk_assessment',
-  'partners_env_lca', 'partners_social_lca', 'partner_ai', 'partner_mcda',
-  'partners_industrial', 'partner_dissemination', 'partner_exploitation',
+  'partner_hazard_safety', 'partners_env_lca', 'partners_social_lca',
+  'partner_ai', 'partner_mcda', 'partners_industrial',
+  'partner_dissemination', 'partner_exploitation', 'ssbd_publications',
   'cordis_id'
 ];
 
-const HIDDEN_COLUMNS = new Set(['coordinator_country', 'ssbd_in_call', 'eu_contribution_eur', 'source']);
+const HIDDEN_COLUMNS = new Set([
+  'coordinator_country', 'eu_contribution_eur', 'ssbd_in_call', 'partners_full_list'
+]);
 
 function fmtDate(d) {
   if (!d) return '';
@@ -406,14 +384,27 @@ function fmtCost(n) {
 }
 
 function cellContent(col, value) {
+  if (col.key === 'ssbd_publications' && value) {
+    const pubs = value.split('|').map(s => s.trim()).filter(Boolean);
+    const html = pubs.map(pub => {
+      const urlMatch = pub.match(/https?:\/\/\S+/);
+      if (urlMatch) {
+        const url = urlMatch[0];
+        const label = pub.replace(url, '').trim().replace(/,\s*$/, '');
+        return `<span style="display:block;margin-bottom:0.3rem">${label} <a href="${url}" target="_blank" rel="noopener">→ DOI</a></span>`;
+      }
+      return `<span style="display:block">${pub}</span>`;
+    }).join('');
+    return { html, empty: false };
+  }
+  if (value === null || value === undefined || value === '') {
+    return { html: '', empty: true };
+  }
   if (col.key === 'ssbd_in_call') {
     if (value === null || value === undefined) return { html: '<span style="color:#b8b2a3">?</span>', empty: false };
     return value
       ? { html: '<span style="color:var(--accent);font-weight:600">✓ Yes</span>', empty: false }
       : { html: '<span style="color:#b8b2a3">No</span>', empty: false };
-  }
-  if (value === null || value === undefined || value === '') {
-    return { html: '', empty: true };
   }
   if (col.type === 'url') {
     if (value === 'not yet available') return { html: '', empty: true };
@@ -448,8 +439,18 @@ function buildColumnPicker() {
   });
 }
 
-function buildFilters() {
-  // No dropdowns — just the SSbD checkbox, handled in getFilteredSorted
+function buildFilters() {}
+  });
+  [...focuses].sort().forEach(f => {
+    const opt = document.createElement('option');
+    opt.value = f; opt.textContent = f;
+    focusSel.appendChild(opt);
+  });
+  [...usecases].sort().forEach(u => {
+    const opt = document.createElement('option');
+    opt.value = u; opt.textContent = u;
+    usecasesSel.appendChild(opt);
+  });
 }
 
 function getFilteredSorted() {
@@ -482,7 +483,6 @@ function getFilteredSorted() {
     if (av > bv) return sortState.dir === 'asc' ? 1 : -1;
     return 0;
   });
-
   return rows;
 }
 
@@ -527,7 +527,6 @@ function renderTable() {
       const { html, empty, costCell } = cellContent(col, p[col.key]);
       if (col.key === 'acronym') td.classList.add('acronym-cell');
       if (costCell) td.classList.add('cost-cell');
-      if (col.type === 'date' || col.key === 'start_date' || col.key === 'end_date') td.classList.add('date-cell');
       if (empty) {
         td.classList.add('empty-cell');
         td.textContent = '';
@@ -553,7 +552,7 @@ function init(data) {
 
   document.getElementById('search').addEventListener('input', renderTable);
   document.getElementById('filter-ssbd').addEventListener('change', renderTable);
-
+  
   const btn = document.getElementById('col-picker-btn');
   const picker = document.getElementById('col-picker');
   btn.addEventListener('click', (e) => {
