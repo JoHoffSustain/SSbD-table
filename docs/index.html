@@ -341,7 +341,7 @@ footer .edit-cta:hover { background: var(--accent); }
   </div>
   <label class="ssbd-check">
     <input type="checkbox" id="filter-ssbd">
-    SSbD in call text only
+    SSbD core projects only
   </label>
   <div class="col-picker-wrap">
     <button class="col-toggle-btn" id="col-picker-btn">Columns ▾</button>
@@ -358,7 +358,7 @@ footer .edit-cta:hover { background: var(--accent); }
 </div>
 
 <footer>
-  <p><strong>About this table.</strong> All project data — acronyms, full titles, coordinators, project websites, funding call/topic IDs, start/end dates, coordinator countries, and budget figures — is sourced from <a href="https://cordis.europa.eu" target="_blank" rel="noopener">CORDIS</a>, the European Commission's R&I results database. Partner-role columns (technology development, risk assessment, environmental/social LCA, AI, MCDA scoring, industrial use cases, dissemination, exploitation) are not tagged in CORDIS by role and are filled in through manual expert review — these are the fields most likely to need a community correction. The "SSbD in call text" flag indicates whether Safe and Sustainable by Design was explicitly named in the funding call topic.</p>
+  <p><strong>About this table.</strong> All project data — acronyms, full titles, coordinators, project websites, funding call/topic IDs, start/end dates, coordinator countries, and budget figures — is sourced from <a href="https://cordis.europa.eu" target="_blank" rel="noopener">CORDIS</a>, the European Commission's R&I results database. Partner-role columns (technology development, risk assessment, environmental/social LCA, AI, MCDA scoring, industrial use cases, dissemination, exploitation) are not tagged in CORDIS by role and are filled in through manual expert review — these are the fields most likely to need a community correction. The <strong>SSbD core project</strong> flag marks projects where the SSbD framework was central to the project's rationale — either because "Safe and Sustainable by Design" (or its H2020 predecessor "Safe by Design") appeared explicitly in the funding call title, or because the project was part of the EU's established SSbD ecosystem (e.g. PARC, NANORIGO, PARASOL, SAFETYFANS) even if the call predates or does not use the exact SSbD terminology. Projects marked <em>No</em> apply SSbD as a design methodology but were funded under broader calls (e.g. bio-based innovation, circular bioeconomy, battery recycling, hydrogen) where SSbD was not the primary funding rationale.</p>
   <p>Spot something missing or wrong? Open an issue using the template below and it will be reviewed before merging into the dataset.</p>
   <a class="edit-cta" href="https://github.com/JonciH/ssbd-table/issues/new?template=propose-edit.yml" id="propose-link-2">+ Propose an edit on GitHub</a>
 <p style="margin-top:1.25rem; font-size:0.8rem;">
@@ -378,14 +378,17 @@ let visibleColumns = new Set();
 let sortState = { key: 'start_date', dir: 'asc' };
 
 const DEFAULT_VISIBLE = [
-  'acronym', 'full_title', 'start_date', 'end_date', 'coordinator',
-  'focus_category', 'ssbd_in_call', 'eu_contribution_eur',
-  'use_cases', 'soc', 'project_website', 'cordis_url'
+  'acronym', 'full_title', 'topic_id', 'start_date', 'end_date',
+  'coordinator', 'coordinator_country', 'focus_category', 'ssbd_in_call',
+  'eu_contribution_eur', 'total_cost_eur', 'use_cases', 'soc',
+  'solutions', 'project_website', 'cordis_url',
+  'partners_tech_dev', 'partner_scoping', 'partners_risk_assessment',
+  'partners_env_lca', 'partners_social_lca', 'partner_ai', 'partner_mcda',
+  'partners_industrial', 'partner_dissemination', 'partner_exploitation',
+  'cordis_id', 'source'
 ];
 
-const HIDDEN_COLUMNS = new Set([
-  'coordinator_country', 'total_cost_eur', 'source', 'cordis_id'
-]);
+const HIDDEN_COLUMNS = new Set([]);
 
 function fmtDate(d) {
   if (!d) return '';
