@@ -46,7 +46,7 @@
     },
     {
       "key": "ssbd_in_call",
-      "label": "SSbD in call text",
+      "label": "SSbD core project",
       "type": "boolean",
       "source": "analysis"
     },
@@ -424,7 +424,7 @@
       "cordis_url": "https://cordis.europa.eu/project/id/101072881",
       "source": "CORDIS",
       "soc": "",
-      "ssbd_in_call": false
+      "ssbd_in_call": true
     },
     {
       "acronym": "AgriLoop",
@@ -610,7 +610,7 @@
       "cordis_url": "https://cordis.europa.eu/project/id/101092796",
       "source": "CORDIS",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": false
     },
     {
       "acronym": "SAFETYFANS",
@@ -641,7 +641,7 @@
       "cordis_url": "https://cordis.europa.eu/project/id/101103082",
       "source": "CORDIS",
       "soc": "",
-      "ssbd_in_call": false
+      "ssbd_in_call": true
     },
     {
       "acronym": "SAFARI",
@@ -1044,7 +1044,7 @@
       "cordis_url": "https://cordis.europa.eu/project/id/101130000",
       "source": "CORDIS",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": false
     },
     {
       "acronym": "BIONEER",
@@ -1261,7 +1261,7 @@
       "cordis_url": "https://cordis.europa.eu/project/id/101129911",
       "source": "CORDIS",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": false
     },
     {
       "acronym": "REMHub",
@@ -1292,7 +1292,7 @@
       "cordis_url": "https://cordis.europa.eu/project/id/101177493",
       "source": "CORDIS",
       "soc": "",
-      "ssbd_in_call": true
+      "ssbd_in_call": false
     },
     {
       "acronym": "PharmEco",
@@ -1602,7 +1602,7 @@
       "cordis_url": "https://cordis.europa.eu/project/id/101057014",
       "source": "CORDIS",
       "soc": "",
-      "ssbd_in_call": false
+      "ssbd_in_call": true
     },
     {
       "acronym": "M2DESCO",
