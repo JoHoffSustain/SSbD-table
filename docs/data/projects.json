@@ -15,12 +15,6 @@
       "source": "manual"
     },
     {
-      "key": "field_of_science",
-      "label": "Field of Science (EuroSciVoc)",
-      "type": "string",
-      "source": "cordis"
-    },
-    {
       "key": "topic_id",
       "label": "Funding call / topic ID",
       "type": "string",
@@ -234,7 +228,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -269,7 +262,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -304,7 +296,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -339,7 +330,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -374,7 +364,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -409,7 +398,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -444,7 +432,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -470,7 +457,7 @@
       "partners_industrial": "",
       "partner_dissemination": "",
       "partner_exploitation": "",
-      "total_cost_eur": null,
+      "total_cost_eur": 2633238.0,
       "eu_contribution_eur": 2633238.0,
       "cordis_id": "101072881",
       "cordis_url": "https://cordis.europa.eu/project/id/101072881",
@@ -479,7 +466,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -514,7 +500,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -549,7 +534,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -584,7 +568,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -619,7 +602,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -654,7 +636,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -689,7 +670,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -715,7 +695,7 @@
       "partners_industrial": "",
       "partner_dissemination": "",
       "partner_exploitation": "",
-      "total_cost_eur": null,
+      "total_cost_eur": 172750.08,
       "eu_contribution_eur": 172750.08,
       "cordis_id": "101103082",
       "cordis_url": "https://cordis.europa.eu/project/id/101103082",
@@ -724,7 +704,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -750,7 +729,7 @@
       "partners_industrial": "",
       "partner_dissemination": "",
       "partner_exploitation": "",
-      "total_cost_eur": null,
+      "total_cost_eur": 3717547.35,
       "eu_contribution_eur": 3717547.35,
       "cordis_id": "101135965",
       "cordis_url": "https://cordis.europa.eu/project/id/101135965",
@@ -759,7 +738,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -794,7 +772,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -829,7 +806,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -855,7 +831,7 @@
       "partners_industrial": "",
       "partner_dissemination": "",
       "partner_exploitation": "",
-      "total_cost_eur": null,
+      "total_cost_eur": 6955522.23,
       "eu_contribution_eur": 6955522.23,
       "cordis_id": "101138191",
       "cordis_url": "https://cordis.europa.eu/project/id/101138191",
@@ -864,7 +840,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -899,7 +874,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -925,8 +899,8 @@
       "partners_industrial": "",
       "partner_dissemination": "",
       "partner_exploitation": "",
-      "total_cost_eur": null,
-      "eu_contribution_eur": null,
+      "total_cost_eur": 6218132.55,
+      "eu_contribution_eur": 6218132.55,
       "cordis_id": "101137809",
       "cordis_url": "https://cordis.europa.eu/project/id/101137809",
       "soc": "",
@@ -934,7 +908,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -969,7 +942,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1004,7 +976,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1039,7 +1010,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1074,7 +1044,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1109,7 +1078,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "Devecchi et al. (2026), \"Implementing Social Life Cycle Assessment for Safe and Sustainable by Design Advanced Materials: A Case Study of Multicomponent Anti-Stick Coatings\", Journal of Sustainability Research, https://doi.org/10.20900/jsr20260023",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1144,7 +1112,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1179,7 +1146,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1214,7 +1180,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1249,7 +1214,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1284,7 +1248,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1319,7 +1282,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1354,7 +1316,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1389,7 +1350,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1424,7 +1384,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1459,7 +1418,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1494,7 +1452,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1529,7 +1486,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1564,7 +1520,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1599,7 +1554,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1634,7 +1588,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1669,7 +1622,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1704,7 +1656,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1739,7 +1690,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1765,7 +1715,7 @@
       "partners_industrial": "",
       "partner_dissemination": "",
       "partner_exploitation": "",
-      "total_cost_eur": null,
+      "total_cost_eur": 1499976.56,
       "eu_contribution_eur": 1499976.56,
       "cordis_id": "101192392",
       "cordis_url": "https://cordis.europa.eu/project/id/101192392",
@@ -1774,7 +1724,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1809,17 +1758,16 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
       "acronym": "M2DESCO",
-      "full_title": "",
+      "full_title": "Computational Multi-Models Enabled Design of Safe & Sustainable Multi-Component High-Entropy Coatings",
       "topic_id": "HORIZON-CL4-2023-RESILIENCE-01-23",
       "start_date": "2024-01-01",
       "end_date": "2027-12-31",
-      "project_website": "",
-      "focus_category": "Nanomaterials, 2D Materials",
+      "project_website": "https://m2desco.ain.es/",
+      "focus_category": "Coatings",
       "ssbd_assessment_scope": "",
       "use_cases": "",
       "solutions": "",
@@ -1835,7 +1783,7 @@
       "partners_industrial": "",
       "partner_dissemination": "",
       "partner_exploitation": "",
-      "total_cost_eur": null,
+      "total_cost_eur": 5142175.0,
       "eu_contribution_eur": 5142175.0,
       "cordis_id": "101138397",
       "cordis_url": "https://cordis.europa.eu/project/id/101138397",
@@ -1844,7 +1792,6 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
@@ -1870,7 +1817,7 @@
       "partners_industrial": "Bechem; Motorex AG; R.S.Clare & Co. Limited",
       "partner_dissemination": "F6S Network Ireland Limited",
       "partner_exploitation": "i-TriboMat GmbH",
-      "total_cost_eur": null,
+      "total_cost_eur": 5195467.19,
       "eu_contribution_eur": 5195467.19,
       "cordis_id": "101138807",
       "cordis_url": "https://cordis.europa.eu/project/id/101138807",
@@ -1879,17 +1826,15 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "field_of_science": "",
       "partner_social_policy": ""
     },
     {
       "acronym": "SUNSHINE",
       "full_title": "Safe and sUstainable by desigN Strategies for HIgh performance multi-component NanomatErials",
-      "field_of_science": "engineering and technology (nanotechnology; nano-materials)",
       "topic_id": "NMBP-16-2020",
       "start_date": "2021-01-01",
       "end_date": "2024-12-31",
-      "project_website": "",
+      "project_website": "https://www.h2020sunshine.eu/",
       "focus_category": "Nanomaterials, 2D Materials",
       "ssbd_in_call": true,
       "ssbd_assessment_scope": "",
@@ -1920,7 +1865,6 @@
     {
       "acronym": "MACRAME",
       "full_title": "Advanced Characterisation Methodologies to assess and predict the Health and Environmental Risks of Advanced Materials",
-      "field_of_science": "engineering and technology (nanotechnology; nano-materials); social sciences (sustainable economy)",
       "topic_id": "HORIZON-CL4-2022-DIGITAL-EMERGING-01-35",
       "start_date": "2022-12-01",
       "end_date": "2026-05-31",
@@ -1955,11 +1899,10 @@
     {
       "acronym": "SURPASS",
       "full_title": "Safe-, sUstainable- and Recyclable-by design Polymeric systems - A guidance towardS next generation of plasticS",
-      "field_of_science": "social sciences (economics and business; innovation management); engineering and technology (materials engineering; composites)",
       "topic_id": "HORIZON-CL4-2021-RESILIENCE-01-11",
       "start_date": "2022-06-01",
       "end_date": "2025-11-30",
-      "project_website": "",
+      "project_website": "https://www.surpass-project.eu/",
       "focus_category": "Bio-based Materials, Chemicals",
       "ssbd_in_call": true,
       "ssbd_assessment_scope": "",
