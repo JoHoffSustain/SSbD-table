@@ -97,36 +97,6 @@ You never need to touch `docs/data/projects.json` manually.
 
 ---
 
-## Filling in missing CORDIS data (bulk script)
-
-For projects where CORDIS fields are blank, the fill script matches your project list against the official CORDIS bulk exports:
-
-```bash
-# Download the Horizon Europe bulk export from:
-# https://data.europa.eu/data/datasets/cordis-eu-research-projects-under-horizon-europe-2021-2027
-# and the H2020 export from:
-# https://data.europa.eu/88u/dataset/cordisH2020projects
-# Unzip and locate the projects.csv file in each download, then:
-
-pip install pandas --break-system-packages
-python3 scripts/fill_cordis_data.py --projects-csv /path/to/horizon_projects.csv
-python3 scripts/fill_cordis_data.py --projects-csv /path/to/h2020_projects.csv
-```
-
-The script only fills in blank fields — it won't overwrite existing data unless you pass `--overwrite`. Check `data/projects_unmatched.txt` afterwards for any projects that didn't match (usually very new projects not yet in the latest monthly CORDIS dump, or acronym spelling differences).
-
----
-
-## Setup (first time)
-
-1. Fork or clone this repo and push to your own GitHub account
-2. Go to **Settings → Pages** and set Source to **GitHub Actions**
-3. Replace `REPLACE_WITH_YOUR_USERNAME` in `docs/index.html` and `.github/ISSUE_TEMPLATE/config.yml` with your GitHub username
-4. Push to `main` — the Actions workflow will deploy the site automatically
-5. The live URL will appear under Settings → Pages once the first deploy succeeds
-
----
-
 ## Data provenance and licence
 
 All CORDIS-sourced fields (acronym, title, coordinator, dates, budget, grant ID, topic) are drawn from the European Commission's [CORDIS database](https://cordis.europa.eu), which is published as open data under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
