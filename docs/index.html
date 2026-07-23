@@ -263,6 +263,8 @@ tbody td.enddate-cell { white-space: nowrap; min-width: 120px; }
 tbody td.usecases-cell { min-width: 390px; max-width: 390px; }
 tbody td.innovation-cell { min-width: 390px; max-width: 390px; }
 tbody td.coordinator-cell { min-width: 390px; max-width: 390px; }
+tbody td.focus-cell { min-width: 390px; max-width: 390px; }
+tbody td.call-cell { white-space: nowrap; min-width: 330px; }
 tbody td.slca-cell { min-width: 130px; max-width: 130px; }
 tbody td {
   padding: 0.6rem 0.8rem;
@@ -559,7 +561,7 @@ footer .edit-cta:hover { background: var(--accent); }
     SSbD core projects only
   </label>
   <label class="ssbd-check">
-    <input type="checkbox" id="filter-active">
+    <input type="checkbox" id="filter-active" checked>
     Active projects only
   </label>
   <div class="col-picker-wrap">
@@ -607,7 +609,7 @@ const DEFAULT_VISIBLE = [
   'total_cost_eur', 'use_cases', 'soc', 'solutions', 'cordis_url',
   'partners_tech_dev', 'partner_scoping', 'partners_risk_assessment',
   'partner_hazard_safety', 'partners_env_lca', 'partners_social_lca',
-  'partner_mcda', 'partners_industrial',
+  'partners_industrial',
   'partner_dissemination', 'ssbd_publications',
   'deliverables', 'cordis_id'
 ];
@@ -814,6 +816,8 @@ function renderTable() {
       if (col.key === 'solutions') td.classList.add('innovation-cell');
       if (col.key === 'coordinator') td.classList.add('coordinator-cell');
       if (col.key === 'partners_social_lca') td.classList.add('slca-cell');
+      if (col.key === 'focus_category') td.classList.add('focus-cell');
+      if (col.key === 'topic_id') td.classList.add('call-cell');
       if (costCell) td.classList.add('cost-cell');
       if (empty) {
         td.classList.add('empty-cell');
