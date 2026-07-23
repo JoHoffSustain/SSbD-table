@@ -363,7 +363,7 @@
       "ssbd_in_call": true,
       "partner_hazard_safety": "",
       "partners_full_list": "",
-      "ssbd_publications": "",
+      "ssbd_publications": "State of the art approaches and lessons learned from value chain perspectives, Apel et al. (2023), https://doi.org/10.1016/j.cogsc.2023.100876; Mapping state of the art approaches along the innovation process and developing good practices, Apel et al. (2026), https://doi.org/10.1016/j.scp.2026.102355",
       "partner_social_policy": ""
     },
     {
@@ -873,7 +873,7 @@
       "ssbd_in_call": true,
       "partner_hazard_safety": "BASF",
       "partners_full_list": "LIST (coordinator) | TAU | Seven Past Nine (7P9) | RIVM | MUI | AcumenIST | NMBU | NovaMechanics | NTUA | AIT | IUF | BASF | UniTOV | VUA | ECETOC | HYU | UoB | SU | IOM | Empa",
-      "ssbd_publications": "",
+      "ssbd_publications": "MicroPlasticTox and EffectFactorCalc, Papavasiliou et al. (2026), https://doi.org/10.1039/d6dd00161k",
       "partner_social_policy": "University Bael; ECETOC; MUI"
     },
     {
@@ -975,7 +975,7 @@
       "ssbd_in_call": true,
       "partner_hazard_safety": "TAU; NTUA; UoB; MUI; UPO; UNC; HU; CNPEM; Solvay; JRC",
       "partners_full_list": "TAU (coordinator) | NovaMechanics | NTUA | AUTh | UoB | ULEI | LIST | MUI | Warrant Hub | UPO | AcumenIST | Solvay | Graphenea | 7P9 | Evonik | Empa [associate] | HYU [associate] | La Trobe University [associate] | UNC Chapel Hill [associate] | CNPEM [associate] | JRC [unconfirmed] | LEO [unconfirmed]",
-      "ssbd_publications": "",
+      "ssbd_publications": "MicroPlasticTox and EffectFactorCalc, Papavasiliou et al. (2026), https://doi.org/10.1039/d6dd00161k",
       "partner_social_policy": ""
     },
     {
@@ -1621,7 +1621,7 @@
       "ssbd_in_call": true,
       "partner_hazard_safety": "Gaiker; UBU",
       "partners_full_list": "LIST (coordinator) | ICCRAM | UBU | IVL | ITENE | GAIKER | Entelos Institute | NIA | TAU | Graphene-XT | LATI | TEMAS",
-      "ssbd_publications": "",
+      "ssbd_publications": "Characterizing chemical toxicity for life cycle assessment using machine learning and deep learning models, Ding et al. (2026), https://doi.org/10.1039/d6su00023a",
       "partner_social_policy": "Entelos Institute"
     },
     {
