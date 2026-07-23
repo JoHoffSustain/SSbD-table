@@ -264,6 +264,9 @@ tbody td.usecases-cell { min-width: 390px; max-width: 390px; }
 tbody td.innovation-cell { min-width: 390px; max-width: 390px; }
 tbody td.coordinator-cell { min-width: 390px; max-width: 390px; }
 tbody td.slca-cell { min-width: 130px; max-width: 130px; }
+tbody td.completeness-cell { white-space: nowrap; min-width: 90px; text-align: right; }
+tbody td.focus-cell { min-width: 390px; max-width: 390px; }
+tbody td.call-cell { white-space: nowrap; min-width: 330px; }
 tbody td {
   padding: 0.6rem 0.8rem;
   border-bottom: 1px solid var(--line);
@@ -559,7 +562,7 @@ footer .edit-cta:hover { background: var(--accent); }
     SSbD core projects only
   </label>
   <label class="ssbd-check">
-    <input type="checkbox" id="filter-active">
+    <input type="checkbox" id="filter-active" checked>
     Active projects only
   </label>
   <div class="col-picker-wrap">
@@ -607,13 +610,47 @@ const DEFAULT_VISIBLE = [
   'total_cost_eur', 'use_cases', 'soc', 'solutions', 'cordis_url',
   'partners_tech_dev', 'partner_scoping', 'partners_risk_assessment',
   'partner_hazard_safety', 'partners_env_lca', 'partners_social_lca',
-  'partner_mcda', 'partners_industrial',
+  'partners_industrial',
   'partner_dissemination', 'ssbd_publications',
   'deliverables', 'cordis_id'
 ];
 
+const CONTENT_FIELDS = [
+  'ssbd_assessment_scope', 'use_cases', 'soc', 'solutions', 'project_website',
+  'partners_tech_dev', 'partner_scoping', 'partners_risk_assessment',
+  'partner_hazard_safety', 'partners_env_lca', 'partners_social_lca',
+  'partner_social_policy', 'partner_ai', 'partner_mcda', 'partners_industrial',
+  'partner_dissemination', 'partner_exploitation', 'partners_full_list',
+  'ssbd_publications', 'deliverables'
+];
+
+function isFilled(v) {
+  if (v === null || v === undefined) return false;
+  if (Array.isArray(v)) return v.length > 0;
+  const s = String(v).trim();
+  if (!s) return false;
+  if (s.toLowerCase() === 'not yet available') return false;
+  return true;
+}
+
+function computeCompleteness(data) {
+  data.projects.forEach(p => {
+    const filled = CONTENT_FIELDS.filter(k => isFilled(p[k])).length;
+    p.completeness_count = filled;
+    p.completeness_total = CONTENT_FIELDS.length;
+    p.completeness_pct = Math.round((filled / CONTENT_FIELDS.length) * 100);
+  });
+  if (!data.columns.find(c => c.key === 'completeness_pct')) {
+    const acroIdx = data.columns.findIndex(c => c.key === 'acronym');
+    data.columns.splice(acroIdx + 1, 0, {
+      key: 'completeness_pct', label: 'Completeness', type: 'number', source: 'computed'
+    });
+  }
+}
+
 const HIDDEN_COLUMNS = new Set([
-  'coordinator_country', 'eu_contribution_eur', 'ssbd_in_call', 'partners_full_list'
+  'coordinator_country', 'eu_contribution_eur', 'ssbd_in_call', 'partners_full_list',
+  'completeness_pct'
 ]);
 
 function fmtDate(d) {
@@ -629,6 +666,13 @@ function fmtCost(n) {
 }
 
 function cellContent(col, value) {
+  if (col.key === 'completeness_pct') {
+    const pct = Number(value) || 0;
+    let color = 'var(--ink-soft)';
+    if (pct >= 70) color = 'var(--accent)';
+    else if (pct < 35) color = 'var(--amber)';
+    return { html: `<span style="font-weight:600;color:${color}">${pct}%</span>`, empty: false };
+  }
   if (col.key === 'deliverables') {
     // handled specially in renderTable (needs DOM + click handlers), just signal empty/non-empty here
     return { html: '', empty: !(Array.isArray(value) && value.length) };
@@ -807,6 +851,9 @@ function renderTable() {
         return;
       }
       const { html, empty, costCell } = cellContent(col, p[col.key]);
+      if (col.key === 'completeness_pct') {
+        td.title = `${p.completeness_count}/${p.completeness_total} tracked fields filled`;
+      }
       if (col.key === 'acronym') td.classList.add('acronym-cell');
       if (col.key === 'full_title') td.classList.add('title-cell');
       if (col.key === 'end_date') td.classList.add('enddate-cell');
@@ -814,6 +861,9 @@ function renderTable() {
       if (col.key === 'solutions') td.classList.add('innovation-cell');
       if (col.key === 'coordinator') td.classList.add('coordinator-cell');
       if (col.key === 'partners_social_lca') td.classList.add('slca-cell');
+      if (col.key === 'completeness_pct') td.classList.add('completeness-cell');
+      if (col.key === 'focus_category') td.classList.add('focus-cell');
+      if (col.key === 'topic_id') td.classList.add('call-cell');
       if (costCell) td.classList.add('cost-cell');
       if (empty) {
         td.classList.add('empty-cell');
@@ -906,6 +956,7 @@ document.addEventListener('scroll', () => {
 }, true);
 
 function init(data) {
+  computeCompleteness(data);
   DATA = data;
   document.getElementById('meta-count').textContent = data.projects.length;
   visibleColumns = new Set(DEFAULT_VISIBLE);
