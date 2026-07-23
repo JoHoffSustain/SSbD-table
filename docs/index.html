@@ -261,8 +261,8 @@ tbody td.date-cell { white-space: nowrap; min-width: 100px; }
 tbody td.title-cell { min-width: 390px; max-width: 390px; }
 tbody td.enddate-cell { white-space: nowrap; min-width: 120px; }
 tbody td.usecases-cell { min-width: 390px; max-width: 390px; }
-tbody td.innovation-cell { min-width: 390px; max-width: 390px; }
-tbody td.coordinator-cell { min-width: 390px; max-width: 390px; }
+tbody td.innovation-cell { min-width: 98px; max-width: 98px; }
+tbody td.coordinator-cell { min-width: 98px; max-width: 98px; }
 tbody td.slca-cell { min-width: 130px; max-width: 130px; }
 tbody td.completeness-cell { white-space: nowrap; min-width: 90px; text-align: right; }
 tbody td.focus-cell { min-width: 390px; max-width: 390px; }
@@ -562,7 +562,7 @@ footer .edit-cta:hover { background: var(--accent); }
     SSbD core projects only
   </label>
   <label class="ssbd-check">
-    <input type="checkbox" id="filter-active" checked>
+    <input type="checkbox" id="filter-active">
     Active projects only
   </label>
   <div class="col-picker-wrap">
@@ -602,7 +602,7 @@ footer .edit-cta:hover { background: var(--accent); }
 const DATA_URL = 'data/projects.json';
 let DATA = null;
 let visibleColumns = new Set();
-let sortState = { key: 'acronym', dir: 'asc' };
+let sortState = { key: 'completeness_pct', dir: 'desc' };
 
 const DEFAULT_VISIBLE = [
   'acronym', 'full_title', 'field_of_science', 'topic_id', 'start_date', 'end_date',
