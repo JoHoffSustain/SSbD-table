@@ -2,7 +2,7 @@
 
 A community-maintained, open reference database of EU Horizon-funded research projects working within the **Safe and Sustainable by Design (SSbD)** framework — built to give SSbD practitioners, consortium partners, policy officers, and researchers a single, transparent map of who is doing what across the European SSbD landscape.
 
-**Live site:** [johoffsustain.github.io/SSbD-table](https://joncih.github.io/SSbD-table/)
+**Live site:** [johoffsustain.github.io/SSbD-table](https://JoHoffSustain.github.io/SSbD-table/)
 
 ---
 
