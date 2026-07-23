@@ -171,6 +171,12 @@
       "source": "manual_review"
     },
     {
+      "key": "deliverables",
+      "label": "Deliverables",
+      "type": "array",
+      "source": "cordis"
+    },
+    {
       "key": "total_cost_eur",
       "label": "Total cost (EUR)",
       "type": "number",
@@ -439,7 +445,7 @@
       "ssbd_in_call": true,
       "partner_hazard_safety": "",
       "partners_full_list": "",
-      "ssbd_publications": "Accelerating the industrial transition with safe-and-sustainable-by-design (SSbD), Soeteman-Hernández et al. (2025), https://doi.org/10.1039/D4SU00809J",
+      "ssbd_publications": "Accelerating the industrial transition with safe-and-sustainable-by-design (SSbD), Soeteman-Hernández et al. (2025), https://doi.org/10.1039/D4SU00809J; Operationalization of the safe and sustainable by design framework for chemicals and materials: challenges and proposed actions, Abbate et al. (2025), https://doi.org/10.1289/EHP13520; The safe-and-sustainable-by-design concept: innovating towards a more sustainable future, Soeteman-Hernández et al. (2024), https://doi.org/10.1016/j.cogsc.2023.100876",
       "partner_social_policy": "",
       "deliverables": [
         {
@@ -1995,7 +2001,7 @@
       "ssbd_in_call": true,
       "partner_hazard_safety": "Gaiker; Universidad de Burgos",
       "partners_full_list": "",
-      "ssbd_publications": "Characterizing chemical toxicity for life cycle assessment using machine learning and deep learning models, Ding et al. (2026), https://doi.org/10.1039/d6su00023a",
+      "ssbd_publications": "",
       "partner_social_policy": "Entelos Institute"
     },
     {
