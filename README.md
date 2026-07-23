@@ -2,7 +2,7 @@
 
 A community-maintained, open reference database of EU Horizon-funded research projects working within the **Safe and Sustainable by Design (SSbD)** framework — built to give SSbD practitioners, consortium partners, policy officers, and researchers a single, transparent map of who is doing what across the European SSbD landscape.
 
-**Live site:** [joncih.github.io/SSbD-table](https://joncih.github.io/SSbD-table/)
+**Live site:** [johoffsustain.github.io/SSbD-table](https://joncih.github.io/SSbD-table/)
 
 ---
 
@@ -103,6 +103,6 @@ All CORDIS-sourced fields (acronym, title, coordinator, dates, budget, grant ID,
 
 Partner role data, focus categories, SSbD assessment scopes, and use case classifications are editorial contributions based on publicly available project materials and are released under the same licence.
 
-**Cite as:** J. Hoffmann, *SSbD Project Tracker*, [joncih.github.io/SSbD-table](https://joncih.github.io/SSbD-table/), 2025–2026.
+**Cite as:** J. Hoffmann, *SSbD Project Tracker*, [johoffsustain.github.io/SSbD-table](https://johoffsustain.github.io/SSbD-table/), 2025–2026.
 
 [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
