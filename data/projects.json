@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-20",
   "columns": [
     {
       "key": "acronym",
@@ -40,7 +40,7 @@
     },
     {
       "key": "focus_category",
-      "label": "Focus",
+      "label": "Focus category",
       "type": "string",
       "source": "manual_review"
     },
@@ -203,7 +203,7 @@
       "start_date": "2019-01-01",
       "end_date": "2023-02-28",
       "project_website": "https://nanorigo.eu/",
-      "focus_category": "Network",
+      "focus_category": "Networks, Frameworks",
       "ssbd_assessment_scope": "",
       "use_cases": "",
       "solutions": "",
@@ -228,7 +228,29 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "partner_social_policy": ""
+      "partner_social_policy": "",
+      "deliverables": [
+        {
+          "title": "Report on the verification of the models",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f0bacb86&appId=PPGMS"
+        },
+        {
+          "title": "Detailed text modules outlining initiative on how the RGF and NRGC can function in relation to the international stakeholders' requirements",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fa524f25&appId=PPGMS"
+        },
+        {
+          "title": "Development of an Organisational Form for Nanotechnology Risk Governance (NRGOF) in the context of present policy goals (joint deliverable G4N-D5.5-T5.3)",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f498166c&appId=PPGMS"
+        },
+        {
+          "title": "Evaluation of the identified governance tools for their inclusion in the RGF",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5da49907b&appId=PPGMS"
+        },
+        {
+          "title": "View all 24 deliverables on CORDIS",
+          "url": "https://cordis.europa.eu/project/id/814530/results"
+        }
+      ]
     },
     {
       "acronym": "HARMLESS",
@@ -237,7 +259,7 @@
       "start_date": "2021-01-01",
       "end_date": "2025-04-30",
       "project_website": "https://harmless-project.eu/",
-      "focus_category": "Methods",
+      "focus_category": "Nanomaterials, 2D Materials",
       "ssbd_assessment_scope": "",
       "use_cases": "High aspect ratio nanomaterials; Multicomponent nanomaterials",
       "solutions": "",
@@ -261,8 +283,30 @@
       "ssbd_in_call": true,
       "partner_hazard_safety": "",
       "partners_full_list": "",
-      "ssbd_publications": "",
-      "partner_social_policy": ""
+      "ssbd_publications": "Status, implications and challenges of European safe and sustainable by design paradigms applicable to nanomaterials and advanced materials, Furxhi et al. (2023), https://doi.org/10.1039/d2su00101b",
+      "partner_social_policy": "",
+      "deliverables": [
+        {
+          "title": "Performance evaluation and guidance documentation",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51db53c45&appId=PPGMS"
+        },
+        {
+          "title": "Bioaccumulation and persistency evaluation of selected NMs",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e500a42b2d&appId=PPGMS"
+        },
+        {
+          "title": "Overview of relevant AOPs to inform NAM choice of KEs",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5e7b6f336&appId=PPGMS"
+        },
+        {
+          "title": "Open access repository of mRNA single cell response",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50c687d6c&appId=PPGMS"
+        },
+        {
+          "title": "View all 7 deliverables on CORDIS",
+          "url": "https://cordis.europa.eu/project/id/953183/results"
+        }
+      ]
     },
     {
       "acronym": "DIAGONAL",
@@ -271,7 +315,7 @@
       "start_date": "2021-05-01",
       "end_date": "2024-10-31",
       "project_website": "https://diagonalproject.eu/",
-      "focus_category": "Methods",
+      "focus_category": "Nanomaterials, 2D Materials",
       "ssbd_assessment_scope": "",
       "use_cases": "Multicomponent nanomaterials; HAR nanomaterials",
       "solutions": "",
@@ -295,8 +339,30 @@
       "ssbd_in_call": true,
       "partner_hazard_safety": "",
       "partners_full_list": "",
-      "ssbd_publications": "",
-      "partner_social_policy": ""
+      "ssbd_publications": "A suite of tools for safe-and-sustainable-by-design advanced materials from the EU projects DIAGONAL, HARMLESS and SUNSHINE, Wohlleben et al. (2025), https://doi.org/10.1039/d5su00392j",
+      "partner_social_policy": "",
+      "deliverables": [
+        {
+          "title": "Legal framework strategy report (final review)",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e514128a97&appId=PPGMS"
+        },
+        {
+          "title": "Legal framework strategy report (2022)",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5ee970180&appId=PPGMS"
+        },
+        {
+          "title": "Definition and characterisation of risk management approaches",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50bc81023&appId=PPGMS"
+        },
+        {
+          "title": "Report on commonalities of toxicity modes of action in selected human and environmental models",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e515b371fb&appId=PPGMS"
+        },
+        {
+          "title": "View all 16 deliverables on CORDIS",
+          "url": "https://cordis.europa.eu/project/id/953152/results"
+        }
+      ]
     },
     {
       "acronym": "NICKEFFECT",
@@ -305,7 +371,7 @@
       "start_date": "2022-06-01",
       "end_date": "2026-05-31",
       "project_website": "https://nickeffect.eu/",
-      "focus_category": "Substitution, Innovation",
+      "focus_category": "Energy, Electronics",
       "ssbd_assessment_scope": "Hazard; LCA; LCC; Chemical Risk Assessment",
       "use_cases": "Catalytic materials for Fuel Cells (PEM FC); Catalytic materials for Water Electrolysis (PEM WE); Coating materials for MRAM digital storage",
       "solutions": "Catalyst for Water Electrolysis, Catalyst for Fuel Cell, Coating for Digital Storage",
@@ -329,8 +395,18 @@
       "ssbd_in_call": true,
       "partner_hazard_safety": "CEA",
       "partners_full_list": "",
-      "ssbd_publications": "",
-      "partner_social_policy": ""
+      "ssbd_publications": "Towards safe and sustainable by design nanomaterials: Risk and sustainability assessment on two nanomaterial case studies at early stages of development, Chatzipanagiotou et al. (2025), https://doi.org/10.1016/J.SFTR.2025.100511",
+      "partner_social_policy": "",
+      "deliverables": [
+        {
+          "title": "1st version of PDCER",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5100732b5&appId=PPGMS"
+        },
+        {
+          "title": "View all 1 deliverables on CORDIS",
+          "url": "https://cordis.europa.eu/project/id/101058076/results"
+        }
+      ]
     },
     {
       "acronym": "IRISS",
@@ -339,7 +415,7 @@
       "start_date": "2022-06-01",
       "end_date": "2025-05-31",
       "project_website": "https://iriss-ssbd.eu/",
-      "focus_category": "Network",
+      "focus_category": "Networks, Frameworks",
       "ssbd_assessment_scope": "",
       "use_cases": "",
       "solutions": "",
@@ -363,8 +439,30 @@
       "ssbd_in_call": true,
       "partner_hazard_safety": "",
       "partners_full_list": "",
-      "ssbd_publications": "State of the art approaches and lessons learned from value chain perspectives, Apel et al. (2023), https://doi.org/10.1016/j.cogsc.2023.100876; Mapping state of the art approaches along the innovation process and developing good practices, Apel et al. (2026), https://doi.org/10.1016/j.scp.2026.102355",
-      "partner_social_policy": ""
+      "ssbd_publications": "Accelerating the industrial transition with safe-and-sustainable-by-design (SSbD), Soeteman-Hernández et al. (2025), https://doi.org/10.1039/D4SU00809J",
+      "partner_social_policy": "",
+      "deliverables": [
+        {
+          "title": "Round table discussions on SSbD for materials - update",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51345feb2&appId=PPGMS"
+        },
+        {
+          "title": "Round table discussions on SSbD for materials",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e503f5a9ea&appId=PPGMS"
+        },
+        {
+          "title": "Conference on SSbD for researchers",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5154787d9&appId=PPGMS"
+        },
+        {
+          "title": "Update: Skills, knowledge and education needs and gaps and mismatches for the uptake of SSbD",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5088e8056&appId=PPGMS"
+        },
+        {
+          "title": "View all 59 deliverables on CORDIS",
+          "url": "https://cordis.europa.eu/project/id/101058245/results"
+        }
+      ]
     },
     {
       "acronym": "NOVA",
@@ -373,7 +471,7 @@
       "start_date": "2022-09-01",
       "end_date": "2026-08-31",
       "project_website": "https://eu-nova.eu/",
-      "focus_category": "Innovation",
+      "focus_category": "Coatings",
       "ssbd_assessment_scope": "",
       "use_cases": "Bioactive nanocoatings",
       "solutions": "",
@@ -398,7 +496,29 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "partner_social_policy": ""
+      "partner_social_policy": "",
+      "deliverables": [
+        {
+          "title": "Data management plan",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f85fbbdc&appId=PPGMS"
+        },
+        {
+          "title": "Update of methodology development for antibacterial testing",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5097f0a7d&appId=PPGMS"
+        },
+        {
+          "title": "Update of methodology development for antiviral testing",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e510eb7b97&appId=PPGMS"
+        },
+        {
+          "title": "Gap analysis of and recommendations for the development of antimicrobial test method development",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f88038a7&appId=PPGMS"
+        },
+        {
+          "title": "View all 6 deliverables on CORDIS",
+          "url": "https://cordis.europa.eu/project/id/101058554/results"
+        }
+      ]
     },
     {
       "acronym": "NOUVEAU",
@@ -407,9 +527,9 @@
       "start_date": "2022-09-01",
       "end_date": "2025-11-30",
       "project_website": "https://nouveau-project.eu/",
-      "focus_category": "Innovation",
+      "focus_category": "Energy, Electronics",
       "ssbd_assessment_scope": "",
-      "use_cases": "Energy, Electronics",
+      "use_cases": "",
       "solutions": "",
       "coordinator": "Vlaamse Instelling Voor Technologisch Onderzoek N.V.",
       "coordinator_country": "Belgium",
@@ -431,8 +551,30 @@
       "ssbd_in_call": true,
       "partner_hazard_safety": "",
       "partners_full_list": "",
-      "ssbd_publications": "",
-      "partner_social_policy": ""
+      "ssbd_publications": "Machine Learning-Driven SSbD Strategy for Discovering Next-Generation Anodes in Solid Oxide Electrolysis Cells, Falkowski et al. (2026), https://doi.org/10.1016/j.ijhydene.2026.154543",
+      "partner_social_policy": "",
+      "deliverables": [
+        {
+          "title": "Cost analysis and techno-economic assessment",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e52924ea2c&appId=PPGMS"
+        },
+        {
+          "title": "Physic-based models for computing physicochemical properties and descriptors of selected compounds",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51117e551&appId=PPGMS"
+        },
+        {
+          "title": "Final list of the most promising compounds (i.e., those which present an optimal combination of specific features, efficiency, and functionality) that will finally synthesized, experimentally tested and validated (WP3/WP4)",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51168154e&appId=PPGMS"
+        },
+        {
+          "title": "New predictive structure-property-function (SPF) and structure-property-hazard (SPH) relationship models",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e514dfb029&appId=PPGMS"
+        },
+        {
+          "title": "View all 14 deliverables on CORDIS",
+          "url": "https://cordis.europa.eu/project/id/101058784/results"
+        }
+      ]
     },
     {
       "acronym": "PARASOL",
@@ -441,9 +583,9 @@
       "start_date": "2022-11-01",
       "end_date": "2027-04-30",
       "project_website": "https://parasol-project.eu/",
-      "focus_category": "Network, Innovation",
+      "focus_category": "Textiles, Fibres",
       "ssbd_assessment_scope": "",
-      "use_cases": "Textiles, Fibres",
+      "use_cases": "",
       "solutions": "",
       "coordinator": "Technische Universiteit Eindhoven",
       "coordinator_country": "Netherlands",
@@ -466,7 +608,8 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "partner_social_policy": ""
+      "partner_social_policy": "",
+      "deliverables": []
     },
     {
       "acronym": "AgriLoop",
@@ -475,7 +618,7 @@
       "start_date": "2022-12-01",
       "end_date": "2026-11-30",
       "project_website": "https://agriloop-project.eu/",
-      "focus_category": "Bio-Based, Circularity, Innovation",
+      "focus_category": "Bio-based Materials, Chemicals",
       "ssbd_assessment_scope": "",
       "use_cases": "Agri-residues: proteins; polyesters; bio-based chemicals",
       "solutions": "",
@@ -500,7 +643,29 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "partner_social_policy": ""
+      "partner_social_policy": "",
+      "deliverables": [
+        {
+          "title": "First annual reports on stakeholders' consultations, SSbD elements, BtoB market readiness",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e513cd178a&appId=PPGMS"
+        },
+        {
+          "title": "Second annual report on stakeholders' consultations, SSbD elements, BtoB market readiness",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51556a772&appId=PPGMS"
+        },
+        {
+          "title": "Third and final annual report on stakeholders' consultations, SSbD elements, BtoB market readiness",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e525b55f3b&appId=PPGMS"
+        },
+        {
+          "title": "Framework elements for early safe, sustainability and circularity assessment of valorisation pathways and primary estimates on sustainability impacts of short-listed/promoted pathways, CN Economic evaluation and SSbD standard",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e52ce76a7b&appId=PPGMS"
+        },
+        {
+          "title": "View all 23 deliverables on CORDIS",
+          "url": "https://cordis.europa.eu/project/id/101081776/results"
+        }
+      ]
     },
     {
       "acronym": "ZeroF",
@@ -509,7 +674,7 @@
       "start_date": "2023-01-01",
       "end_date": "2025-12-31",
       "project_website": "https://zerof.eu/",
-      "focus_category": "Substitution",
+      "focus_category": "Coatings",
       "ssbd_assessment_scope": "",
       "use_cases": "Food packaging; Upholstery textiles",
       "solutions": "",
@@ -533,8 +698,30 @@
       "ssbd_in_call": true,
       "partner_hazard_safety": "",
       "partners_full_list": "",
-      "ssbd_publications": "",
-      "partner_social_policy": ""
+      "ssbd_publications": "Integrating planetary boundaries into safe and sustainable by design framework: A systematic literature review, Hussein et al. (2025), https://doi.org/10.1016/j.spc.2025.09.004",
+      "partner_social_policy": "",
+      "deliverables": [
+        {
+          "title": "Updated Dissemination and Communication Plan",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50e8d559b&appId=PPGMS"
+        },
+        {
+          "title": "Awareness Campaign Strategy and Action Plan",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e515648137&appId=PPGMS"
+        },
+        {
+          "title": "Ethics Plan",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f99cfb66&appId=PPGMS"
+        },
+        {
+          "title": "Dissemination and Communication Plan",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fb12c037&appId=PPGMS"
+        },
+        {
+          "title": "View all 10 deliverables on CORDIS",
+          "url": "https://cordis.europa.eu/project/id/101092164/results"
+        }
+      ]
     },
     {
       "acronym": "PROPLANET",
@@ -543,13 +730,13 @@
       "start_date": "2023-01-01",
       "end_date": "2026-04-30",
       "project_website": "https://proplanet-project.eu/",
-      "focus_category": "Substitution",
+      "focus_category": "Coatings",
       "ssbd_assessment_scope": "Hazard; Exposure; Environmental; Social; Economic",
       "use_cases": "Textile coatings; Food packaging; Glass coatings; Metal coatings; Glass cosmetics packaging",
       "solutions": "",
       "coordinator": "Idener Research & Development AIE",
       "coordinator_country": "Spain",
-      "partners_tech_dev": "AITEX; NIC; NSG Group; RuKa Innovation; Tecnalia",
+      "partners_tech_dev": "AITEX; Kemijski Institut; NSG Group; RuKa Innovation; Tecnalia",
       "partner_scoping": "IDENER (coordinator; Replication Tool)",
       "partners_risk_assessment": "NILU; ProtoQSAR",
       "partners_env_lca": "HL5 (LCA; LCC; s-LCA)",
@@ -568,7 +755,29 @@
       "partner_hazard_safety": "NILU; ProtoQSAR",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "partner_social_policy": "VZI (Social Acceptance)"
+      "partner_social_policy": "VZI (Social Acceptance)",
+      "deliverables": [
+        {
+          "title": "End of Life strategies and activities Report",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50ab92af1&appId=PPGMS"
+        },
+        {
+          "title": "DMP and Open Sourcing approach Report [M6]",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fde529f1&appId=PPGMS"
+        },
+        {
+          "title": "Integrated project delivery and team alignment",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fde4dffc&appId=PPGMS"
+        },
+        {
+          "title": "Project identity, website, and social media",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5f8451cb3&appId=PPGMS"
+        },
+        {
+          "title": "View all 15 deliverables on CORDIS",
+          "url": "https://cordis.europa.eu/project/id/101091842/results"
+        }
+      ]
     },
     {
       "acronym": "BIO-SUSHY",
@@ -577,15 +786,15 @@
       "start_date": "2023-01-01",
       "end_date": "2026-12-31",
       "project_website": "https://bio-sushy.eu/",
-      "focus_category": "Substitution",
+      "focus_category": "Coatings",
       "ssbd_assessment_scope": "SSbD Methodology; Modelling, Computational Tools; Materials and Technology Development; Social Acceptance; Industrial Validation",
       "use_cases": "Textile coating; Food packaging; Glass cosmetics packaging",
       "solutions": "",
       "coordinator": "Materia Nova",
       "coordinator_country": "Belgium",
-      "partners_tech_dev": "Materia Nova; Sikemia; Arplus Rescoll; IFTH; Wood K plus",
+      "partners_tech_dev": "Materia Nova; Sikemia; Arplus Rescoll; Institut Français du Textile et de l'Habillement (IFTH); Wood K plus",
       "partner_scoping": "University of Leeds; Wood K plus",
-      "partners_risk_assessment": "NIC; ProtoQSAR",
+      "partners_risk_assessment": "Kemijski Institut; ProtoQSAR",
       "partners_env_lca": "ITENE",
       "partners_social_lca": "ITENE",
       "partner_ai": "ProtoQSAR; Seven Past Nine",
@@ -599,10 +808,32 @@
       "cordis_url": "https://cordis.europa.eu/project/id/101091464",
       "soc": "PFAS",
       "ssbd_in_call": true,
-      "partner_hazard_safety": "NIC; ProtoQSAR",
+      "partner_hazard_safety": "Kemijski Institut; ProtoQSAR",
       "partners_full_list": "",
-      "ssbd_publications": "",
-      "partner_social_policy": "ZSI (Social Acceptance)"
+      "ssbd_publications": "Safe and Sustainability by Design Framework BIO-SUSHY, Barbero and Belloncle (2023), https://doi.org/10.5281/zenodo.8167836",
+      "partner_social_policy": "VZI (Social Acceptance)",
+      "deliverables": [
+        {
+          "title": "Report on the contribution to standardisation and standardisation roadmap update at month 12",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e505d4e2a4&appId=PPGMS"
+        },
+        {
+          "title": "Report on the standardisation landscape and applicable standards",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fde424f3&appId=PPGMS"
+        },
+        {
+          "title": "Knowledge and data exchange infrastructure specifications",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5066f2e1f&appId=PPGMS"
+        },
+        {
+          "title": "Plan for the Dissemination and Exploitation including Communication activities (PDEC) updated",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e504d82ebf&appId=PPGMS"
+        },
+        {
+          "title": "View all 7 deliverables on CORDIS",
+          "url": "https://cordis.europa.eu/project/id/101091464/results"
+        }
+      ]
     },
     {
       "acronym": "TORNADO",
@@ -611,7 +842,7 @@
       "start_date": "2023-01-01",
       "end_date": "2026-04-30",
       "project_website": "https://tornado-project.eu/",
-      "focus_category": "Substitution",
+      "focus_category": "Coatings",
       "ssbd_assessment_scope": "",
       "use_cases": "Water and oil repellent coatings: Textiles",
       "solutions": "",
@@ -636,7 +867,21 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "partner_social_policy": ""
+      "partner_social_policy": "",
+      "deliverables": [
+        {
+          "title": "LCA, LCC and sLCA according to ISO14040/44",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e52d8f0613&appId=PPGMS"
+        },
+        {
+          "title": "Sustainable design guidelines for circular solutions",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e52d8f09e2&appId=PPGMS"
+        },
+        {
+          "title": "View all 2 deliverables on CORDIS",
+          "url": "https://cordis.europa.eu/project/id/101091944/results"
+        }
+      ]
     },
     {
       "acronym": "ACCORDs",
@@ -645,7 +890,7 @@
       "start_date": "2023-01-01",
       "end_date": "2026-08-31",
       "project_website": "https://accordsproject.com/",
-      "focus_category": "Methods",
+      "focus_category": "Nanomaterials, 2D Materials",
       "ssbd_assessment_scope": "",
       "use_cases": "2D materials safety profiling",
       "solutions": "",
@@ -670,7 +915,29 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "partner_social_policy": ""
+      "partner_social_policy": "",
+      "deliverables": [
+        {
+          "title": "Report on the synthesis of graphene and graphene oxide materials and functionalization of selected materials",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e52155c233&appId=PPGMS"
+        },
+        {
+          "title": "Report on measurement procedures developed for the accurate chemical analysis of GFMs, including correlation with the morphological analysis",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51abb3a1c&appId=PPGMS"
+        },
+        {
+          "title": "Communication and dissemination plan",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50002e327&appId=PPGMS"
+        },
+        {
+          "title": "Set-up of Management Framework and Grant agreement",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5fdd92ae7&appId=PPGMS"
+        },
+        {
+          "title": "View all 9 deliverables on CORDIS",
+          "url": "https://cordis.europa.eu/project/id/101092796/results"
+        }
+      ]
     },
     {
       "acronym": "SAFETYFANS",
@@ -679,7 +946,7 @@
       "start_date": "2023-11-01",
       "end_date": "2025-10-31",
       "project_website": "not yet available",
-      "focus_category": "Innovation, Methods",
+      "focus_category": "Nanomaterials, 2D Materials",
       "ssbd_assessment_scope": "",
       "use_cases": "Advanced nanomaterials",
       "solutions": "",
@@ -703,8 +970,22 @@
       "ssbd_in_call": true,
       "partner_hazard_safety": "",
       "partners_full_list": "",
-      "ssbd_publications": "",
-      "partner_social_policy": ""
+      "ssbd_publications": "A roadmap towards safe and sustainable by design nanotechnology: Implementation for nano-silver-based antimicrobial textile coatings production by ASINA project, Furxhi et al. (2024), https://doi.org/10.1016/j.csbj.2024.06.013",
+      "partner_social_policy": "",
+      "deliverables": [
+        {
+          "title": "Communication, Dissemination & Exploitation Plan",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5225acf61&appId=PPGMS"
+        },
+        {
+          "title": "Data Management Plan",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50b934117&appId=PPGMS"
+        },
+        {
+          "title": "View all 2 deliverables on CORDIS",
+          "url": "https://cordis.europa.eu/project/id/101103082/results"
+        }
+      ]
     },
     {
       "acronym": "SAFARI",
@@ -713,7 +994,7 @@
       "start_date": "2023-12-01",
       "end_date": "2027-05-31",
       "project_website": "https://safari-project.eu/",
-      "focus_category": "Innovation",
+      "focus_category": "Nanomaterials, 2D Materials",
       "ssbd_assessment_scope": "",
       "use_cases": "Graphene; MXene hybrids",
       "solutions": "",
@@ -722,7 +1003,7 @@
       "partners_tech_dev": "",
       "partner_scoping": "",
       "partners_risk_assessment": "",
-      "partners_env_lca": "AIMEN",
+      "partners_env_lca": "",
       "partners_social_lca": "",
       "partner_ai": "",
       "partner_mcda": "",
@@ -738,7 +1019,8 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "partner_social_policy": ""
+      "partner_social_policy": "",
+      "deliverables": []
     },
     {
       "acronym": "SSbD4CheM",
@@ -747,7 +1029,7 @@
       "start_date": "2024-01-01",
       "end_date": "2027-12-31",
       "project_website": "https://ssbd4chem.eu/",
-      "focus_category": "Methods",
+      "focus_category": "Assessment Methods, Digital Tools",
       "ssbd_assessment_scope": "",
       "use_cases": "Composites: Automotive, Textiles, Cosmetics",
       "solutions": "",
@@ -756,8 +1038,8 @@
       "partners_tech_dev": "",
       "partner_scoping": "",
       "partners_risk_assessment": "",
-      "partners_env_lca": "ULEI, Instituto Tecnologico del Embalaje Transporte y Logistica, Vlaamse Instelling Voor Technologisch Onderzoek N.V.",
-      "partners_social_lca": "ULEI, Instituto Tecnologico del Embalaje Transporte y Logistica, Vlaamse Instelling Voor Technologisch Onderzoek N.V.",
+      "partners_env_lca": "Universiteit Leiden, Instituto Tecnologico del Embalaje Transporte y Logistica, Vlaamse Instelling Voor Technologisch Onderzoek N.V.",
+      "partners_social_lca": "Universiteit Leiden, Instituto Tecnologico del Embalaje Transporte y Logistica, Vlaamse Instelling Voor Technologisch Onderzoek N.V.",
       "partner_ai": "NovaМechanics Monoprosopi IKE; NovaМechanics Limited",
       "partner_mcda": "",
       "partners_industrial": "",
@@ -770,9 +1052,31 @@
       "soc": "",
       "ssbd_in_call": true,
       "partner_hazard_safety": "",
-      "partners_full_list": "VITO (coordinator) | WoodKplus | Fraunhofer IBMT | LIST | ITENE | NIC | HSF | Novex (formerly CTCR) | NovaMechanics | BNN | Postnova Analytics | Entelos Institute | ULEI | CRF (Stellantis) | AHAVA | Korteks | Tofwerk | Edelweiss Connect | Loughborough University",
-      "ssbd_publications": "",
-      "partner_social_policy": ""
+      "partners_full_list": "",
+      "ssbd_publications": "Safe and sustainable by design of next generation chemicals and materials: SSbD4CheM project innovations in the textiles, cosmetic and automotive sectors, Bhat et al. (2025), https://doi.org/10.1016/J.CSBJ.2025.03.022",
+      "partner_social_policy": "",
+      "deliverables": [
+        {
+          "title": "Second update on Plan for Exploitation and Dissemination of Results (PEDR)",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51eb90886&appId=PPGMS"
+        },
+        {
+          "title": "Preliminary Plan for Exploitation and Dissemination of Results (PEDR)",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50ec5374b&appId=PPGMS"
+        },
+        {
+          "title": "Preliminary report on adapted zebrafish embryo assay, using reduced zebrafish transcriptome approach",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e522c1c031&appId=PPGMS"
+        },
+        {
+          "title": "Proof of concept test protocol of chronic dermal exposure inflammation risks, based on ex vivo human skin, for ECVAM future validation",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51eb0f972&appId=PPGMS"
+        },
+        {
+          "title": "View all 4 deliverables on CORDIS",
+          "url": "https://cordis.europa.eu/project/id/101138475/results"
+        }
+      ]
     },
     {
       "acronym": "TOXBOX",
@@ -781,21 +1085,21 @@
       "start_date": "2024-01-01",
       "end_date": "2027-12-31",
       "project_website": "https://toxbox.eu/",
-      "focus_category": "Methods",
+      "focus_category": "Assessment Methods, Digital Tools",
       "ssbd_assessment_scope": "",
       "use_cases": "",
-      "solutions": "Plattform for Comprehesive Tox. Testing",
+      "solutions": "",
       "coordinator": "Steinbeis 2i GmbH",
       "coordinator_country": "Germany",
-      "partners_tech_dev": "CEA, Leti, EMPA",
+      "partners_tech_dev": "",
       "partner_scoping": "",
       "partners_risk_assessment": "",
-      "partners_env_lca": "TEKNIKER, KEMIJSKI INSTITUT",
+      "partners_env_lca": "",
       "partners_social_lca": "",
-      "partner_ai": "PRESE",
+      "partner_ai": "",
       "partner_mcda": "",
       "partners_industrial": "",
-      "partner_dissemination": "Steinbeis",
+      "partner_dissemination": "",
       "partner_exploitation": "",
       "total_cost_eur": 7150330.0,
       "eu_contribution_eur": 7150330.0,
@@ -803,10 +1107,11 @@
       "cordis_url": "https://cordis.europa.eu/project/id/101138387",
       "soc": "",
       "ssbd_in_call": true,
-      "partner_hazard_safety": "CSIC; KIT; DCU; University of Nottingham",
+      "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "partner_social_policy": ""
+      "partner_social_policy": "",
+      "deliverables": []
     },
     {
       "acronym": "AI-TranspWood",
@@ -815,32 +1120,33 @@
       "start_date": "2024-01-01",
       "end_date": "2026-12-31",
       "project_website": "https://ai-transpwood-project.eu/",
-      "focus_category": "Modelling, Innovation, Substitution, Bio-Based",
+      "focus_category": "Wood-based, Composites",
       "ssbd_assessment_scope": "",
-      "use_cases": "Construction, Automotive, Electronics, and Furniture sectors",
-      "solutions": "Transparent wood; PHA-based",
+      "use_cases": "Transparent wood",
+      "solutions": "",
       "coordinator": "Teknologian Tutkimuskeskus VTT Oy",
       "coordinator_country": "Finland",
       "partners_tech_dev": "",
       "partner_scoping": "",
       "partners_risk_assessment": "",
-      "partners_env_lca": "VTT",
+      "partners_env_lca": "",
       "partners_social_lca": "",
-      "partner_ai": "AAlto University",
+      "partner_ai": "",
       "partner_mcda": "",
       "partners_industrial": "",
-      "partner_dissemination": "PoliTO",
-      "partner_exploitation": "Strane",
+      "partner_dissemination": "",
+      "partner_exploitation": "",
       "total_cost_eur": 6955522.23,
       "eu_contribution_eur": 6955522.23,
       "cordis_id": "101138191",
       "cordis_url": "https://cordis.europa.eu/project/id/101138191",
-      "soc": "Plastic and glass",
+      "soc": "",
       "ssbd_in_call": true,
       "partner_hazard_safety": "",
       "partners_full_list": "",
-      "ssbd_publications": "",
-      "partner_social_policy": ""
+      "ssbd_publications": "An AI-driven multiscale methodology to develop transparent wood as sustainable functional material by using the SSbD concept, Kivikytö-Reponen et al. (2024), https://doi.org/10.1016/J.CSBJ.2024.10.022",
+      "partner_social_policy": "",
+      "deliverables": []
     },
     {
       "acronym": "CHIASMA",
@@ -849,7 +1155,7 @@
       "start_date": "2024-01-01",
       "end_date": "2027-12-31",
       "project_website": "https://chiasma-project.eu/",
-      "focus_category": "Methods",
+      "focus_category": "Assessment Methods, Digital Tools",
       "ssbd_assessment_scope": "",
       "use_cases": "",
       "solutions": "",
@@ -858,9 +1164,9 @@
       "partners_tech_dev": "",
       "partner_scoping": "",
       "partners_risk_assessment": "",
-      "partners_env_lca": "EMPA",
+      "partners_env_lca": "",
       "partners_social_lca": "",
-      "partner_ai": "Seven Past Nine; IOM",
+      "partner_ai": "",
       "partner_mcda": "",
       "partners_industrial": "",
       "partner_dissemination": "",
@@ -869,34 +1175,35 @@
       "eu_contribution_eur": 6845417.25,
       "cordis_id": "101137613",
       "cordis_url": "https://cordis.europa.eu/project/id/101137613",
-      "soc": "PFAS; Nano-pesticides; 2D energy materials",
+      "soc": "PFAS; Nano-pesticides",
       "ssbd_in_call": true,
-      "partner_hazard_safety": "BASF",
-      "partners_full_list": "LIST (coordinator) | TAU | Seven Past Nine (7P9) | RIVM | MUI | AcumenIST | NMBU | NovaMechanics | NTUA | AIT | IUF | BASF | UniTOV | VUA | ECETOC | HYU | UoB | SU | IOM | Empa",
-      "ssbd_publications": "MicroPlasticTox and EffectFactorCalc, Papavasiliou et al. (2026), https://doi.org/10.1039/d6dd00161k",
-      "partner_social_policy": "University Bael; ECETOC; MUI"
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "",
+      "partner_social_policy": "",
+      "deliverables": []
     },
     {
       "acronym": "PINK",
       "full_title": "Provision Of Integrated Computational Approaches For Addressing New Markets Goals For The Introduction Of Safe-And-Sustainable-By-Design Chemicals And Materials",
-      "topic_id": "HORIZON-CL4-2023-RESILIENCE-01",
+      "topic_id": "HORIZON-CL4-2023-RESILIENCE-01-21",
       "start_date": "2024-01-01",
       "end_date": "2027-12-31",
       "project_website": "https://pink-project.eu/",
-      "focus_category": "Modelling, Data framework",
+      "focus_category": "Assessment Methods, Digital Tools",
       "ssbd_assessment_scope": "",
       "use_cases": "",
       "solutions": "",
       "coordinator": "Seven Past Nine D.O.O.",
       "coordinator_country": "Slovenia",
       "partners_tech_dev": "",
-      "partner_scoping": "AcumenIST",
+      "partner_scoping": "",
       "partners_risk_assessment": "",
-      "partners_env_lca": "LIST; EMPA",
+      "partners_env_lca": "Luxembourg Institute of Science and Technology",
       "partners_social_lca": "",
-      "partner_ai": "UoB; SINTEF; NTUA; NovaMechanics",
+      "partner_ai": "",
       "partner_mcda": "",
-      "partners_industrial": "BASF",
+      "partners_industrial": "",
       "partner_dissemination": "",
       "partner_exploitation": "",
       "total_cost_eur": 6218132.55,
@@ -908,7 +1215,29 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "partner_social_policy": "PLUS"
+      "partner_social_policy": "",
+      "deliverables": [
+        {
+          "title": "Industry requirements catalogue for PINK's SSbD Implementation",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51f91ff40&appId=PPGMS"
+        },
+        {
+          "title": "Mapping of PINK data, models, and software to the SSbD Framework",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51f91db49&appId=PPGMS"
+        },
+        {
+          "title": "Training plan for industrial upskilling in PINK SSbD Dashboard",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51ea1558e&appId=PPGMS"
+        },
+        {
+          "title": "Summary Report: Needs Requirement Analysis & Knowledge Exchange Roadmap (incl. stakeholder mapping & engagement timetable)",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51e7cdab9&appId=PPGMS"
+        },
+        {
+          "title": "View all 5 deliverables on CORDIS",
+          "url": "https://cordis.europa.eu/project/id/101137809/results"
+        }
+      ]
     },
     {
       "acronym": "CheMatSustain",
@@ -917,21 +1246,21 @@
       "start_date": "2024-01-01",
       "end_date": "2027-12-31",
       "project_website": "https://chematsustain.eu/",
-      "focus_category": "Methods",
+      "focus_category": "Assessment Methods, Digital Tools",
       "ssbd_assessment_scope": "",
       "use_cases": "Chemicals; Nanomaterials",
       "solutions": "",
-      "coordinator": "Hochschule fur Angewandte Wissenschaften Hamburg (HAW)",
+      "coordinator": "Hochschule fur Angewandte Wissenschaften Hamburg",
       "coordinator_country": "Germany",
       "partners_tech_dev": "",
       "partner_scoping": "",
-      "partners_risk_assessment": "Alfred Wegner Institute",
-      "partners_env_lca": "EURSKEM B.V., DTU, IVL",
+      "partners_risk_assessment": "",
+      "partners_env_lca": "",
       "partners_social_lca": "",
       "partner_ai": "",
       "partner_mcda": "",
       "partners_industrial": "",
-      "partner_dissemination": "UNIBO, HAW, ProtoQSAR, IVL, MMU",
+      "partner_dissemination": "",
       "partner_exploitation": "",
       "total_cost_eur": 4924128.5,
       "eu_contribution_eur": 4924128.5,
@@ -939,10 +1268,11 @@
       "cordis_url": "https://cordis.europa.eu/project/id/101137990",
       "soc": "",
       "ssbd_in_call": true,
-      "partner_hazard_safety": "ProtoQSAR, UNIURB, IVL",
+      "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "partner_social_policy": ""
+      "partner_social_policy": "",
+      "deliverables": []
     },
     {
       "acronym": "INSIGHT",
@@ -951,32 +1281,54 @@
       "start_date": "2024-01-01",
       "end_date": "2027-12-31",
       "project_website": "https://insight-project.org/",
-      "focus_category": "Modelling, Data framework",
+      "focus_category": "Assessment Methods, Digital Tools",
       "ssbd_assessment_scope": "",
       "use_cases": "High impact chemicals and materials",
       "solutions": "",
       "coordinator": "Tampereen Korkeakoulusaatio SR",
       "coordinator_country": "Finland",
-      "partners_tech_dev": "TAU; NovaMechanics; NTUA; UoB; AUTh; Evonik; La Trobe University; JRC",
-      "partner_scoping": "ULEI; LIST; Empa; AUTh; Graphenea; HYU; CNPEM; LEO",
-      "partners_risk_assessment": "UoB; ULEI; LIST; UPO; AUTh; AcumenIST; CNPEM; LEO",
-      "partners_env_lca": "TAU; UoB; ULEI; LIST; MUI; Empa; AUTh; Evonik; Solvay",
+      "partners_tech_dev": "",
+      "partner_scoping": "",
+      "partners_risk_assessment": "",
+      "partners_env_lca": "",
       "partners_social_lca": "",
-      "partner_ai": "TAU; NovaMechanics; NTUA; ULEI; AUTh; UNC; CNPEM; La Trobe University",
-      "partner_mcda": "NTUA; LIST; Warrant Hub; AUTh; Graphenea; La Trobe University; JRC",
+      "partner_ai": "",
+      "partner_mcda": "",
       "partners_industrial": "",
-      "partner_dissemination": "LIST; Warrant Hub; UPO; AUTh; AcumenIST; UNC; La Trobe University; JRC",
-      "partner_exploitation": "AUTh; AcumenIST; Graphenea; 7P9; La Trobe University",
+      "partner_dissemination": "",
+      "partner_exploitation": "",
       "total_cost_eur": 4130318.75,
       "eu_contribution_eur": 4130318.75,
       "cordis_id": "101137742",
       "cordis_url": "https://cordis.europa.eu/project/id/101137742",
       "soc": "",
       "ssbd_in_call": true,
-      "partner_hazard_safety": "TAU; NTUA; UoB; MUI; UPO; UNC; HU; CNPEM; Solvay; JRC",
-      "partners_full_list": "TAU (coordinator) | NovaMechanics | NTUA | AUTh | UoB | ULEI | LIST | MUI | Warrant Hub | UPO | AcumenIST | Solvay | Graphenea | 7P9 | Evonik | Empa [associate] | HYU [associate] | La Trobe University [associate] | UNC Chapel Hill [associate] | CNPEM [associate] | JRC [unconfirmed] | LEO [unconfirmed]",
-      "ssbd_publications": "MicroPlasticTox and EffectFactorCalc, Papavasiliou et al. (2026), https://doi.org/10.1039/d6dd00161k",
-      "partner_social_policy": ""
+      "partner_hazard_safety": "",
+      "partners_full_list": "",
+      "ssbd_publications": "INSIGHT: An integrated framework for safe and sustainable chemical and material assessment, Serra et al. (2025), https://doi.org/10.1016/J.CSBJ.2025.03.042",
+      "partner_social_policy": "",
+      "deliverables": [
+        {
+          "title": "Outreach and Training Plan",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e511570ecc&appId=PPGMS"
+        },
+        {
+          "title": "Case study specifications and roadmap of the modelling and data requirements",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e525906e40&appId=PPGMS"
+        },
+        {
+          "title": "Organisation of the Kick-off meeting & Initial Project Documentation and Resources",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e50e9c7e86&appId=PPGMS"
+        },
+        {
+          "title": "Short Interim Management Report 1",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5166b6989&appId=PPGMS"
+        },
+        {
+          "title": "View all 8 deliverables on CORDIS",
+          "url": "https://cordis.europa.eu/project/id/101137742/results"
+        }
+      ]
     },
     {
       "acronym": "ANALYST",
@@ -985,7 +1337,7 @@
       "start_date": "2024-01-01",
       "end_date": "2027-06-30",
       "project_website": "https://analyst-project.eu/",
-      "focus_category": "Methods, Data framework",
+      "focus_category": "Assessment Methods, Digital Tools",
       "ssbd_assessment_scope": "",
       "use_cases": "Plastic value chain",
       "solutions": "",
@@ -1010,7 +1362,29 @@
       "partner_hazard_safety": "",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "partner_social_policy": ""
+      "partner_social_policy": "",
+      "deliverables": [
+        {
+          "title": "Report on existing life cycle methodologies, hazard/risk assessment, criteria, and progress on SSbD",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5254951d0&appId=PPGMS"
+        },
+        {
+          "title": "Mapping of data gaps and availability",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e52549711a&appId=PPGMS"
+        },
+        {
+          "title": "First Gender and Ethic Report",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e525496c6d&appId=PPGMS"
+        },
+        {
+          "title": "Framework for life cycle data management following OA and FAIR principles",
+          "url": "https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e51e83c7a1&appId=PPGMS"
+        },
+        {
+          "title": "View all 9 deliverables on CORDIS",
+          "url": "https://cordis.europa.eu/project/id/101138548/results"
+        }
+      ]
     },
     {
       "acronym": "INTEGRANO",
@@ -1019,7 +1393,7 @@
       "start_date": "2024-01-01",
       "end_date": "2027-12-31",
       "project_website": "https://integrano.eu/",
-      "focus_category": "Methods",
+      "focus_category": "Nanomaterials, 2D Materials",
       "ssbd_assessment_scope": "",
       "use_cases": "Nanomaterials",
       "solutions": "",
@@ -1028,7 +1402,7 @@
       "partners_tech_dev": "",
       "partner_scoping": "",
       "partners_risk_assessment": "",
-      "partners_env_lca": "PRJ",
+      "partners_env_lca": "PROJECT SAS DI MASSIMO PERUCCA SB (Project Hub 360)",
       "partners_social_lca": "",
       "partner_ai": "",
       "partner_mcda": "",
@@ -1042,7 +1416,7 @@
       "soc": "",
       "ssbd_in_call": true,
       "partner_hazard_safety": "",
-      "partners_full_list": "UNIMIB (coordinator) | PRJ | ARCHE | CeNTI | CNR | AITEX | BIU | VENUSLAB | UNITO | B4C | DRT | RoV",
+      "partners_full_list": "",
       "ssbd_publications": "",
       "partner_social_policy": ""
     },
@@ -1053,7 +1427,7 @@
       "start_date": "2024-01-01",
       "end_date": "2027-12-31",
       "project_website": "https://sunrise-horizon.eu/",
-      "focus_category": "Methods, Data framework",
+      "focus_category": "Assessment Methods, Digital Tools",
       "ssbd_assessment_scope": "",
       "use_cases": "Advanced materials",
       "solutions": "",
@@ -1077,7 +1451,7 @@
       "ssbd_in_call": true,
       "partner_hazard_safety": "",
       "partners_full_list": "",
-      "ssbd_publications": "sLCA case study, Devecchi et al. (2026), https://doi.org/10.20900/jsr20260023",
+      "ssbd_publications": "Devecchi et al. (2026), \"Implementing Social Life Cycle Assessment for Safe and Sustainable by Design Advanced Materials: A Case Study of Multicomponent Anti-Stick Coatings\", Journal of Sustainability Research, https://doi.org/10.20900/jsr20260023",
       "partner_social_policy": ""
     },
     {
@@ -1087,7 +1461,7 @@
       "start_date": "2024-05-01",
       "end_date": "2027-10-31",
       "project_website": "https://surfs-up.eu/",
-      "focus_category": "Bio-Based, Innovation, Substitution",
+      "focus_category": "Surfactants",
       "ssbd_assessment_scope": "",
       "use_cases": "Biosurfactants: Home care; Personal care; Agrochemicals",
       "solutions": "",
@@ -1121,7 +1495,7 @@
       "start_date": "2024-05-01",
       "end_date": "2028-04-30",
       "project_website": "https://penguin-project.eu/",
-      "focus_category": "Innovation",
+      "focus_category": "Textiles, Fibres",
       "ssbd_assessment_scope": "",
       "use_cases": "Outdoor textiles; Biomimetic fibres",
       "solutions": "",
@@ -1155,10 +1529,10 @@
       "start_date": "2024-06-01",
       "end_date": "2028-05-31",
       "project_website": "https://bioneer-project.eu/",
-      "focus_category": "Bio-Based, Substitution, Innovation",
+      "focus_category": "Bio-based Materials, Chemicals",
       "ssbd_assessment_scope": "",
-      "use_cases": "Fossil‑based platform chemicals",
-      "solutions": "Carbohydrate-derived building blocks",
+      "use_cases": "Carbohydrate-derived building blocks",
+      "solutions": "",
       "coordinator": "SINTEF AS",
       "coordinator_country": "Norway",
       "partners_tech_dev": "",
@@ -1189,10 +1563,10 @@
       "start_date": "2024-06-01",
       "end_date": "2028-05-31",
       "project_website": "https://promofer-project.eu/",
-      "focus_category": "Bio-Based, Substitution, Innovation",
+      "focus_category": "Bio-based Materials, Chemicals",
       "ssbd_assessment_scope": "",
-      "use_cases": "Fossil‑based plastics and solvents ",
-      "solutions": "PHB (polyhydroxybutyrate); 2,3-Butanediol",
+      "use_cases": "PHB (polyhydroxybutyrate); 2,3-Butanediol",
+      "solutions": "",
       "coordinator": "AIMPLAS - Asociacion de Investigacion de Materiales Plasticos y Conexas",
       "coordinator_country": "Spain",
       "partners_tech_dev": "",
@@ -1223,10 +1597,10 @@
       "start_date": "2024-06-01",
       "end_date": "2028-05-31",
       "project_website": "https://polymers-5b.eu/",
-      "focus_category": "Bio-Based, Substitution, Innovation, Circularity",
+      "focus_category": "Bio-based Materials, Chemicals",
       "ssbd_assessment_scope": "",
-      "use_cases": "Fossil‑based platform chemicals",
-      "solutions": "Bio-based biodegradable polymers from biowastes",
+      "use_cases": "Bio-based biodegradable polymers from biowastes",
+      "solutions": "",
       "coordinator": "IST-ID Associacao do Instituto Superior Tecnico para a Investigacao e o Desenvolvimento",
       "coordinator_country": "Portugal",
       "partners_tech_dev": "",
@@ -1257,9 +1631,9 @@
       "start_date": "2024-06-01",
       "end_date": "2028-05-31",
       "project_website": "https://biosustex.eu/",
-      "focus_category": "Bio-Based, Substitution",
+      "focus_category": "Textiles, Fibres",
       "ssbd_assessment_scope": "Hazard; Ecotoxicity; Exposure; LCA; LCC; sLCA; Decision Support",
-      "use_cases": "Cellulosic textiles: PFAS-free; Recyclable fibres; Removable PVC-free print formulations",
+      "use_cases": "Cellulosic textiles: PFAS-free DWR; Recyclable fibres; Removable PVC-free print formulations",
       "solutions": "",
       "coordinator": "RISE Research Institutes of Sweden AB",
       "coordinator_country": "Sweden",
@@ -1277,7 +1651,7 @@
       "eu_contribution_eur": 3999853.25,
       "cordis_id": "101135372",
       "cordis_url": "https://cordis.europa.eu/project/id/101135372",
-      "soc": "PFAS; Dyes; PVC",
+      "soc": "PFAS (DWR finishes); Elastane; Dyes; PVC",
       "ssbd_in_call": false,
       "partner_hazard_safety": "Universita Ca' Foscari Venezia; Stockholm University; RISE",
       "partners_full_list": "",
@@ -1291,13 +1665,13 @@
       "start_date": "2024-06-01",
       "end_date": "2028-05-31",
       "project_website": "https://biophenomproject.eu/",
-      "focus_category": "Bio-Based, Substitution",
+      "focus_category": "Flame Retardants",
       "ssbd_assessment_scope": "Hazard; Environmental; Social",
       "use_cases": "Wood products; Carbon fibre thermoset composites; Thermoplastics",
       "solutions": "Multifunctional biophenols replacing SVHCs",
       "coordinator": "Teknologian Tutkimuskeskus VTT Oy",
       "coordinator_country": "Finland",
-      "partners_tech_dev": "VTT (coordinator); CNR; Specific Polymers; Cidetec; Wood K plus; NIBIO; NordTreat; UoB; INVENT; CRCF",
+      "partners_tech_dev": "VTT (coordinator); CNR; Specific Polymers; Cidetec; Wood K plus; NIBIO; NordTreat; University of Birmingham; INVENT; CRCF",
       "partner_scoping": "LIST; EdelweissConnect",
       "partners_risk_assessment": "",
       "partners_env_lca": "LIST",
@@ -1325,9 +1699,9 @@
       "start_date": "2024-06-01",
       "end_date": "2027-05-31",
       "project_website": "https://bioinsouth.eu/",
-      "focus_category": "Network, Bio-Based",
+      "focus_category": "Bio-based Materials, Chemicals",
       "ssbd_assessment_scope": "",
-      "use_cases": "Bio-based Materials, Chemicals",
+      "use_cases": "",
       "solutions": "",
       "coordinator": "Spring Sustainable Processes and Resources for Innovation and National Growth",
       "coordinator_country": "Italy",
@@ -1359,7 +1733,7 @@
       "start_date": "2024-09-01",
       "end_date": "2028-08-31",
       "project_website": "https://subbimatt.eu/",
-      "focus_category": "Bio-Based, Substitution, Innovation",
+      "focus_category": "Textiles, Fibres",
       "ssbd_assessment_scope": "",
       "use_cases": "Smart technical textiles",
       "solutions": "",
@@ -1379,7 +1753,7 @@
       "eu_contribution_eur": 6617386.75,
       "cordis_id": "101129911",
       "cordis_url": "https://cordis.europa.eu/project/id/101129911",
-      "soc": "PFAS",
+      "soc": "",
       "ssbd_in_call": false,
       "partner_hazard_safety": "",
       "partners_full_list": "",
@@ -1393,7 +1767,7 @@
       "start_date": "2024-10-01",
       "end_date": "2028-09-30",
       "project_website": "https://remhub-project.eu/",
-      "focus_category": "Circularity, Innovation",
+      "focus_category": "Critical Raw Materials",
       "ssbd_assessment_scope": "",
       "use_cases": "Rare earth magnets",
       "solutions": "",
@@ -1413,7 +1787,7 @@
       "eu_contribution_eur": 16000000.0,
       "cordis_id": "101177493",
       "cordis_url": "https://cordis.europa.eu/project/id/101177493",
-      "soc": "CRMs",
+      "soc": "",
       "ssbd_in_call": false,
       "partner_hazard_safety": "",
       "partners_full_list": "",
@@ -1427,13 +1801,13 @@
       "start_date": "2024-11-01",
       "end_date": "2030-10-31",
       "project_website": "https://pharmeco.eu/",
-      "focus_category": "Substitution, Methods",
-      "ssbd_assessment_scope": "",
+      "focus_category": "Pharmaceuticals",
+      "ssbd_assessment_scope": "SSbD-aligned route design; Process intensification; LCA; Sustainability steering",
       "use_cases": "Small molecule API synthesis; Nucleotides/peptides; Biologics; Decontamination",
-      "solutions": "",
+      "solutions": "SSbD practices for pharmaceutical manufacturing (target: 30% less solvent; 50% less energy/kg API; 20% less water)",
       "coordinator": "Universiteit Gent",
       "coordinator_country": "Belgium",
-      "partners_tech_dev": "Ghent University (coordinator); RISE; CPI; Technische Universität Berlin; Uni Graz; Loughborough University; RU; AIMPLAS",
+      "partners_tech_dev": "Ghent University (coordinator); RISE; CPI; Technische Universität Berlin; Uni Graz; Loughborough University; Radboud University; AIMPLAS",
       "partner_scoping": "",
       "partners_risk_assessment": "",
       "partners_env_lca": "Ghent University; RISE",
@@ -1461,7 +1835,7 @@
       "start_date": "2024-11-01",
       "end_date": "2028-10-31",
       "project_website": "https://project-planets.eu/",
-      "focus_category": "Substitution",
+      "focus_category": "Flame Retardants, Plasticizers",
       "ssbd_assessment_scope": "Hazard; Sustainability; Social; Economic; Policy",
       "use_cases": "Plasticizers; Flame retardants; Surfactants",
       "solutions": "",
@@ -1470,8 +1844,8 @@
       "partners_tech_dev": "CEA (coordinator); TNO; IPC; SQO; ICT; PLUS; WCK; ELKEM; GC; BASF; SBCH; BDH; STERNE; QL; RU; RINA; AIMEN; BNN",
       "partner_scoping": "CEA; TNO",
       "partners_risk_assessment": "TNO",
-      "partners_env_lca": "RU",
-      "partners_social_lca": "PLUS",
+      "partners_env_lca": "RADBOUD UNIVERSITEIT",
+      "partners_social_lca": "PARIS-LODRON-UNIVERSITAT SALZBURG",
       "partner_ai": "AIMEN",
       "partner_mcda": "",
       "partners_industrial": "ELKEM (Plasticizers/silicones); BASF (Flame retardant); SQO (Surfactants); ICT (Flame retardant/Foams); PLUS (SSbD/Education)",
@@ -1484,7 +1858,7 @@
       "soc": "Phthalate plasticizers; Halogenated flame retardants; Fossil-based surfactants",
       "ssbd_in_call": true,
       "partner_hazard_safety": "TNO",
-      "partners_full_list": "CEA (coordinator) | TNO | IPC | Fraunhofer ICT | AIMEN | BASF | BDH | ELKEM Silicones | GC | STERNE | SQO | WCK | RINA Consulting | QSAR Lab (QL) | BNN | PLUS | RU",
+      "partners_full_list": "",
       "ssbd_publications": "",
       "partner_social_policy": "BNN (Communication; Dissemination; Stakeholder); AIMEN (Fairification; Digital Product Passport)"
     },
@@ -1495,32 +1869,32 @@
       "start_date": "2024-11-01",
       "end_date": "2028-10-31",
       "project_website": "https://alchemissts-project.eu/",
-      "focus_category": "Substitution",
+      "focus_category": "Aromatics, Substance Alternatives",
       "ssbd_assessment_scope": "Hazard; Exposure; Environmental; Social; Economic; SSbD Certification",
-      "use_cases": "Surfactants for paint sector or lubricants/MWF; Plasticizers: Sports mats or rubber boots (PVC); Flame retardants: safety boot soles, insulators foams or battery cases",
+      "use_cases": "Surfactants: paint sector; lubricants/MWF | Plasticizers: spars; rubber boots | Flame retardants: safety boot soles; insulators/foams; battery cases",
       "solutions": "",
       "coordinator": "Instituto Tecnologico del Embalaje, Transporte y Logistica",
       "coordinator_country": "Spain",
-      "partners_tech_dev": "Laurentia Technologies SLL; Bergische Universitat Wuppertal (BUW); IPN; Tekniker; Devan Micropolis; SIOEN Industries; NTUA; AVANZARE; Nasika; K-Flex; Cauchos Ruiz-Alejos; Carl Bechem GmbH",
-      "partner_scoping": "CTB (Centexbel); NTUA; Laurentia Technologies SLL",
-      "partners_risk_assessment": "QSAR Lab; ITENE; INL",
-      "partners_env_lca": "GreenDecision SRL; Yordas; TEKNIKER",
-      "partners_social_lca": "GreenDecision SRL; CSI",
+      "partners_tech_dev": "ITENE (coordinator); Laurentia Technologies SLL; Bergische Universitat Wuppertal (BUW); IPN; Fundacion Tekniker; Devan Micropolis; SIOEN Industries; NTUA; AVANZARE; Nasika; K-Flex; Cauchos Ruiz-Alejos; Carl Bechem GmbH",
+      "partner_scoping": "CTB (Centexbel); NTUA",
+      "partners_risk_assessment": "QSAR Lab; Yordas GmbH; Heriot Watt University; INL",
+      "partners_env_lca": "GreenDecision SRL",
+      "partners_social_lca": "GreenDecision SRL; Centre for Social Innovation (CSICY)",
       "partner_ai": "Entelos Institute; QSAR Lab",
       "partner_mcda": "",
       "partners_industrial": "Carl Bechem GmbH; Pinturas Blatem; K-Flex; Cauchos Ruiz-Alejos; CleanCell; Nasika; SIOEN Industries",
-      "partner_dissemination": "Blaszczyk Aneta (ANGAZ); Yordas",
-      "partner_exploitation": "CleanCell",
+      "partner_dissemination": "Blaszczyk Aneta (ANGAZ)",
+      "partner_exploitation": "Entelos Institute",
       "total_cost_eur": 14839861.07,
       "eu_contribution_eur": 11939105.26,
       "cordis_id": "101178074",
       "cordis_url": "https://cordis.europa.eu/project/id/101178074",
-      "soc": "SVHC surfactants; phthalates; halogenated flame retardants; medium chain chlorinated paraffin; antimony trioxide",
+      "soc": "SVHC surfactants; phthalate plasticizers; halogenated flame retardants",
       "ssbd_in_call": true,
-      "partner_hazard_safety": "QSAR Lab; ITENE; INL",
+      "partner_hazard_safety": "QSAR Lab; Yordas GmbH; Heriot Watt University",
       "partners_full_list": "",
       "ssbd_publications": "",
-      "partner_social_policy": "CSI; Blaszczyk Aneta (ANGAZ)"
+      "partner_social_policy": "Centre for Social Innovation (CSICY); Blaszczyk Aneta (ANGAZ)"
     },
     {
       "acronym": "RADAR",
@@ -1529,16 +1903,16 @@
       "start_date": "2024-12-01",
       "end_date": "2028-11-30",
       "project_website": "https://radar-project.eu/",
-      "focus_category": "Substitution, Bio-Based",
-      "ssbd_assessment_scope": "",
+      "focus_category": "Aromatics, Substance Alternatives",
+      "ssbd_assessment_scope": "Hazard (tiered NAMs); LCA; LCC; S-LCA; SSbD framework recommendation",
       "use_cases": "Can coatings; Flame retardants; Surfactants",
-      "solutions": "E.g. Bio-(bis)phenols via RCF biorefinery technology",
+      "solutions": "Bio-(bis)phenols via RCF biorefinery technology",
       "coordinator": "Katholieke Universiteit Leuven",
       "coordinator_country": "Belgium",
-      "partners_tech_dev": "KU Leuven (coordinator; RCF biorefinery); UPM (feedstock); University of Groningen (enzymatic conversion); GECCO Biotech; SQO (scale-up); Allnex; ABInBev; ICL; Uni Graz; P&G",
+      "partners_tech_dev": "KU Leuven (coordinator; RCF biorefinery); UPM (feedstock); University of Groningen (enzymatic conversion); GECCO Biotech; Syensqo (scale-up); Allnex; ABInBev; ICL; Uni Graz; P&G",
       "partner_scoping": "Apeiron (SSbD implementation and assessment)",
-      "partners_risk_assessment": "BfR (in vitro; in vivo; exposure); Sciensano (in vitro); USJ (in vivo); UdS (in silico); Normec OWS (in vivo)",
-      "partners_env_lca": "Particula Group; DTU; BfR; Uni Graz",
+      "partners_risk_assessment": "BfR (in vitro; in vivo; exposure); Sciensano (in vitro); Universidad San Jorge (in vivo); Universität des Saarlandes (in silico); Normec OWS (in vivo)",
+      "partners_env_lca": "Particula Group (LCA; LCC; S-LCA); DTU (Impact Assessment); BfR (Exposure Assessment); Uni Graz (Consequential Assessment)",
       "partners_social_lca": "Particula Group",
       "partner_ai": "",
       "partner_mcda": "Apeiron",
@@ -1549,10 +1923,10 @@
       "eu_contribution_eur": 13924216.39,
       "cordis_id": "101178148",
       "cordis_url": "https://cordis.europa.eu/project/id/101178148",
-      "soc": "PFAS; Bisphenol A (BPA); Tetrabromobisphenol A (TBBPA)",
+      "soc": "Bisphenol A (BPA); TBBPA; Fossil-based aromatics",
       "ssbd_in_call": true,
-      "partner_hazard_safety": "BfR; Sciensano; USJ; UdS; Normec OWS",
-      "partners_full_list": "KU Leuven (coordinator) | UdS | University of Groningen | DTU | BfR | University of Graz | USJ | Apeiron | Sciensano | SQO | ICL Group | GECCO Biotech | Allnex | Particula Group | Procter & Gamble | Normec OWS | AB InBev | UPM",
+      "partner_hazard_safety": "BfR; Sciensano; Universidad San Jorge; Universität des Saarlandes; Normec OWS",
+      "partners_full_list": "",
       "ssbd_publications": "",
       "partner_social_policy": ""
     },
@@ -1562,17 +1936,17 @@
       "topic_id": "HORIZON-CL4-2024-RESILIENCE-01-24",
       "start_date": "2024-12-01",
       "end_date": "2028-05-31",
-      "project_website": "https://www.biosafire.eu/",
-      "focus_category": "Bio-Based, Substitution, Innovation",
+      "project_website": "https://biosfera-project.eu/",
+      "focus_category": "Flame Retardants",
       "ssbd_assessment_scope": "",
-      "use_cases": "Command console; Bougie box; Wood coating, Bottom chassis of fridge; Oven display holder",
-      "solutions": "Bio-based Flame Retardants (Tannin; Lignin)",
+      "use_cases": "Construction; Automotive; Fire resistance materials",
+      "solutions": "",
       "coordinator": "Fundacion Gaiker",
       "coordinator_country": "Spain",
       "partners_tech_dev": "",
       "partner_scoping": "",
       "partners_risk_assessment": "",
-      "partners_env_lca": "TEMAS",
+      "partners_env_lca": "",
       "partners_social_lca": "",
       "partner_ai": "",
       "partner_mcda": "",
@@ -1586,7 +1960,7 @@
       "soc": "",
       "ssbd_in_call": true,
       "partner_hazard_safety": "",
-      "partners_full_list": "GAIKER (coordinator) | Noma Resins | NordTreat | VTT | AISTER | SINERGIA | PDC | TEMASOL | Rymatex | VIBA | RISE | IID-SII | Green Decision | APCL | Fraunhofer | INSST | CERTECH | Arçelik | Vertoro | Silvachimica | REFISA | EPSAN",
+      "partners_full_list": "",
       "ssbd_publications": "",
       "partner_social_policy": ""
     },
@@ -1597,19 +1971,19 @@
       "start_date": "2025-01-01",
       "end_date": "2028-12-31",
       "project_website": "https://desiderata-project.eu/",
-      "focus_category": "Substitution",
-      "ssbd_assessment_scope": "Hazard; Exposure; Environmental; Social; Economic",
+      "focus_category": "Lubricants",
+      "ssbd_assessment_scope": "Hazard; Exposure; Environmental; Social; Economic; FAIR data; Interoperability",
       "use_cases": "Lubricants: Metal Working Fluids",
-      "solutions": "",
+      "solutions": "SSbD alternatives to Substances of Concern across lubricants; coatings; composites use cases",
       "coordinator": "Luxembourg Institute of Science and Technology",
       "coordinator_country": "Luxembourg",
       "partners_tech_dev": "Graphene-XT; LATI; Monolithos",
-      "partner_scoping": "IVL; Gaiker; ICCRAM; UBU",
-      "partners_risk_assessment": "Gaiker; UBU (Hazard screening; Exposure; In-vitro; NAMs)",
+      "partner_scoping": "IVL; Gaiker; ICCRAM; Universidad de Burgos",
+      "partners_risk_assessment": "Gaiker; Universidad de Burgos (Hazard screening; Exposure; In-vitro; NAMs)",
       "partners_env_lca": "IVL",
       "partners_social_lca": "",
-      "partner_ai": "NIA; Neovili",
-      "partner_mcda": "ITENE; TEMAS; Brimatech",
+      "partner_ai": "Nanotechnology Industries Association (NIA); Neovili",
+      "partner_mcda": "ITENE; TEMAS Solutions; Brimatech",
       "partners_industrial": "Graphene-XT; LATI; Monolithos",
       "partner_dissemination": "Entelos Institute; NIA",
       "partner_exploitation": "",
@@ -1619,8 +1993,8 @@
       "cordis_url": "https://cordis.europa.eu/project/id/101178011",
       "soc": "Medium Chain Chlorinated Paraffin",
       "ssbd_in_call": true,
-      "partner_hazard_safety": "Gaiker; UBU",
-      "partners_full_list": "LIST (coordinator) | ICCRAM | UBU | IVL | ITENE | GAIKER | Entelos Institute | NIA | TAU | Graphene-XT | LATI | TEMAS",
+      "partner_hazard_safety": "Gaiker; Universidad de Burgos",
+      "partners_full_list": "",
       "ssbd_publications": "Characterizing chemical toxicity for life cycle assessment using machine learning and deep learning models, Ding et al. (2026), https://doi.org/10.1039/d6su00023a",
       "partner_social_policy": "Entelos Institute"
     },
@@ -1631,7 +2005,7 @@
       "start_date": "2025-01-01",
       "end_date": "2028-12-31",
       "project_website": "not yet available",
-      "focus_category": "Circularity",
+      "focus_category": "Battery, Circular Economy",
       "ssbd_assessment_scope": "",
       "use_cases": "End-of-life batteries",
       "solutions": "",
@@ -1665,7 +2039,7 @@
       "start_date": "2025-01-01",
       "end_date": "2028-12-31",
       "project_website": "https://enkoreproject.eu/",
-      "focus_category": "Substitution, Circularity",
+      "focus_category": "Packaging, Healthcare",
       "ssbd_assessment_scope": "",
       "use_cases": "Healthcare packaging; Single-use devices",
       "solutions": "",
@@ -1685,10 +2059,10 @@
       "eu_contribution_eur": 7742500.0,
       "cordis_id": "101166707",
       "cordis_url": "https://cordis.europa.eu/project/id/101166707",
-      "soc": "Phthaöates; PFAS",
+      "soc": "",
       "ssbd_in_call": true,
       "partner_hazard_safety": "",
-      "partners_full_list": "Universidad Politécnica de Madrid (coordinator), Medtronic Iberica, Sofradim Production, Boehringer Ingelheim, Eli Lilly, Novo Nordisk, Pfizer, Takeda, Baxter, DePuy, DuPont, Fresenius Medical Care, Johnson & Johnson, Charité Berlin, ULEI, Uniwersytet Medyczny w Łodzi, Universita Campus Bio-Medico di Roma, EUREGHA, IBT, MultiMed Engineers, PredictBy, Sterimed, Technovative Solutions",
+      "partners_full_list": "",
       "ssbd_publications": "",
       "partner_social_policy": ""
     },
@@ -1699,7 +2073,7 @@
       "start_date": "2025-01-01",
       "end_date": "2027-12-31",
       "project_website": "not yet available",
-      "focus_category": "Methods, Innovation",
+      "focus_category": "Hydrogen, Energy Systems",
       "ssbd_assessment_scope": "",
       "use_cases": "Renewable hydrogen systems",
       "solutions": "",
@@ -1733,7 +2107,7 @@
       "start_date": "2022-05-01",
       "end_date": "2029-04-30",
       "project_website": "https://eu-parc.eu/",
-      "focus_category": "Network",
+      "focus_category": "Networks, Frameworks",
       "ssbd_assessment_scope": "",
       "use_cases": "",
       "solutions": "",
@@ -1767,17 +2141,17 @@
       "start_date": "2024-01-01",
       "end_date": "2027-12-31",
       "project_website": "https://m2desco.ain.es/",
-      "focus_category": "Simulation, Innovation",
+      "focus_category": "Coatings",
       "ssbd_assessment_scope": "",
-      "use_cases": "Hot Forging and Cutting of Hard Metals",
-      "solutions": "High Entropy Alloys",
+      "use_cases": "",
+      "solutions": "",
       "coordinator": "Asociacion de la Industria Navarra",
       "coordinator_country": "Spain",
       "partners_tech_dev": "",
       "partner_scoping": "",
       "partners_risk_assessment": "",
-      "partners_env_lca": "IRES",
-      "partners_social_lca": "IRES",
+      "partners_env_lca": "",
+      "partners_social_lca": "",
       "partner_ai": "",
       "partner_mcda": "",
       "partners_industrial": "",
@@ -1801,19 +2175,19 @@
       "start_date": "2024-01-01",
       "end_date": "2028-06-30",
       "project_website": "https://sitolub.eu/",
-      "focus_category": "Methods, Simulation, Substitution",
+      "focus_category": "Lubricants",
       "ssbd_assessment_scope": "Hazard; Environmental Sustainability; Socioeconomic Sustainability; Performance",
       "use_cases": "Lubricants: Metal Working Fluids; Base oils; Corrosion Inhibitor; Antiwear",
       "solutions": "None",
       "coordinator": "Fundacion Tekniker",
       "coordinator_country": "Spain",
-      "partners_tech_dev": "AC2T Research GmbH; Tekniker",
-      "partner_scoping": "Tekniker; Fraunhofer Italia",
-      "partners_risk_assessment": "ProtoQSAR; UoB",
+      "partners_tech_dev": "AC2T Research GmbH; Fundacion Tekniker",
+      "partner_scoping": "Fundacion Tekniker; Fraunhofer Italia",
+      "partners_risk_assessment": "ProtoQSAR; The University of Birmingham",
       "partners_env_lca": "GreenDelta",
       "partners_social_lca": "GreenDelta",
       "partner_ai": "NovaМechanics Monoprosopi IKE; NovaМechanics Limited",
-      "partner_mcda": "Tekniker; Fraunhofer Italia",
+      "partner_mcda": "Fundacion Tekniker; Fraunhofer Italia",
       "partners_industrial": "Bechem; Motorex AG; R.S.Clare & Co. Limited",
       "partner_dissemination": "F6S Network Ireland Limited",
       "partner_exploitation": "i-TriboMat GmbH",
@@ -1821,7 +2195,7 @@
       "eu_contribution_eur": 5195467.19,
       "cordis_id": "101138807",
       "cordis_url": "https://cordis.europa.eu/project/id/101138807",
-      "soc": "PFAS: PTFE, PFPE; Benzotriazole; Medium Chain Chlorinated Paraffin",
+      "soc": "PFAS (PTFE, PFPE); Benzotriazole; Medium Chain Chlorinated Paraffin",
       "ssbd_in_call": true,
       "partner_hazard_safety": "",
       "partners_full_list": "",
@@ -1835,11 +2209,11 @@
       "start_date": "2021-01-01",
       "end_date": "2024-12-31",
       "project_website": "https://www.h2020sunshine.eu/",
-      "focus_category": "Substitution, Methods",
+      "focus_category": "Nanomaterials, 2D Materials",
       "ssbd_in_call": true,
       "ssbd_assessment_scope": "",
       "use_cases": "Coatings",
-      "soc": "PTFE",
+      "soc": "PTFE (Teflon / PFAS)",
       "solutions": "Nano-based anti-stick coating (SiC@TiO2)",
       "coordinator": "Universita Ca' Foscari Venezia",
       "coordinator_country": "Italy",
@@ -1854,8 +2228,8 @@
       "partners_industrial": "",
       "partner_dissemination": "",
       "partner_exploitation": "",
-      "partners_full_list": "ERS | RIVM | JRC | SU | GreenDecision | HWU | NTUA | RCSI | CSIC | CNRS | UniGe | Purposeful Anonymi Etaireia | IOM | Empa | ITENE | Rhodia Operations / Solvay | TECNALIA | Avanzare | CIAC | Encapsulae | Laurentia Technologies | OCSiAl | CNR | TEMAS | EERIE | Yordas | Tinexta Innovation Hub | MINTEK | Solvay Chimika",
-      "ssbd_publications": "sLCA case study, Devecchi et al. (2026), https://doi.org/10.20900/jsr20260023",
+      "partners_full_list": "European Research Services GmbH (ERS) | Rijksinstituut voor Volksgezondheid en Milieu (RIVM) | JRC - Joint Research Centre - European Commission | Swansea University | GreenDecision SRL (GreenDecision) | Heriot-Watt University | Ethnicon Metsovion Polytechnion (NTUA) | Royal College of Surgeons in Ireland | Agencia Estatal Consejo Superior de Investigaciones Cientificas (CSIC) | Centre National de la Recherche Scientifique CNRS | Universita degli Studi di Genova | Purposeful Anonymi Etaireia | Institute of Occupational Medicine | Eidgenossische Materialprufungs- und Forschungsanstalt (Empa) | Instituto Tecnologico del Embalaje, Transporte y Logistica (ITENE) | Rhodia Operations / Solvay SA | Fundacion Tecnalia Research & Innovation (TEKNALIA) | Avanzare Innovacion Tecnologica SL | Fundacion CIAC | Encapsulae SL | Laurentia Technologies SLL | OCSiAl Europe SARL | Consiglio Nazionale delle Ricerche (CNR) | TEMAS Solutions GmbH (TEMAS) | East European Research and Innovation Enterprise Ltd (EERIE) | Yordas GmbH (Yordas) | Tinexta Innovation Hub S.p.A. | MINTEK | Solvay Chimika Monoprosopi Anonymi Etaireia",
+      "ssbd_publications": "Devecchi et al. (2026), \"Implementing Social Life Cycle Assessment for Safe and Sustainable by Design Advanced Materials: A Case Study of Multicomponent Anti-Stick Coatings\", Journal of Sustainability Research, https://doi.org/10.20900/jsr20260023",
       "total_cost_eur": 8360681.25,
       "eu_contribution_eur": 6521348.75,
       "cordis_id": "952924",
@@ -1869,7 +2243,7 @@
       "start_date": "2022-12-01",
       "end_date": "2026-05-31",
       "project_website": "",
-      "focus_category": "Methods",
+      "focus_category": "Nanomaterials, 2D Materials",
       "ssbd_in_call": false,
       "ssbd_assessment_scope": "",
       "use_cases": "Advanced nanomaterials",
@@ -1888,7 +2262,7 @@
       "partners_industrial": "",
       "partner_dissemination": "",
       "partner_exploitation": "",
-      "partners_full_list": "GBM | LNE | LIST | SPN | SPN | BAuA | RIVM | IBE R&D Institute for Lung Health | Tascon | GAIKER | MyBiotech | BASF | MEDICA | Carbon Waters | FILK | TEMAS [partner] | Empa [partner] | UoB [partner] | Epithelix [partner]",
+      "partners_full_list": "Gesellschaft fur Bioanalytik Munster EV | Laboratoire National de Metrologie et d'Essais (LNE) | Luxembourg Institute of Science and Technology (LIST) | Seven Past Nine D.O.O. (SPN) | Seven Past Nine GmbH (SPN) | Bundesanstalt fuer Arbeitsschutz und Arbeitsmedizin (BAuA) | Rijksinstituut voor Volksgezondheid en Milieu (RIVM) | IBE R&D Institute for Lung Health gGmbH | Tascon GmbH | Fundacion Gaiker (GAIKER) | MyBiotech GmbH | BASF SE | MEDICA S.p.A. | Carbon Waters SAS | FILK Freiberg Institute gGmbH | TEMAS Solutions GmbH (TEMAS) [partner] | Eidgenossische Materialprufungs- und Forschungsanstalt (Empa) [partner] | The University of Birmingham [partner] | Epithelix SARL [partner]",
       "ssbd_publications": "",
       "total_cost_eur": 4201652.5,
       "eu_contribution_eur": 4201652.5,
@@ -1903,12 +2277,12 @@
       "start_date": "2022-06-01",
       "end_date": "2025-11-30",
       "project_website": "https://www.surpass-project.eu/",
-      "focus_category": "Substitution, Circularity, Innovation",
+      "focus_category": "Bio-based Materials, Chemicals",
       "ssbd_in_call": true,
       "ssbd_assessment_scope": "Performance; Release and Exposure; Physical and Chemical Hazard; Health and Environmental Impact; Costing and Market Penetration",
       "use_cases": "Bio-sourced polyurethane (Building); 3R epoxy-composite (Transport); MultiNanoLayered Films (Packaging)",
       "soc": "Hazardous additives in polymers",
-      "solutions": "",
+      "solutions": "Safe, Sustainable and Recyclable by Design (SSRbD) polymeric systems",
       "coordinator": "Commissariat a l'Energie Atomique et aux Energies Alternatives",
       "coordinator_country": "France",
       "partners_tech_dev": "CEA (coordinator); LEITAT; INDRESMAT; IPC; CIDETEC; UGA; Fraunhofer; BASF; BASF Polyurethanes; WIPAK; WFO; UNE; RIVM",
@@ -1922,7 +2296,7 @@
       "partners_industrial": "BASF; BASF Polyurethanes; WIPAK",
       "partner_dissemination": "WFO; UNE; RIVM",
       "partner_exploitation": "GEONARDO",
-      "partners_full_list": "CENTEXBEL-VKC | CIDETEC | LEITAT | INDRESMAT | UGA | Geonardo | BASF | BASF Polyurethanes | RIVM | UNE | Fraunhofer | Wipak Gryspeert | WFO",
+      "partners_full_list": "Centre Technique Industriel de la Plasturgie et des Composites (CENTEXBEL-VKC) | Fundacion Cidetec (CIDETEC) | Acondicionamiento Tarrasense Associacion (LEITAT) | INDRESMAT SL | Universite Grenoble Alpes (UGA) | Geonardo Kornyezetvedelmi Kft. | BASF SE | BASF Polyurethanes GmbH | Rijksinstituut voor Volksgezondheid en Milieu (RIVM) | Asociacion Espanola de Normalizacion (UNE) | Fraunhofer Gesellschaft (Fraunhofer) | Wipak Gryspeert SAS | Waste Free Oceans Europe",
       "ssbd_publications": "",
       "total_cost_eur": 4992239.76,
       "eu_contribution_eur": 4980559.29,
@@ -1937,7 +2311,7 @@
       "start_date": "2024-10-01",
       "end_date": "2029-09-30",
       "project_website": "",
-      "focus_category": "Bio-Based, Substitution, Innovation",
+      "focus_category": "Surfactants",
       "ssbd_in_call": false,
       "ssbd_assessment_scope": "SSbD; Biodegradability; Environmental chemistry; Toxicology",
       "use_cases": "Home and personal care; Textiles; Agriculture (encapsulation)",
@@ -1955,7 +2329,7 @@
       "partner_ai": "",
       "partner_mcda": "",
       "partners_industrial": "",
-      "partner_dissemination": "AIRI",
+      "partner_dissemination": "AIRI (Associazione Italiana per la Ricerca Industriale)",
       "partner_exploitation": "",
       "partners_full_list": "",
       "ssbd_publications": "",
@@ -1971,11 +2345,11 @@
       "start_date": "2025-10-01",
       "end_date": "2029-09-30",
       "project_website": "",
-      "focus_category": "Bio-Based, Substitution",
+      "focus_category": "Coatings",
       "ssbd_in_call": true,
       "ssbd_assessment_scope": "",
       "use_cases": "Marine coatings; Outdoor textiles; Construction insulation",
-      "soc": "PFAS, Solvent, Biocides",
+      "soc": "",
       "solutions": "",
       "coordinator": "The University of Birmingham",
       "coordinator_country": "United Kingdom",
@@ -2005,7 +2379,7 @@
       "start_date": "2026-06-01",
       "end_date": "2030-05-31",
       "project_website": "",
-      "focus_category": "Data framework, Network",
+      "focus_category": "Assessment Methods, Digital Tools",
       "ssbd_in_call": false,
       "ssbd_assessment_scope": "",
       "use_cases": "",
@@ -2039,7 +2413,7 @@
       "start_date": "2023-06-01",
       "end_date": "2027-05-31",
       "project_website": "https://www.repurposeproject.eu/",
-      "focus_category": "Bio-Based, Circularity, Innovation",
+      "focus_category": "Bio-based Materials, Chemicals",
       "ssbd_in_call": false,
       "ssbd_assessment_scope": "",
       "use_cases": "Polymers; Rubber",
@@ -2047,7 +2421,7 @@
       "solutions": "Tuneable, biodegradable, infinitely recyclable REP polymers from post-consumer waste",
       "coordinator": "Bio Base Europe Pilot Plant VZW",
       "coordinator_country": "Belgium",
-      "partners_tech_dev": "BOKU Wien; EPOCH Biodesign; UdS; Italbiotec; B4Plastics; AIMPLAS; Aalborg Universiteit",
+      "partners_tech_dev": "BOKU Wien; EPOCH Biodesign; Universität des Saarlandes; Italbiotec; B4Plastics; AIMPLAS; Aalborg Universiteit",
       "partner_scoping": "",
       "partners_risk_assessment": "",
       "partner_hazard_safety": "",
@@ -2059,10 +2433,10 @@
       "partners_industrial": "",
       "partner_dissemination": "",
       "partner_exploitation": "",
-      "partners_full_list": "Bio Base Europe Pilot Plant | BOKU | EPOCH Biodesign | UdS | MATE | Italbiotec | B4Plastics | AIMPLAS | AAU | Renasci | Photon Mission",
+      "partners_full_list": "Bio Base Europe Pilot Plant VZW (BE) | BOKU Wien (AT) | EPOCH Biodesign (BE) | Universität des Saarlandes (DE) | Hungarian University of Agriculture and Life Sciences MATE (HU) | Italbiotec (IT) | B4Plastics (BE) | AIMPLAS (ES) | Aalborg Universiteit (DK) | Renasci (BE) | Photon Mission (NL)",
       "ssbd_publications": "",
-      "total_cost_eur": 6373176.75,
-      "eu_contribution_eur": 6058487.75,
+      "total_cost_eur": null,
+      "eu_contribution_eur": null,
       "cordis_id": "101057971",
       "cordis_url": "https://cordis.europa.eu/project/id/101057971"
     },
@@ -2073,11 +2447,11 @@
       "start_date": "2026-06-01",
       "end_date": "2029-05-31",
       "project_website": "",
-      "focus_category": "Data framework, Substitution",
+      "focus_category": "Assessment Methods, Digital Tools",
       "ssbd_in_call": true,
       "ssbd_assessment_scope": "",
       "use_cases": "Furniture and mattresses: coatings on metal and wood parts; adhesives in furniture assembly; flame retardants in textiles and foams",
-      "soc": "Formaldehyde, Solvents",
+      "soc": "",
       "solutions": "",
       "coordinator": "Ethnicon Metsovion Polytechnion",
       "coordinator_country": "Greece",
@@ -2092,9 +2466,9 @@
       "partners_industrial": "Aquinos, S.A.; Amelco Industries Limited",
       "partner_dissemination": "",
       "partner_exploitation": "",
-      "partners_full_list": "AIDEAS | Rola Green Tech | AUTh | QSAR Lab | Avanzare | Centexbel | Tech Inspire | ITAINNOVA | Software Imagination and Vision | AIMPLAS | Amelco Industries | Aquinos | IDEP",
+      "partners_full_list": "AIDEAS OU (Estonia) | ROLA GREEN TECH LIMITED (Cyprus) | ARISTOTELIO PANEPISTIMIO THESSALONIKIS (Greece) | QSAR LAB SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA (Poland) | AVANZARE INNOVACION TECNOLOGICA SL (Spain) | CENTRE SCIENTIFIQUE ET TECHNIQUE DE L INDUSTRIE TEXTILE BELGE (Belgium) | TECH INSPIRE LTD (United Kingdom) | INSTITUTO TECNOLOGICO DE ARAGON (Spain) | SOFTWARE IMAGINATION AND VISION SRL (Romania) | AIMPLAS - ASOCIACION DE INVESTIGACION DE MATERIALES PLASTICOS Y CONEXAS (Spain) | Amelco Industries Limited (Cyprus) | Aquinos, S.A. (Portugal) | INSTITOUTO ANAPTIXIS EPICHEIRIMATIKOTITAS ASTIKI ETAIREIA (Greece)",
       "ssbd_publications": "",
-      "total_cost_eur": 4976441.25,
+      "total_cost_eur": null,
       "eu_contribution_eur": 4976441.25,
       "cordis_id": "101295317",
       "cordis_url": "https://cordis.europa.eu/project/id/101295317",
@@ -2107,28 +2481,28 @@
       "start_date": "2026-06-01",
       "end_date": "2030-05-31",
       "project_website": "",
-      "focus_category": "Methods",
+      "focus_category": "Assessment Methods, Digital Tools",
       "ssbd_in_call": true,
       "ssbd_assessment_scope": "",
-      "use_cases": "Energy; Biobased Chemicals; Aeronautics; Smart Textiles",
+      "use_cases": "Energy; biobased; chemicals; aeronautics; smart textiles (critical raw materials and alternatives to substances of concern)",
       "soc": "",
       "solutions": "",
       "coordinator": "SSBD Consulting Europe SL",
       "coordinator_country": "Spain",
       "partners_tech_dev": "",
       "partner_scoping": "",
-      "partners_risk_assessment": "RIVM",
+      "partners_risk_assessment": "RIJKSINSTITUUT VOOR VOLKSGEZONDHEID EN MILIEU (RIVM)",
       "partner_hazard_safety": "",
-      "partners_env_lca": "ERS; TEMAS; GAIKER",
+      "partners_env_lca": "European Research Services GmbH; TEMAS Solutions GmbH; Fundacion Gaiker",
       "partners_social_lca": "",
       "partner_ai": "",
       "partner_mcda": "",
-      "partners_industrial": "BASF SE; Specialty Operations France; SQO Specialty Polymers Italy S.P.A.; Avanzare Innovacion Tecnologica SL; Eirecomposites Teoranta",
+      "partners_industrial": "BASF SE; Specialty Operations France; Syensqo Specialty Polymers Italy S.P.A.; Avanzare Innovacion Tecnologica SL; Eirecomposites Teoranta",
       "partner_dissemination": "",
       "partner_exploitation": "",
-      "partners_full_list": "ERS | EERIE | RIVM | TEMAS | GAIKER | Yordas | Vicomtech | Tekniker | Klaus Kümmerer | Inkode | NILU | BNN | Specialty Operations France [third-party: SQO Specialty Polymers Italy] | BASF | IPC | Van Parys Bruno Georges | Avanzare | Eirecomposites",
+      "partners_full_list": "European Research Services GmbH (Germany) | East European Research and Innovation Enterprise Ltd (Bulgaria) | Rijksinstituut voor Volksgezondheid en Milieu (RIVM) (Netherlands) | TEMAS Solutions GmbH (Switzerland) | Fundacion Gaiker (Spain) | Yordas GmbH (Germany) | Fundacion Centro de Tecnologias de Interaccion Visual y Comunicaciones Vicomtech (Spain) | Fundacion Tekniker (Spain) | Kummerer Klaus (Germany) | Inkode Societa Cooperativa (Italy) | Stiftelsen Nilu (Norway) | Bionanonet Forschungsgesellschaft MBH (Austria) | Specialty Operations France (France) [third-party: Syensqo Specialty Polymers Italy S.P.A.] | BASF SE (Germany) | Centre Technique Industriel de la Plasturgie et des Composites (France) | Van Parys Bruno Georges (Belgium) | Avanzare Innovacion Tecnologica SL (Spain) | Eirecomposites Teoranta (Ireland)",
       "ssbd_publications": "",
-      "total_cost_eur": 4999369.23,
+      "total_cost_eur": null,
       "eu_contribution_eur": 4999369.23,
       "cordis_id": "101293799",
       "cordis_url": "https://cordis.europa.eu/project/id/101293799",
@@ -2141,7 +2515,7 @@
       "start_date": "2026-09-01",
       "end_date": "2029-08-31",
       "project_website": "",
-      "focus_category": "Methods",
+      "focus_category": "Assessment Methods, Digital Tools",
       "ssbd_in_call": true,
       "ssbd_assessment_scope": "",
       "use_cases": "",
@@ -2149,7 +2523,7 @@
       "solutions": "",
       "coordinator": "Alma Mater Studiorum - Universita di Bologna",
       "coordinator_country": "Italy",
-      "partners_tech_dev": "TURTLE S.r.l.; VTT; VITO; IDENER Research & Development AIE; CIDETEC",
+      "partners_tech_dev": "TURTLE S.r.l.; Teknologian Tutkimuskeskus VTT Oy; Vlaamse Instelling voor Technologisch Onderzoek N.V.; IDENER Research & Development AIE; Fundacion CIDETEC",
       "partner_scoping": "",
       "partners_risk_assessment": "",
       "partner_hazard_safety": "",
@@ -2160,47 +2534,13 @@
       "partners_industrial": "FOS SPA; Decathlon Produzione Italia SRL; Toyota Material Handling Europe AB; Titania, Ensayos y Proyectos Industriales SL; Isoltema SPA; Fenix TNT SRO",
       "partner_dissemination": "",
       "partner_exploitation": "",
-      "partners_full_list": "TURTLE [third-party] | VTT | VITO | IDENER | CIDETEC | FOS | Decathlon | Toyota Material Handling Europe | Titania | Isoltema | Fenix TNT",
+      "partners_full_list": "TURTLE S.r.l. (Italy) [third-party] | Teknologian Tutkimuskeskus VTT Oy (Finland) | Vlaamse Instelling voor Technologisch Onderzoek N.V. (Belgium) | IDENER Research & Development AIE (Spain) | Fundacion CIDETEC (Spain) | FOS SPA (Italy) | Decathlon Produzione Italia SRL (Italy) | Toyota Material Handling Europe AB (Sweden) | Titania, Ensayos y Proyectos Industriales SL (Spain) | Isoltema SPA (Italy) | Fenix TNT SRO (Czechia)",
       "ssbd_publications": "",
-      "total_cost_eur": 4829416.49,
+      "total_cost_eur": null,
       "eu_contribution_eur": 4829416.49,
       "cordis_id": "101293508",
       "cordis_url": "https://cordis.europa.eu/project/id/101293508",
       "partner_social_policy": ""
-    },
-    {
-      "acronym": "nanoPASS",
-      "full_title": "Bridging the gaps in nanosafety for animal-free prediction of adverse outcomes",
-      "topic_id": "HORIZON-CL4-2022-DIGITAL-EMERGING-01-35",
-      "start_date": "2023-01-01",
-      "end_date": "2026-12-31",
-      "project_website": "https://nanopass.eu/",
-      "focus_category": "Methods",
-      "ssbd_in_call": false,
-      "ssbd_assessment_scope": "",
-      "use_cases": "Inhalation-related long-term hazards of nanomaterials; production and recycling facilities",
-      "soc": "",
-      "solutions": "High-throughput, animal-free in vitro/in silico screening for early key events leading to adverse outcomes (AOPs), replacing late-endpoint animal testing",
-      "coordinator": "Institut Jozef Stefan",
-      "coordinator_country": "Slovenia",
-      "partners_tech_dev": "INFINITE",
-      "partner_scoping": "",
-      "partners_risk_assessment": "",
-      "partner_hazard_safety": "Helmholtz Munich; NRCWE; STAMI; Lund University; UCD",
-      "partners_env_lca": "",
-      "partners_social_lca": "",
-      "partner_social_policy": "",
-      "partner_ai": "",
-      "partner_mcda": "",
-      "partners_industrial": "Alpacem Cement",
-      "partner_dissemination": "NIA",
-      "partner_exploitation": "",
-      "partners_full_list": "IJS | INFINITE | Helmholtz Munich | NRCWE | STAMI | Lund University | UCD | NIA | Alpacem Cement",
-      "ssbd_publications": "",
-      "total_cost_eur": 3073736.25,
-      "eu_contribution_eur": 3073736.25,
-      "cordis_id": "101092741",
-      "cordis_url": "https://cordis.europa.eu/project/id/101092741"
     }
   ]
 }
