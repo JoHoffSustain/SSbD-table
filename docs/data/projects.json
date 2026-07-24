@@ -118,7 +118,7 @@
     },
     {
       "key": "partners_social_lca",
-      "label": "Partners for Socioeconomics (sLCA, LCC, TEA)",
+      "label": "Partners for sLCA, LCC, TEA",
       "type": "string",
       "source": "manual_review"
     },
