@@ -106,3 +106,8 @@ Partner role data, focus categories, SSbD assessment scopes, and use case classi
 **Cite as:** J. Hoffmann, *SSbD Project Tracker*, [johoffsustain.github.io/SSbD-table](https://johoffsustain.github.io/SSbD-table/), 2026.
 
 [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+## Transparency
+
+This project is mostly done with the support of AI.
+
