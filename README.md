@@ -1,6 +1,6 @@
 # SSbD Project Tracker
 
-A community-maintained, open reference database of EU Horizon-funded research projects working within the **Safe and Sustainable by Design (SSbD)** framework — built to give SSbD practitioners, consortium partners, policy officers, and researchers a single, transparent map of who is doing what across the European SSbD landscape.
+A community-maintained, open reference database of EU Horizon-funded research projects working within the **Safe and Sustainable by Design (SSbD)** framework — built to give SSbD practitioners, consortium partners, interested companies, policy officers, and researchers a single, transparent map of who is doing what across the European SSbD landscape.
 
 **Live site:** [johoffsustain.github.io/SSbD-table](https://JoHoffSustain.github.io/SSbD-table/)
 
