@@ -236,7 +236,7 @@ thead th {
   top: 0;
   background: var(--ink);
   color: var(--paper);
-  text-align: left;
+  text-align: center;
   padding: 0.65rem 0.8rem;
   font-family: var(--mono);
   font-size: 0.72rem;
@@ -262,16 +262,18 @@ tbody td.title-cell { min-width: 390px; max-width: 390px; }
 tbody td.enddate-cell { white-space: nowrap; min-width: 120px; }
 tbody td.usecases-cell { min-width: 390px; max-width: 390px; }
 tbody td.innovation-cell { min-width: 131px; max-width: 131px; }
-tbody td.coordinator-cell { min-width: 98px; max-width: 98px; }
-tbody td.slca-cell { min-width: 130px; max-width: 130px; }
+tbody td.coordinator-cell { min-width: 127px; max-width: 127px; }
+tbody td.slca-cell { min-width: 65px; max-width: 65px; }
+tbody td.risk-cell { min-width: 195px; max-width: 195px; }
 tbody td.completeness-cell { white-space: nowrap; min-width: 90px; text-align: right; }
 tbody td.focus-cell { min-width: 195px; max-width: 195px; }
-tbody td.call-cell { white-space: nowrap; min-width: 248px; }
+tbody td.call-cell { white-space: nowrap; min-width: 288px; }
 tbody td {
   padding: 0.6rem 0.8rem;
   border-bottom: 1px solid var(--line);
   vertical-align: top;
   max-width: 260px;
+  text-align: center;
 }
 
 tbody tr:hover { background: var(--accent-soft); }
@@ -861,6 +863,7 @@ function renderTable() {
       if (col.key === 'solutions') td.classList.add('innovation-cell');
       if (col.key === 'coordinator') td.classList.add('coordinator-cell');
       if (col.key === 'partners_social_lca') td.classList.add('slca-cell');
+      if (col.key === 'partners_risk_assessment') td.classList.add('risk-cell');
       if (col.key === 'completeness_pct') td.classList.add('completeness-cell');
       if (col.key === 'focus_category') td.classList.add('focus-cell');
       if (col.key === 'topic_id') td.classList.add('call-cell');
