@@ -48,7 +48,7 @@ Each project entry covers:
 ## How the data was built
 
 ### Step 1 — Project list
-The initial list of 46 projects was derived from Peter Fantke's published chart of EU-funded SSbD projects (CORDIS database, as of February 2025). Additional projects were identified from the EC SSbD Networking Event (Brussels, March 2026) and from newer Horizon calls (CL4-2023, CL4-2024, CL4-INDUSTRY-2025).
+The initial list of 46 projects was derived from Peter Fantke's published chart of EU-funded SSbD projects, who analyzed the CORDIS database for SSbD keywords. Additional projects were identified from the EC SSbD Networking Event (Brussels, March 2026) and from newer Horizon calls.
 
 ### Step 2 — CORDIS data
 Factual fields (dates, coordinator, budget, grant ID, topic ID) were sourced project-by-project from [cordis.europa.eu](https://cordis.europa.eu). For bulk backfill, the [CORDIS open datasets](https://data.europa.eu/data/datasets/cordis-eu-research-projects-under-horizon-europe-2021-2027) on data.europa.eu can be used (see `scripts/fill_cordis_data.py`).
@@ -103,6 +103,6 @@ All CORDIS-sourced fields (acronym, title, coordinator, dates, budget, grant ID,
 
 Partner role data, focus categories, SSbD assessment scopes, and use case classifications are editorial contributions based on publicly available project materials and are released under the same licence.
 
-**Cite as:** J. Hoffmann, *SSbD Project Tracker*, [johoffsustain.github.io/SSbD-table](https://johoffsustain.github.io/SSbD-table/), 2025–2026.
+**Cite as:** J. Hoffmann, *SSbD Project Tracker*, [johoffsustain.github.io/SSbD-table](https://johoffsustain.github.io/SSbD-table/), 2026.
 
 [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
