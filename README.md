@@ -8,11 +8,11 @@ A community-maintained, open reference database of EU Horizon-funded research pr
 
 ## Why does this exist?
 
-On 20 March 2026, the European Commission held the "SSbD Horizon Europe Projects Networking" event in Brussels. In the organizers' own words afterward: the engaging and productive discussions during the event enabled participants to identify a series of strategic actions for collaboration among SSbD Horizon Europe projects — actions with the potential to significantly accelerate the adoption of the SSbD framework in R&I activities by researchers and innovators. Participants were then asked to help advance collaboration and networking around these strategic actions.
+On 20 March 2026, the European Commission organized the SSbD Horizon Europe Projects Networking event in Brussels. The event fostered valuable discussions that helped participants identify a set of strategic opportunities for collaboration across SSbD Horizon Europe projects. These collaborative actions were recognized as having strong potential to speed up the integration of the Safe and Sustainable by Design (SSbD) framework into research and innovation (R&I). Following the event, participants were encouraged by the European Commission to actively contribute to advancing these collaborative initiatives and strengthening networking among the projects.
 
 This tracker is my response to that call. Since one of the strategic actions identified was better visibility into who is working on what across the SSbD landscape, I built this as a shared, transparent map to make that possible.
 
-The European Commission's SSbD framework has generated a rapidly growing portfolio of Horizon Europe and H2020 projects — covering nanomaterials, coatings, textiles, surfactants, flame retardants, plasticizers, lubricants, pharmaceuticals, bio-based materials, and more. As of mid-2026, over 55 projects are active or completed across these areas.
+The European Commission has generated a rapidly growing portfolio of Horizon Europe and H2020 projects — covering nanomaterials, coatings, textiles, surfactants, flame retardants, plasticizers, lubricants, pharmaceuticals, bio-based materials, and more. As of mid-2026, over 55 projects are active or completed across these areas.
 
 Despite this activity, there was no single place to answer basic questions like:
 - Which projects are working on PFAS alternatives in coatings?
