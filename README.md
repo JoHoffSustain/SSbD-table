@@ -8,6 +8,10 @@ A community-maintained, open reference database of EU Horizon-funded research pr
 
 ## Why does this exist?
 
+On 20 March 2026, the European Commission held the "SSbD Horizon Europe Projects Networking" event in Brussels. In the organizers' own words afterward: the engaging and productive discussions during the event enabled participants to identify a series of strategic actions for collaboration among SSbD Horizon Europe projects — actions with the potential to significantly accelerate the adoption of the SSbD framework in R&I activities by researchers and innovators. Participants were then asked to help advance collaboration and networking around these strategic actions.
+
+This tracker is my response to that call. Since one of the strategic actions identified was better visibility into who is working on what across the SSbD landscape, I built this as a shared, transparent map to make that possible.
+
 The European Commission's SSbD framework has generated a rapidly growing portfolio of Horizon Europe and H2020 projects — covering nanomaterials, coatings, textiles, surfactants, flame retardants, plasticizers, lubricants, pharmaceuticals, bio-based materials, and more. As of mid-2026, over 55 projects are active or completed across these areas.
 
 Despite this activity, there was no single place to answer basic questions like:
@@ -48,7 +52,7 @@ Each project entry covers:
 ## How the data was built
 
 ### Step 1 — Project list
-The initial list of 46 projects was derived from Peter Fantke's published chart of EU-funded SSbD projects, who analyzed the CORDIS database for SSbD keywords. Additional projects were identified from the EC SSbD Networking Event (Brussels, March 2026) and from newer Horizon calls.
+The initial list of 46 projects was derived from Peter Fantke's published chart of EU-funded SSbD projects, who analyzed the CORDIS database for SSbD keywords. Additional projects were identified from the "SSbD Horizon Europe Projects Networking" event (Brussels, 20 March 2026) and from newer Horizon calls.
 
 ### Step 2 — CORDIS data
 Factual fields (dates, coordinator, budget, grant ID, topic ID) were sourced project-by-project from [cordis.europa.eu](https://cordis.europa.eu). For bulk backfill, the [CORDIS open datasets](https://data.europa.eu/data/datasets/cordis-eu-research-projects-under-horizon-europe-2021-2027) on data.europa.eu can be used (see `scripts/fill_cordis_data.py`).
@@ -60,7 +64,7 @@ Each project was classified by:
 - **Active/completed** — based on the project end date compared to today
 
 ### Step 4 — Partner roles
-Partner role columns were filled manually from project consortium presentations, slides from the EC SSbD Networking Event (March 2026), project websites, and publicly available deliverables. Only explicitly stated roles were entered — no inference from diagram positions or assumed roles.
+Partner role columns were filled manually from project consortium presentations, slides from the "SSbD Horizon Europe Projects Networking" event (Brussels, 20 March 2026), project websites, and publicly available deliverables. Only explicitly stated roles were entered — no inference from diagram positions or assumed roles.
 
 ---
 
