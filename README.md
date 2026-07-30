@@ -1,6 +1,6 @@
 # SSbD Project Tracker
 
-A community-maintained, open reference database of EU Horizon-funded research projects working within the **Safe and Sustainable by Design (SSbD)** framework — built to give SSbD practitioners, consortium partners, interested companies, policy officers, and researchers a single, transparent map of who is doing what across the European SSbD landscape.
+A community-maintained, open reference database of EU Horizon-funded research projects working within the **Safe and Sustainable by Design (SSbD)** framework, built to give SSbD practitioners, consortium partners, interested companies, policy officers, and researchers a single, transparent map of who is doing what across the European SSbD landscape.
 
 **Live site:** [johoffsustain.github.io/SSbD-table](https://JoHoffSustain.github.io/SSbD-table/)
 
@@ -8,7 +8,7 @@ A community-maintained, open reference database of EU Horizon-funded research pr
 
 ## Why does this exist?
 
-On 20 March 2026, the European Commission organized the SSbD Horizon Europe Projects Networking event in Brussels. The event fostered valuable discussions that helped participants identify a set of strategic opportunities for collaboration across SSbD Horizon Europe projects. These collaborative actions were recognized as having strong potential to speed up the integration of the Safe and Sustainable by Design (SSbD) framework into research and innovation (R&I). Following the event, participants were encouraged by the European Commission to actively contribute to advancing these collaborative initiatives and strengthening networking among the projects.
+On 20 March 2026, the European Commission organized the SSbD Horizon Europe Projects Networking event in Brussels. The event sparked valuable discussions that helped participants identify strategic opportunities for collaboration across SSbD Horizon Europe projects. These collaborative actions were recognized as having strong potential to speed up the integration of the Safe and Sustainable by Design (SSbD) framework into research and innovation (R&I). After the event, the European Commission encouraged participants to contribute to these collaborative initiatives and strengthen networking among the projects.
 
 This tracker is my response to that call. Since one of the strategic actions identified was better visibility into who is working on what across the SSbD landscape, I built this as a shared, transparent map to make that possible.
 
