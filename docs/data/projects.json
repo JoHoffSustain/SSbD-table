@@ -2199,7 +2199,7 @@
       "coordinator_country": "Spain",
       "partners_tech_dev": "AC2T Research GmbH; Tekniker",
       "partner_scoping": "Tekniker; Fraunhofer Italia",
-      "partners_risk_assessment": "ProtoQSAR; UoB",
+      "partners_risk_assessment": "",
       "partners_env_lca": "GreenDelta",
       "partners_social_lca": "GreenDelta",
       "partner_ai": "NovaМechanics Monoprosopi IKE; NovaМechanics Limited",
@@ -2213,7 +2213,7 @@
       "cordis_url": "https://cordis.europa.eu/project/id/101138807",
       "soc": "PFAS (PTFE, PFPE); Benzotriazole; Medium Chain Chlorinated Paraffin",
       "ssbd_in_call": true,
-      "partner_hazard_safety": "",
+      "partner_hazard_safety": "ProtoQSAR; UoB",
       "partners_full_list": "",
       "ssbd_publications": "",
       "partner_social_policy": ""
