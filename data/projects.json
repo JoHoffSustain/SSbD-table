@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "last_updated": "2026-07-23",
+  "last_updated": "2026-08-06",
   "columns": [
     {
       "key": "acronym",
@@ -795,7 +795,7 @@
       "focus_category": "Substitution",
       "ssbd_assessment_scope": "SSbD Methodology; Modelling, Computational Tools; Materials and Technology Development; Social Acceptance; Industrial Validation",
       "use_cases": "Textile coating; Food packaging; Glass cosmetics packaging",
-      "solutions": "hybrid sol-gel systems using functionalized fatty acids and CaCO₃ microparticles (Textile Coating); hybrid sol-gel system using TEOS, PDMS, bio-based cellulose, and functionalized fatty acid (Glass cosmetic packaging)",
+      "solutions": "Hybrid sol-gel systems using functionalized fatty acids and CaCO₃ microparticles (Textile Coating); solvent-free powder coating based on bio-based PHA polymers, modified lignin fillers and natural waxes (food packaging); hybrid sol-gel system using TEOS, PDMS, bio-based cellulose, and functionalized fatty acid (Glass cosmetic packaging)",
       "coordinator": "Materia Nova",
       "coordinator_country": "Belgium",
       "partners_tech_dev": "Materia Nova; Sikemia; Arplus Rescoll; IFTH; Wood K plus",
