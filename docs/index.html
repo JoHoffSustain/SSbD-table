@@ -222,6 +222,8 @@ select:focus, .col-toggle-btn:focus { outline: none; border-color: var(--accent)
   margin: 0 auto;
   padding: 0 2rem 3rem;
   overflow-x: auto;
+  overflow-y: auto;
+  max-height: calc(100vh - 240px);
 }
 
 table {
@@ -234,6 +236,7 @@ table {
 thead th {
   position: sticky;
   top: 0;
+  z-index: 5;
   background: var(--ink);
   color: var(--paper);
   text-align: center;
