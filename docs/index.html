@@ -548,7 +548,7 @@ footer .edit-cta:hover { background: var(--accent); }
         <rect x="290" y="88" width="170" height="78" rx="7" class="wf-final-box"/>
         <circle cx="454" cy="88" r="3.5" class="wf-pulse" style="transform-box:fill-box; transform-origin:454px 88px"/>
         <text x="306" y="116" class="wf-final-label">COLLABORATION</text>
-        <text x="306" y="132" class="wf-final-sub">59 projects · searchable</text>
+        <text x="306" y="132" class="wf-final-sub"><tspan id="diagram-count">63</tspan> projects · searchable</text>
         <text x="306" y="144" class="wf-final-sub">open PRs welcome</text>
 
         <!-- little corner tick to suggest "always growing" -->
@@ -965,6 +965,8 @@ function init(data) {
   computeCompleteness(data);
   DATA = data;
   document.getElementById('meta-count').textContent = data.projects.length;
+  const dc = document.getElementById('diagram-count');
+  if (dc) dc.textContent = data.projects.length;
   visibleColumns = new Set(DEFAULT_VISIBLE);
   HIDDEN_COLUMNS.forEach(k => visibleColumns.delete(k));
   buildColumnPicker();
